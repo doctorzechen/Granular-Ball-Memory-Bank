@@ -1,0 +1,70 @@
+{
+  "bank_finite": true,
+  "capacity_ratio_vs_k_gb": 1.9559789750328516,
+  "config_hash": "2a226cc47b7a2ef54ac3fc7158373be000a8a447be9ca8ad7c8d27ef6007a0b4",
+  "faiss_validation": {
+    "max_absolute_difference": 0.0,
+    "ntotal": 2977,
+    "ntotal_matches_memory_bank": true,
+    "pass": true,
+    "reconstructed_shape": [
+      2977,
+      1024
+    ],
+    "vectors_equal_memory_bank": true
+  },
+  "image_auroc_drop_vs_original": 0.017053973013493318,
+  "k": 2977,
+  "k_gb_x1": 1522,
+  "memory_bank_size": 2977,
+  "method": "gb_center_x2",
+  "metrics": {
+    "anomaly_pixel_auroc": 0.9725219562108525,
+    "aupro": null,
+    "aupro_available": false,
+    "full_pixel_auroc": 0.9815462490223964,
+    "instance_auroc": 0.9803223388305846
+  },
+  "min_ball_size": 32,
+  "original_image_auroc": 0.9973763118440779,
+  "original_mb_size": 17561,
+  "original_query_ms": 47.892630000002704,
+  "query_speedup_vs_original": 4.3564637220529105,
+  "resources": {
+    "peak_gpu_allocated_bytes_scoring": 288088064,
+    "peak_gpu_reserved_bytes_scoring": 329252864,
+    "peak_working_set_bytes": 3708751872,
+    "rss_bytes": 3165155328,
+    "vms_bytes": 7771734016
+  },
+  "score_analysis": {
+    "anomaly": {
+      "count": 92,
+      "max": 11.125133514404297,
+      "mean": 6.144492149353027,
+      "median": 6.097331523895264,
+      "p5": 3.7555015087127686
+    },
+    "median_margin": 2.9302525520324707,
+    "normal": {
+      "count": 58,
+      "max": 4.4394073486328125,
+      "mean": 3.2393441200256348,
+      "median": 3.167078971862793,
+      "p95": 4.174592971801758
+    }
+  },
+  "status": "complete",
+  "timing": {
+    "end_to_end_component_sum_seconds": 7.75526500000008,
+    "end_to_end_ms_per_image": 51.7017666666672,
+    "faiss_build_seconds": 0.00674919999999446,
+    "feature_extraction_ms_per_image": 39.57368000000088,
+    "feature_extraction_seconds": 5.936052000000132,
+    "nearest_neighbor_query_seconds": 1.6490196999999611,
+    "query_ms_per_image": 10.993464666666409,
+    "segmentation_postprocess_ms_per_image": 1.1346219999999125,
+    "segmentation_postprocess_seconds": 0.1701932999999869,
+    "timing_method": "common measured feature extraction plus method-specific measured FAISS query and official segmentation/postprocess; one warm-up batch"
+  }
+}

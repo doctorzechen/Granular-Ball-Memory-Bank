@@ -1,0 +1,168 @@
+{
+  "audit_final_ball_counts": [
+    1335,
+    1335,
+    1335,
+    1335,
+    1335,
+    1335
+  ],
+  "audit_k_gb_matches_cache": true,
+  "audit_k_gb_spread_percent": 0.0,
+  "category": "zipper",
+  "config": {
+    "category": "zipper",
+    "device": "cuda:0",
+    "faiss_workers": 8,
+    "ff_projection_dimension": 1024,
+    "ff_selection_space": "exact_raw",
+    "format_version": 1,
+    "gb_threshold": 1.3,
+    "min_ball_size": 64,
+    "partition_source": "stage5b_frozen_global_gb_partition (banks) / fresh seed-0 rebuild (timing, stress)",
+    "seed": 0,
+    "stage": "8C",
+    "stress_category": "hazelnut",
+    "stress_scales": [
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "timing_repeats": 5,
+    "timing_warmup": 1
+  },
+  "config_hash": "046f18c6e5268f263a80cde339989c7acd108aa4da5acdee47a6007e8efa40d8",
+  "k_gb": 1335,
+  "method": "gb_medoid",
+  "peak_gpu_allocated_bytes_max": 797554688,
+  "peak_rss_bytes_max": 2165051392,
+  "raw_patch_count": 188160,
+  "repeats": [
+    {
+      "audit": {
+        "bank_rows": 1335,
+        "final_ball_count": 1335,
+        "medoid_matches_internal_fraction": 1.0
+      },
+      "peak_gpu_allocated_bytes": 797554688,
+      "peak_rss_bytes": 2163826688,
+      "stages": {
+        "assembly_seconds": 0.0028460000000016805,
+        "partition_seconds": 11.258359799999997,
+        "representative_seconds": 0.7181133000000024
+      },
+      "total_seconds": 11.979319100000001
+    },
+    {
+      "audit": {
+        "bank_rows": 1335,
+        "final_ball_count": 1335,
+        "medoid_matches_internal_fraction": 1.0
+      },
+      "peak_gpu_allocated_bytes": 797554688,
+      "peak_rss_bytes": 2164965376,
+      "stages": {
+        "assembly_seconds": 0.0029700999999988653,
+        "partition_seconds": 11.044775999999995,
+        "representative_seconds": 0.5209972000000036
+      },
+      "total_seconds": 11.568743299999998
+    },
+    {
+      "audit": {
+        "bank_rows": 1335,
+        "final_ball_count": 1335,
+        "medoid_matches_internal_fraction": 1.0
+      },
+      "peak_gpu_allocated_bytes": 797554688,
+      "peak_rss_bytes": 2165047296,
+      "stages": {
+        "assembly_seconds": 0.003256200000002707,
+        "partition_seconds": 11.236340400000003,
+        "representative_seconds": 0.4538743000000025
+      },
+      "total_seconds": 11.693470900000008
+    },
+    {
+      "audit": {
+        "bank_rows": 1335,
+        "final_ball_count": 1335,
+        "medoid_matches_internal_fraction": 1.0
+      },
+      "peak_gpu_allocated_bytes": 797554688,
+      "peak_rss_bytes": 2164985856,
+      "stages": {
+        "assembly_seconds": 0.003421200000005342,
+        "partition_seconds": 11.151166499999995,
+        "representative_seconds": 0.5253613000000001
+      },
+      "total_seconds": 11.679949
+    },
+    {
+      "audit": {
+        "bank_rows": 1335,
+        "final_ball_count": 1335,
+        "medoid_matches_internal_fraction": 1.0
+      },
+      "peak_gpu_allocated_bytes": 797554688,
+      "peak_rss_bytes": 2165051392,
+      "stages": {
+        "assembly_seconds": 0.003136399999988271,
+        "partition_seconds": 11.243739999999988,
+        "representative_seconds": 0.5621547999999876
+      },
+      "total_seconds": 11.809031199999964
+    }
+  ],
+  "stage_summaries": {
+    "assembly_seconds": {
+      "max": 0.003421200000005342,
+      "mean": 0.0031259799999993733,
+      "median": 0.003136399999988271,
+      "min": 0.0028460000000016805,
+      "n_repeats": 5,
+      "std": 0.00020342470253291634
+    },
+    "partition_seconds": {
+      "max": 11.258359799999997,
+      "mean": 11.186876539999997,
+      "median": 11.236340400000003,
+      "min": 11.044775999999995,
+      "n_repeats": 5,
+      "std": 0.08032154557102632
+    },
+    "representative_seconds": {
+      "max": 0.7181133000000024,
+      "mean": 0.5561001799999993,
+      "median": 0.5253613000000001,
+      "min": 0.4538743000000025,
+      "n_repeats": 5,
+      "std": 0.08821806840527381
+    }
+  },
+  "status": "complete",
+  "summary": {
+    "max": 11.979319100000001,
+    "mean": 11.746102699999994,
+    "median": 11.693470900000008,
+    "min": 11.568743299999998,
+    "n_repeats": 5,
+    "std": 0.13924989084699205
+  },
+  "warmup": {
+    "audit": {
+      "bank_rows": 1335,
+      "final_ball_count": 1335,
+      "medoid_matches_internal_fraction": 1.0
+    },
+    "peak_gpu_allocated_bytes": 797554688,
+    "peak_rss_bytes": 2150629376,
+    "stages": {
+      "assembly_seconds": 0.0040197999999982414,
+      "partition_seconds": 14.313884100000001,
+      "representative_seconds": 0.5671537999999998
+    },
+    "total_seconds": 14.885057699999999
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "audits": {
+    "bank_equals_source_rows": true,
+    "bank_finite": true,
+    "bank_rows_equals_k_gb": true,
+    "indices_range_valid": true,
+    "indices_unique": true
+  },
+  "config_hash": "9d1f0adc898f9944fbce95c664989f6b47e068d77667f1d503e8443537af6b31",
+  "faiss_validation": {
+    "max_absolute_difference": 0.0,
+    "ntotal": 398,
+    "ntotal_matches_memory_bank": true,
+    "pass": true,
+    "reconstructed_shape": [
+      398,
+      1024
+    ],
+    "vectors_equal_memory_bank": true
+  },
+  "k": 398,
+  "memory_bank_size": 398,
+  "method": "ff_raw",
+  "metrics": {
+    "anomaly_pixel_auroc": 0.9778164096105559,
+    "aupro": null,
+    "aupro_available": false,
+    "full_pixel_auroc": 0.9838008075606703,
+    "instance_auroc": 0.9916666666666667
+  },
+  "resources": {
+    "peak_gpu_allocated_bytes_scoring": 281796608,
+    "peak_gpu_reserved_bytes_scoring": 329252864,
+    "peak_working_set_bytes": 2864250880,
+    "rss_bytes": 1682649088,
+    "vms_bytes": 7322726400
+  },
+  "score_analysis": {
+    "anomaly": {
+      "count": 30,
+      "max": 10.126778602600098,
+      "mean": 6.109021186828613,
+      "median": 5.742588996887207,
+      "p5": 3.3303487300872803
+    },
+    "median_margin": 3.064309597015381,
+    "normal": {
+      "count": 12,
+      "max": 3.3060474395751953,
+      "mean": 2.731887102127075,
+      "median": 2.678279399871826,
+      "p95": 3.0856053829193115
+    }
+  },
+  "status": "complete",
+  "timing": {
+    "end_to_end_component_sum_seconds": 2.1820080000009057,
+    "end_to_end_ms_per_image": 51.95257142859299,
+    "faiss_build_seconds": 0.0008923000000038428,
+    "feature_extraction_ms_per_image": 48.65778809525658,
+    "feature_extraction_seconds": 2.0436271000007764,
+    "nearest_neighbor_query_seconds": 0.10144170000015151,
+    "query_ms_per_image": 2.4152785714321787,
+    "segmentation_postprocess_ms_per_image": 0.879504761904232,
+    "segmentation_postprocess_seconds": 0.036939199999977745,
+    "timing_method": "common measured feature extraction plus method-specific measured FAISS query and official segmentation/postprocess; one warm-up batch"
+  }
+}

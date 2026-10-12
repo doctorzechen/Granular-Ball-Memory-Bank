@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "granular-ball-memory-bank"
+version = "0.1.0"
+description = "Granular-ball center memory representation and reproducible anomaly-detection studies"
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.24", "torch>=2.0"]
+license-files = ["third_party/patchcore/LICENSE", "third_party/patchcore/NOTICE"]
+
+[tool.setuptools]
+packages = ["gb_memory", "baselines", "adapters", "patchcore", "patchcore.datasets", "patchcore.networks", "experiments"]
+
+[tool.setuptools.package-dir]
+gb_memory = "src/gb_memory"
+baselines = "src/baselines"
+adapters = "src/adapters"
+patchcore = "third_party/patchcore/src/patchcore"
+experiments = "experiments"
+
+[tool.setuptools.data-files]
+"share/granular-ball-memory-bank/third_party/patchcore" = ["third_party/patchcore/LICENSE", "third_party/patchcore/NOTICE", "third_party/patchcore/MODIFICATIONS.md"]

@@ -1,0 +1,162 @@
+{
+  "audit_final_ball_counts": [
+    1542,
+    1542,
+    1542,
+    1542,
+    1542,
+    1542
+  ],
+  "audit_k_gb_matches_cache": true,
+  "audit_k_gb_spread_percent": 0.0,
+  "category": "pill",
+  "config": {
+    "category": "pill",
+    "device": "cuda:0",
+    "faiss_workers": 8,
+    "ff_projection_dimension": 1024,
+    "ff_selection_space": "exact_raw",
+    "format_version": 1,
+    "gb_threshold": 1.3,
+    "min_ball_size": 64,
+    "partition_source": "stage5b_frozen_global_gb_partition (banks) / fresh seed-0 rebuild (timing, stress)",
+    "seed": 0,
+    "stage": "8C",
+    "stress_category": "hazelnut",
+    "stress_scales": [
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "timing_repeats": 5,
+    "timing_warmup": 1
+  },
+  "config_hash": "0bfe312fb2aaefd9faf9f2f8f1c8568fedf82f83032bc448997abee8c261df24",
+  "k_gb": 1542,
+  "method": "gb_center",
+  "peak_gpu_allocated_bytes_max": 172440064,
+  "peak_rss_bytes_max": 2211176448,
+  "raw_patch_count": 209328,
+  "repeats": [
+    {
+      "audit": {
+        "bank_rows": 1542,
+        "final_ball_count": 1542
+      },
+      "peak_gpu_allocated_bytes": 172440064,
+      "peak_rss_bytes": 2209992704,
+      "stages": {
+        "assembly_seconds": 0.0017094999999898164,
+        "partition_seconds": 13.020943200000005,
+        "representative_seconds": 0.0
+      },
+      "total_seconds": 13.022652699999995
+    },
+    {
+      "audit": {
+        "bank_rows": 1542,
+        "final_ball_count": 1542
+      },
+      "peak_gpu_allocated_bytes": 172440064,
+      "peak_rss_bytes": 2209992704,
+      "stages": {
+        "assembly_seconds": 0.0017373999999961143,
+        "partition_seconds": 12.8604007,
+        "representative_seconds": 0.0
+      },
+      "total_seconds": 12.862138099999996
+    },
+    {
+      "audit": {
+        "bank_rows": 1542,
+        "final_ball_count": 1542
+      },
+      "peak_gpu_allocated_bytes": 172440064,
+      "peak_rss_bytes": 2209992704,
+      "stages": {
+        "assembly_seconds": 0.0018050999999985606,
+        "partition_seconds": 12.7609609,
+        "representative_seconds": 0.0
+      },
+      "total_seconds": 12.762766
+    },
+    {
+      "audit": {
+        "bank_rows": 1542,
+        "final_ball_count": 1542
+      },
+      "peak_gpu_allocated_bytes": 172440064,
+      "peak_rss_bytes": 2210091008,
+      "stages": {
+        "assembly_seconds": 0.0010237999999986869,
+        "partition_seconds": 12.616309799999996,
+        "representative_seconds": 0.0
+      },
+      "total_seconds": 12.617333599999995
+    },
+    {
+      "audit": {
+        "bank_rows": 1542,
+        "final_ball_count": 1542
+      },
+      "peak_gpu_allocated_bytes": 172440064,
+      "peak_rss_bytes": 2211176448,
+      "stages": {
+        "assembly_seconds": 0.0018166999999778,
+        "partition_seconds": 12.655202899999992,
+        "representative_seconds": 0.0
+      },
+      "total_seconds": 12.65701959999997
+    }
+  ],
+  "stage_summaries": {
+    "assembly_seconds": {
+      "max": 0.0018166999999778,
+      "mean": 0.0016184999999921956,
+      "median": 0.0017373999999961143,
+      "min": 0.0010237999999986869,
+      "n_repeats": 5,
+      "std": 0.0003000630267092056
+    },
+    "partition_seconds": {
+      "max": 13.020943200000005,
+      "mean": 12.782763499999998,
+      "median": 12.7609609,
+      "min": 12.616309799999996,
+      "n_repeats": 5,
+      "std": 0.14643155301965868
+    },
+    "representative_seconds": {
+      "max": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "n_repeats": 5,
+      "std": 0.0
+    }
+  },
+  "status": "complete",
+  "summary": {
+    "max": 13.022652699999995,
+    "mean": 12.78438199999999,
+    "median": 12.762766,
+    "min": 12.617333599999995,
+    "n_repeats": 5,
+    "std": 0.14656912219019821
+  },
+  "warmup": {
+    "audit": {
+      "bank_rows": 1542,
+      "final_ball_count": 1542
+    },
+    "peak_gpu_allocated_bytes": 172440064,
+    "peak_rss_bytes": 2203639808,
+    "stages": {
+      "assembly_seconds": 0.0017012999999934664,
+      "partition_seconds": 15.6746263,
+      "representative_seconds": 0.0
+    },
+    "total_seconds": 15.676327599999993
+  }
+}

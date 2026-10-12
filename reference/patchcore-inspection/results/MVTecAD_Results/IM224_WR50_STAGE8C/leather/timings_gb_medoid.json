@@ -1,0 +1,168 @@
+{
+  "audit_final_ball_counts": [
+    1457,
+    1457,
+    1457,
+    1457,
+    1457,
+    1457
+  ],
+  "audit_k_gb_matches_cache": true,
+  "audit_k_gb_spread_percent": 0.0,
+  "category": "leather",
+  "config": {
+    "category": "leather",
+    "device": "cuda:0",
+    "faiss_workers": 8,
+    "ff_projection_dimension": 1024,
+    "ff_selection_space": "exact_raw",
+    "format_version": 1,
+    "gb_threshold": 1.3,
+    "min_ball_size": 64,
+    "partition_source": "stage5b_frozen_global_gb_partition (banks) / fresh seed-0 rebuild (timing, stress)",
+    "seed": 0,
+    "stage": "8C",
+    "stress_category": "hazelnut",
+    "stress_scales": [
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "timing_repeats": 5,
+    "timing_warmup": 1
+  },
+  "config_hash": "5c86f3c6341f4fd9933d7e9df1da2187acb64500e6ee00e35314233bef725522",
+  "k_gb": 1457,
+  "method": "gb_medoid",
+  "peak_gpu_allocated_bytes_max": 810907136,
+  "peak_rss_bytes_max": 2191175680,
+  "raw_patch_count": 192080,
+  "repeats": [
+    {
+      "audit": {
+        "bank_rows": 1457,
+        "final_ball_count": 1457,
+        "medoid_matches_internal_fraction": 1.0
+      },
+      "peak_gpu_allocated_bytes": 810907136,
+      "peak_rss_bytes": 2191163392,
+      "stages": {
+        "assembly_seconds": 0.0031847000000198022,
+        "partition_seconds": 11.229856600000005,
+        "representative_seconds": 0.5215834999999913
+      },
+      "total_seconds": 11.754624800000016
+    },
+    {
+      "audit": {
+        "bank_rows": 1457,
+        "final_ball_count": 1457,
+        "medoid_matches_internal_fraction": 1.0
+      },
+      "peak_gpu_allocated_bytes": 810907136,
+      "peak_rss_bytes": 2191175680,
+      "stages": {
+        "assembly_seconds": 0.003016800000011699,
+        "partition_seconds": 11.227915499999995,
+        "representative_seconds": 0.5446215999999708
+      },
+      "total_seconds": 11.775553899999977
+    },
+    {
+      "audit": {
+        "bank_rows": 1457,
+        "final_ball_count": 1457,
+        "medoid_matches_internal_fraction": 1.0
+      },
+      "peak_gpu_allocated_bytes": 810907136,
+      "peak_rss_bytes": 2191175680,
+      "stages": {
+        "assembly_seconds": 0.0032633999999802654,
+        "partition_seconds": 11.150213899999983,
+        "representative_seconds": 0.7633642000000123
+      },
+      "total_seconds": 11.916841499999975
+    },
+    {
+      "audit": {
+        "bank_rows": 1457,
+        "final_ball_count": 1457,
+        "medoid_matches_internal_fraction": 1.0
+      },
+      "peak_gpu_allocated_bytes": 810907136,
+      "peak_rss_bytes": 2191175680,
+      "stages": {
+        "assembly_seconds": 0.003139799999985371,
+        "partition_seconds": 11.252132500000016,
+        "representative_seconds": 0.7178089999999884
+      },
+      "total_seconds": 11.97308129999999
+    },
+    {
+      "audit": {
+        "bank_rows": 1457,
+        "final_ball_count": 1457,
+        "medoid_matches_internal_fraction": 1.0
+      },
+      "peak_gpu_allocated_bytes": 810907136,
+      "peak_rss_bytes": 2172485632,
+      "stages": {
+        "assembly_seconds": 0.003159200000000695,
+        "partition_seconds": 11.687548999999999,
+        "representative_seconds": 0.5150524000000001
+      },
+      "total_seconds": 12.2057606
+    }
+  ],
+  "stage_summaries": {
+    "assembly_seconds": {
+      "max": 0.0032633999999802654,
+      "mean": 0.0031527799999995663,
+      "median": 0.003159200000000695,
+      "min": 0.003016800000011699,
+      "n_repeats": 5,
+      "std": 7.994489101137749E-05
+    },
+    "partition_seconds": {
+      "max": 11.687548999999999,
+      "mean": 11.309533499999999,
+      "median": 11.229856600000005,
+      "min": 11.150213899999983,
+      "n_repeats": 5,
+      "std": 0.19213705228457253
+    },
+    "representative_seconds": {
+      "max": 0.7633642000000123,
+      "mean": 0.6124861399999926,
+      "median": 0.5446215999999708,
+      "min": 0.5150524000000001,
+      "n_repeats": 5,
+      "std": 0.10603708150144342
+    }
+  },
+  "status": "complete",
+  "summary": {
+    "max": 12.2057606,
+    "mean": 11.925172419999992,
+    "median": 11.916841499999975,
+    "min": 11.754624800000016,
+    "n_repeats": 5,
+    "std": 0.1628291030382889
+  },
+  "warmup": {
+    "audit": {
+      "bank_rows": 1457,
+      "final_ball_count": 1457,
+      "medoid_matches_internal_fraction": 1.0
+    },
+    "peak_gpu_allocated_bytes": 810907136,
+    "peak_rss_bytes": 2184171520,
+    "stages": {
+      "assembly_seconds": 0.003960599999999204,
+      "partition_seconds": 15.012760299999997,
+      "representative_seconds": 0.7212510999999893
+    },
+    "total_seconds": 15.737971999999985
+  }
+}

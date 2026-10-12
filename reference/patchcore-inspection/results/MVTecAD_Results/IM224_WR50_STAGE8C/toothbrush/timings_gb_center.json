@@ -1,0 +1,162 @@
+{
+  "audit_final_ball_counts": [
+    398,
+    398,
+    398,
+    398,
+    398,
+    398
+  ],
+  "audit_k_gb_matches_cache": true,
+  "audit_k_gb_spread_percent": 0.0,
+  "category": "toothbrush",
+  "config": {
+    "category": "toothbrush",
+    "device": "cuda:0",
+    "faiss_workers": 8,
+    "ff_projection_dimension": 1024,
+    "ff_selection_space": "exact_raw",
+    "format_version": 1,
+    "gb_threshold": 1.3,
+    "min_ball_size": 64,
+    "partition_source": "stage5b_frozen_global_gb_partition (banks) / fresh seed-0 rebuild (timing, stress)",
+    "seed": 0,
+    "stage": "8C",
+    "stress_category": "hazelnut",
+    "stress_scales": [
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "timing_repeats": 5,
+    "timing_warmup": 1
+  },
+  "config_hash": "faf5b1f8929a4e0a4cd7d019670a6b15b2804ba5d5b48b8f780c1e4ac3f9575c",
+  "k_gb": 398,
+  "method": "gb_center",
+  "peak_gpu_allocated_bytes_max": 172440064,
+  "peak_rss_bytes_max": 1581641728,
+  "raw_patch_count": 47040,
+  "repeats": [
+    {
+      "audit": {
+        "bank_rows": 398,
+        "final_ball_count": 398
+      },
+      "peak_gpu_allocated_bytes": 172440064,
+      "peak_rss_bytes": 1581576192,
+      "stages": {
+        "assembly_seconds": 0.00046989999999880183,
+        "partition_seconds": 2.019498200000001,
+        "representative_seconds": 0.0
+      },
+      "total_seconds": 2.0199681
+    },
+    {
+      "audit": {
+        "bank_rows": 398,
+        "final_ball_count": 398
+      },
+      "peak_gpu_allocated_bytes": 172440064,
+      "peak_rss_bytes": 1581576192,
+      "stages": {
+        "assembly_seconds": 0.00044350000000292766,
+        "partition_seconds": 2.0601033000000086,
+        "representative_seconds": 0.0
+      },
+      "total_seconds": 2.0605468000000116
+    },
+    {
+      "audit": {
+        "bank_rows": 398,
+        "final_ball_count": 398
+      },
+      "peak_gpu_allocated_bytes": 172440064,
+      "peak_rss_bytes": 1581576192,
+      "stages": {
+        "assembly_seconds": 0.00045099999999820284,
+        "partition_seconds": 1.9782358000000073,
+        "representative_seconds": 0.0
+      },
+      "total_seconds": 1.9786868000000055
+    },
+    {
+      "audit": {
+        "bank_rows": 398,
+        "final_ball_count": 398
+      },
+      "peak_gpu_allocated_bytes": 172440064,
+      "peak_rss_bytes": 1581641728,
+      "stages": {
+        "assembly_seconds": 0.0004456000000061522,
+        "partition_seconds": 1.9955508000000037,
+        "representative_seconds": 0.0
+      },
+      "total_seconds": 1.9959964000000099
+    },
+    {
+      "audit": {
+        "bank_rows": 398,
+        "final_ball_count": 398
+      },
+      "peak_gpu_allocated_bytes": 172440064,
+      "peak_rss_bytes": 1581641728,
+      "stages": {
+        "assembly_seconds": 0.00045319999999549054,
+        "partition_seconds": 1.9783556000000004,
+        "representative_seconds": 0.0
+      },
+      "total_seconds": 1.978808799999996
+    }
+  ],
+  "stage_summaries": {
+    "assembly_seconds": {
+      "max": 0.00046989999999880183,
+      "mean": 0.000452640000000315,
+      "median": 0.00045099999999820284,
+      "min": 0.00044350000000292766,
+      "n_repeats": 5,
+      "std": 9.316780557889542E-06
+    },
+    "partition_seconds": {
+      "max": 2.0601033000000086,
+      "mean": 2.0063487400000044,
+      "median": 1.9955508000000037,
+      "min": 1.9782358000000073,
+      "n_repeats": 5,
+      "std": 0.030831833581000136
+    },
+    "representative_seconds": {
+      "max": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "n_repeats": 5,
+      "std": 0.0
+    }
+  },
+  "status": "complete",
+  "summary": {
+    "max": 2.0605468000000116,
+    "mean": 2.0068013800000046,
+    "median": 1.9959964000000099,
+    "min": 1.9786868000000055,
+    "n_repeats": 5,
+    "std": 0.030830810637960664
+  },
+  "warmup": {
+    "audit": {
+      "bank_rows": 398,
+      "final_ball_count": 398
+    },
+    "peak_gpu_allocated_bytes": 172440064,
+    "peak_rss_bytes": 1579941888,
+    "stages": {
+      "assembly_seconds": 0.00045810000000301443,
+      "partition_seconds": 2.4056938000000088,
+      "representative_seconds": 0.0
+    },
+    "total_seconds": 2.406151900000012
+  }
+}

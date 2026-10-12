@@ -1,0 +1,4907 @@
+{
+  "schema_version": 1,
+  "passed": true,
+  "scope": "Curated archived numeric records only; no experiment rerun, manuscript validation, external asset verification or figure pixel audit",
+  "package_root": ".",
+  "checks_total": 686,
+  "checks_failed": 0,
+  "checks": [
+    {
+      "name": "training_rows:bottle",
+      "passed": true,
+      "actual": 16385,
+      "expected": 16385
+    },
+    {
+      "name": "training_dimension:bottle",
+      "passed": true,
+      "actual": 1024,
+      "expected": 1024
+    },
+    {
+      "name": "training_selected_mapping:bottle",
+      "passed": true
+    },
+    {
+      "name": "matched_k:bottle:gb_center",
+      "passed": true,
+      "actual": 1072,
+      "expected": 1072
+    },
+    {
+      "name": "faiss_vectors:bottle:gb_center",
+      "passed": true
+    },
+    {
+      "name": "matched_k:bottle:gb_medoid",
+      "passed": true,
+      "actual": 1072,
+      "expected": 1072
+    },
+    {
+      "name": "faiss_vectors:bottle:gb_medoid",
+      "passed": true
+    },
+    {
+      "name": "matched_k:bottle:ff_raw",
+      "passed": true,
+      "actual": 1072,
+      "expected": 1072
+    },
+    {
+      "name": "faiss_vectors:bottle:ff_raw",
+      "passed": true
+    },
+    {
+      "name": "gb_config:bottle:seed",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "gb_config:bottle:min_ball_size",
+      "passed": true,
+      "actual": 64,
+      "expected": 64
+    },
+    {
+      "name": "gb_config:bottle:center_consistency_threshold",
+      "passed": true,
+      "actual": 1.3,
+      "expected": 1.3
+    },
+    {
+      "name": "gb_config:bottle:coarse_kmeans_iterations",
+      "passed": true,
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "name": "gb_config:bottle:two_means_iterations",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "name": "gb_config:bottle:assignment_batch_size",
+      "passed": true,
+      "actual": 4096,
+      "expected": 4096
+    },
+    {
+      "name": "gb_missing_assignments:bottle",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "gb_duplicate_assignments:bottle",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "query_complete:bottle",
+      "passed": true
+    },
+    {
+      "name": "query_protocol:bottle:repeats",
+      "passed": true,
+      "actual": 32,
+      "expected": 32
+    },
+    {
+      "name": "query_protocol:bottle:warmup_rounds",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "name": "query_protocol:bottle:warmup_batches_per_round",
+      "passed": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "name": "query_protocol:bottle:faiss_workers",
+      "passed": true,
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "name": "query_protocol:bottle:schedule_seed",
+      "passed": true,
+      "actual": 20260922,
+      "expected": 20260922
+    },
+    {
+      "name": "query_record_count:bottle",
+      "passed": true,
+      "actual": 128,
+      "expected": 128
+    },
+    {
+      "name": "query_position_balance:bottle",
+      "passed": true
+    },
+    {
+      "name": "query_recomputed_speedup:bottle",
+      "passed": true,
+      "actual": 9.318340621102408,
+      "expected": {
+        "value": 9.318340621102408,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_saved_validation:bottle",
+      "passed": true
+    },
+    {
+      "name": "query_recomputed_latency:bottle:original",
+      "passed": true,
+      "actual": 39.3326734939759,
+      "expected": {
+        "value": 39.3326734939759,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_recomputed_latency:bottle:gb_center",
+      "passed": true,
+      "actual": 4.194774698795181,
+      "expected": {
+        "value": 4.194774698795181,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "construction_complete:bottle:gb_center",
+      "passed": true
+    },
+    {
+      "name": "construction_repeats:bottle:gb_center",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "construction_recomputed:bottle:gb_center",
+      "passed": true,
+      "actual": 8.321237400000001,
+      "expected": {
+        "value": 8.321237400000001,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_recomputed_latency:bottle:gb_medoid",
+      "passed": true,
+      "actual": 4.188037951807229,
+      "expected": {
+        "value": 4.188037951807229,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "construction_complete:bottle:gb_medoid",
+      "passed": true
+    },
+    {
+      "name": "construction_repeats:bottle:gb_medoid",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "construction_recomputed:bottle:gb_medoid",
+      "passed": true,
+      "actual": 8.7791605,
+      "expected": {
+        "value": 8.7791605,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_recomputed_latency:bottle:ff_raw",
+      "passed": true,
+      "actual": 4.209810843373494,
+      "expected": {
+        "value": 4.209810843373494,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "construction_complete:bottle:ff_raw",
+      "passed": true
+    },
+    {
+      "name": "construction_repeats:bottle:ff_raw",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "construction_recomputed:bottle:ff_raw",
+      "passed": true,
+      "actual": 3.2748286999999863,
+      "expected": {
+        "value": 3.2748286999999863,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "training_rows:cable",
+      "passed": true,
+      "actual": 17561,
+      "expected": 17561
+    },
+    {
+      "name": "training_dimension:cable",
+      "passed": true,
+      "actual": 1024,
+      "expected": 1024
+    },
+    {
+      "name": "training_selected_mapping:cable",
+      "passed": true
+    },
+    {
+      "name": "matched_k:cable:gb_center",
+      "passed": true,
+      "actual": 1522,
+      "expected": 1522
+    },
+    {
+      "name": "faiss_vectors:cable:gb_center",
+      "passed": true
+    },
+    {
+      "name": "matched_k:cable:gb_medoid",
+      "passed": true,
+      "actual": 1522,
+      "expected": 1522
+    },
+    {
+      "name": "faiss_vectors:cable:gb_medoid",
+      "passed": true
+    },
+    {
+      "name": "matched_k:cable:ff_raw",
+      "passed": true,
+      "actual": 1522,
+      "expected": 1522
+    },
+    {
+      "name": "faiss_vectors:cable:ff_raw",
+      "passed": true
+    },
+    {
+      "name": "gb_config:cable:seed",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "gb_config:cable:min_ball_size",
+      "passed": true,
+      "actual": 64,
+      "expected": 64
+    },
+    {
+      "name": "gb_config:cable:center_consistency_threshold",
+      "passed": true,
+      "actual": 1.3,
+      "expected": 1.3
+    },
+    {
+      "name": "gb_config:cable:coarse_kmeans_iterations",
+      "passed": true,
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "name": "gb_config:cable:two_means_iterations",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "name": "gb_config:cable:assignment_batch_size",
+      "passed": true,
+      "actual": 4096,
+      "expected": 4096
+    },
+    {
+      "name": "gb_missing_assignments:cable",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "gb_duplicate_assignments:cable",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "query_complete:cable",
+      "passed": true
+    },
+    {
+      "name": "query_protocol:cable:repeats",
+      "passed": true,
+      "actual": 32,
+      "expected": 32
+    },
+    {
+      "name": "query_protocol:cable:warmup_rounds",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "name": "query_protocol:cable:warmup_batches_per_round",
+      "passed": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "name": "query_protocol:cable:faiss_workers",
+      "passed": true,
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "name": "query_protocol:cable:schedule_seed",
+      "passed": true,
+      "actual": 20260922,
+      "expected": 20260922
+    },
+    {
+      "name": "query_record_count:cable",
+      "passed": true,
+      "actual": 128,
+      "expected": 128
+    },
+    {
+      "name": "query_position_balance:cable",
+      "passed": true
+    },
+    {
+      "name": "query_recomputed_speedup:cable",
+      "passed": true,
+      "actual": 7.988034741161723,
+      "expected": {
+        "value": 7.988034741161723,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_saved_validation:cable",
+      "passed": true
+    },
+    {
+      "name": "query_recomputed_latency:cable:original",
+      "passed": true,
+      "actual": 42.02249933333333,
+      "expected": {
+        "value": 42.02249933333333,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_recomputed_latency:cable:gb_center",
+      "passed": true,
+      "actual": 5.2477763333333325,
+      "expected": {
+        "value": 5.2477763333333325,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "construction_complete:cable:gb_center",
+      "passed": true
+    },
+    {
+      "name": "construction_repeats:cable:gb_center",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "construction_recomputed:cable:gb_center",
+      "passed": true,
+      "actual": 9.210499099999993,
+      "expected": {
+        "value": 9.210499099999993,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_recomputed_latency:cable:gb_medoid",
+      "passed": true,
+      "actual": 5.206129000000001,
+      "expected": {
+        "value": 5.206129000000001,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "construction_complete:cable:gb_medoid",
+      "passed": true
+    },
+    {
+      "name": "construction_repeats:cable:gb_medoid",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "construction_recomputed:cable:gb_medoid",
+      "passed": true,
+      "actual": 9.747884900000003,
+      "expected": {
+        "value": 9.747884900000003,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_recomputed_latency:cable:ff_raw",
+      "passed": true,
+      "actual": 5.226486,
+      "expected": {
+        "value": 5.226486,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "construction_complete:cable:ff_raw",
+      "passed": true
+    },
+    {
+      "name": "construction_repeats:cable:ff_raw",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "construction_recomputed:cable:ff_raw",
+      "passed": true,
+      "actual": 3.7305104,
+      "expected": {
+        "value": 3.7305104,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "training_rows:capsule",
+      "passed": true,
+      "actual": 17169,
+      "expected": 17169
+    },
+    {
+      "name": "training_dimension:capsule",
+      "passed": true,
+      "actual": 1024,
+      "expected": 1024
+    },
+    {
+      "name": "training_selected_mapping:capsule",
+      "passed": true
+    },
+    {
+      "name": "matched_k:capsule:gb_center",
+      "passed": true,
+      "actual": 945,
+      "expected": 945
+    },
+    {
+      "name": "faiss_vectors:capsule:gb_center",
+      "passed": true
+    },
+    {
+      "name": "matched_k:capsule:gb_medoid",
+      "passed": true,
+      "actual": 945,
+      "expected": 945
+    },
+    {
+      "name": "faiss_vectors:capsule:gb_medoid",
+      "passed": true
+    },
+    {
+      "name": "matched_k:capsule:ff_raw",
+      "passed": true,
+      "actual": 945,
+      "expected": 945
+    },
+    {
+      "name": "faiss_vectors:capsule:ff_raw",
+      "passed": true
+    },
+    {
+      "name": "gb_config:capsule:seed",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "gb_config:capsule:min_ball_size",
+      "passed": true,
+      "actual": 64,
+      "expected": 64
+    },
+    {
+      "name": "gb_config:capsule:center_consistency_threshold",
+      "passed": true,
+      "actual": 1.3,
+      "expected": 1.3
+    },
+    {
+      "name": "gb_config:capsule:coarse_kmeans_iterations",
+      "passed": true,
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "name": "gb_config:capsule:two_means_iterations",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "name": "gb_config:capsule:assignment_batch_size",
+      "passed": true,
+      "actual": 4096,
+      "expected": 4096
+    },
+    {
+      "name": "gb_missing_assignments:capsule",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "gb_duplicate_assignments:capsule",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "query_complete:capsule",
+      "passed": true
+    },
+    {
+      "name": "query_protocol:capsule:repeats",
+      "passed": true,
+      "actual": 32,
+      "expected": 32
+    },
+    {
+      "name": "query_protocol:capsule:warmup_rounds",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "name": "query_protocol:capsule:warmup_batches_per_round",
+      "passed": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "name": "query_protocol:capsule:faiss_workers",
+      "passed": true,
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "name": "query_protocol:capsule:schedule_seed",
+      "passed": true,
+      "actual": 20260922,
+      "expected": 20260922
+    },
+    {
+      "name": "query_record_count:capsule",
+      "passed": true,
+      "actual": 128,
+      "expected": 128
+    },
+    {
+      "name": "query_position_balance:capsule",
+      "passed": true
+    },
+    {
+      "name": "query_recomputed_speedup:capsule",
+      "passed": true,
+      "actual": 10.739027685179856,
+      "expected": {
+        "value": 10.739027685179856,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_saved_validation:capsule",
+      "passed": true
+    },
+    {
+      "name": "query_recomputed_latency:capsule:original",
+      "passed": true,
+      "actual": 42.32793181818182,
+      "expected": {
+        "value": 42.32793181818182,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_recomputed_latency:capsule:gb_center",
+      "passed": true,
+      "actual": 3.938305681818182,
+      "expected": {
+        "value": 3.938305681818182,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "construction_complete:capsule:gb_center",
+      "passed": true
+    },
+    {
+      "name": "construction_repeats:capsule:gb_center",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "construction_recomputed:capsule:gb_center",
+      "passed": true,
+      "actual": 9.482109500000007,
+      "expected": {
+        "value": 9.482109500000007,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_recomputed_latency:capsule:gb_medoid",
+      "passed": true,
+      "actual": 3.8590575757575754,
+      "expected": {
+        "value": 3.8590575757575754,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "construction_complete:capsule:gb_medoid",
+      "passed": true
+    },
+    {
+      "name": "construction_repeats:capsule:gb_medoid",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "construction_recomputed:capsule:gb_medoid",
+      "passed": true,
+      "actual": 9.825930200000016,
+      "expected": {
+        "value": 9.825930200000016,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_recomputed_latency:capsule:ff_raw",
+      "passed": true,
+      "actual": 3.9022545454545456,
+      "expected": {
+        "value": 3.9022545454545456,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "construction_complete:capsule:ff_raw",
+      "passed": true
+    },
+    {
+      "name": "construction_repeats:capsule:ff_raw",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "construction_recomputed:capsule:ff_raw",
+      "passed": true,
+      "actual": 2.3820236999999906,
+      "expected": {
+        "value": 2.3820236999999906,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "training_rows:carpet",
+      "passed": true,
+      "actual": 21952,
+      "expected": 21952
+    },
+    {
+      "name": "training_dimension:carpet",
+      "passed": true,
+      "actual": 1024,
+      "expected": 1024
+    },
+    {
+      "name": "training_selected_mapping:carpet",
+      "passed": true
+    },
+    {
+      "name": "matched_k:carpet:gb_center",
+      "passed": true,
+      "actual": 1718,
+      "expected": 1718
+    },
+    {
+      "name": "faiss_vectors:carpet:gb_center",
+      "passed": true
+    },
+    {
+      "name": "matched_k:carpet:gb_medoid",
+      "passed": true,
+      "actual": 1718,
+      "expected": 1718
+    },
+    {
+      "name": "faiss_vectors:carpet:gb_medoid",
+      "passed": true
+    },
+    {
+      "name": "matched_k:carpet:ff_raw",
+      "passed": true,
+      "actual": 1718,
+      "expected": 1718
+    },
+    {
+      "name": "faiss_vectors:carpet:ff_raw",
+      "passed": true
+    },
+    {
+      "name": "gb_config:carpet:seed",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "gb_config:carpet:min_ball_size",
+      "passed": true,
+      "actual": 64,
+      "expected": 64
+    },
+    {
+      "name": "gb_config:carpet:center_consistency_threshold",
+      "passed": true,
+      "actual": 1.3,
+      "expected": 1.3
+    },
+    {
+      "name": "gb_config:carpet:coarse_kmeans_iterations",
+      "passed": true,
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "name": "gb_config:carpet:two_means_iterations",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "name": "gb_config:carpet:assignment_batch_size",
+      "passed": true,
+      "actual": 4096,
+      "expected": 4096
+    },
+    {
+      "name": "gb_missing_assignments:carpet",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "gb_duplicate_assignments:carpet",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "query_complete:carpet",
+      "passed": true
+    },
+    {
+      "name": "query_protocol:carpet:repeats",
+      "passed": true,
+      "actual": 32,
+      "expected": 32
+    },
+    {
+      "name": "query_protocol:carpet:warmup_rounds",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "name": "query_protocol:carpet:warmup_batches_per_round",
+      "passed": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "name": "query_protocol:carpet:faiss_workers",
+      "passed": true,
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "name": "query_protocol:carpet:schedule_seed",
+      "passed": true,
+      "actual": 20260922,
+      "expected": 20260922
+    },
+    {
+      "name": "query_record_count:carpet",
+      "passed": true,
+      "actual": 128,
+      "expected": 128
+    },
+    {
+      "name": "query_position_balance:carpet",
+      "passed": true
+    },
+    {
+      "name": "query_recomputed_speedup:carpet",
+      "passed": true,
+      "actual": 8.999068732792999,
+      "expected": {
+        "value": 8.999068732792999,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_saved_validation:carpet",
+      "passed": true
+    },
+    {
+      "name": "query_recomputed_latency:carpet:original",
+      "passed": true,
+      "actual": 56.76001196581197,
+      "expected": {
+        "value": 56.76001196581197,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_recomputed_latency:carpet:gb_center",
+      "passed": true,
+      "actual": 6.2719559829059826,
+      "expected": {
+        "value": 6.2719559829059826,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "construction_complete:carpet:gb_center",
+      "passed": true
+    },
+    {
+      "name": "construction_repeats:carpet:gb_center",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "construction_recomputed:carpet:gb_center",
+      "passed": true,
+      "actual": 14.585403100000008,
+      "expected": {
+        "value": 14.585403100000008,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_recomputed_latency:carpet:gb_medoid",
+      "passed": true,
+      "actual": 6.326288461538462,
+      "expected": {
+        "value": 6.326288461538462,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "construction_complete:carpet:gb_medoid",
+      "passed": true
+    },
+    {
+      "name": "construction_repeats:carpet:gb_medoid",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "construction_recomputed:carpet:gb_medoid",
+      "passed": true,
+      "actual": 15.303795199999996,
+      "expected": {
+        "value": 15.303795199999996,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_recomputed_latency:carpet:ff_raw",
+      "passed": true,
+      "actual": 6.29975641025641,
+      "expected": {
+        "value": 6.29975641025641,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "construction_complete:carpet:ff_raw",
+      "passed": true
+    },
+    {
+      "name": "construction_repeats:carpet:ff_raw",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "construction_recomputed:carpet:ff_raw",
+      "passed": true,
+      "actual": 5.169277599999987,
+      "expected": {
+        "value": 5.169277599999987,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "training_rows:grid",
+      "passed": true,
+      "actual": 20697,
+      "expected": 20697
+    },
+    {
+      "name": "training_dimension:grid",
+      "passed": true,
+      "actual": 1024,
+      "expected": 1024
+    },
+    {
+      "name": "training_selected_mapping:grid",
+      "passed": true
+    },
+    {
+      "name": "matched_k:grid:gb_center",
+      "passed": true,
+      "actual": 1621,
+      "expected": 1621
+    },
+    {
+      "name": "faiss_vectors:grid:gb_center",
+      "passed": true
+    },
+    {
+      "name": "matched_k:grid:gb_medoid",
+      "passed": true,
+      "actual": 1621,
+      "expected": 1621
+    },
+    {
+      "name": "faiss_vectors:grid:gb_medoid",
+      "passed": true
+    },
+    {
+      "name": "matched_k:grid:ff_raw",
+      "passed": true,
+      "actual": 1621,
+      "expected": 1621
+    },
+    {
+      "name": "faiss_vectors:grid:ff_raw",
+      "passed": true
+    },
+    {
+      "name": "gb_config:grid:seed",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "gb_config:grid:min_ball_size",
+      "passed": true,
+      "actual": 64,
+      "expected": 64
+    },
+    {
+      "name": "gb_config:grid:center_consistency_threshold",
+      "passed": true,
+      "actual": 1.3,
+      "expected": 1.3
+    },
+    {
+      "name": "gb_config:grid:coarse_kmeans_iterations",
+      "passed": true,
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "name": "gb_config:grid:two_means_iterations",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "name": "gb_config:grid:assignment_batch_size",
+      "passed": true,
+      "actual": 4096,
+      "expected": 4096
+    },
+    {
+      "name": "gb_missing_assignments:grid",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "gb_duplicate_assignments:grid",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "query_complete:grid",
+      "passed": true
+    },
+    {
+      "name": "query_protocol:grid:repeats",
+      "passed": true,
+      "actual": 32,
+      "expected": 32
+    },
+    {
+      "name": "query_protocol:grid:warmup_rounds",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "name": "query_protocol:grid:warmup_batches_per_round",
+      "passed": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "name": "query_protocol:grid:faiss_workers",
+      "passed": true,
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "name": "query_protocol:grid:schedule_seed",
+      "passed": true,
+      "actual": 20260922,
+      "expected": 20260922
+    },
+    {
+      "name": "query_record_count:grid",
+      "passed": true,
+      "actual": 128,
+      "expected": 128
+    },
+    {
+      "name": "query_position_balance:grid",
+      "passed": true
+    },
+    {
+      "name": "query_recomputed_speedup:grid",
+      "passed": true,
+      "actual": 8.69522340183999,
+      "expected": {
+        "value": 8.69522340183999,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_saved_validation:grid",
+      "passed": true
+    },
+    {
+      "name": "query_recomputed_latency:grid:original",
+      "passed": true,
+      "actual": 52.86330769230769,
+      "expected": {
+        "value": 52.86330769230769,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_recomputed_latency:grid:gb_center",
+      "passed": true,
+      "actual": 6.088792948717948,
+      "expected": {
+        "value": 6.088792948717948,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "construction_complete:grid:gb_center",
+      "passed": true
+    },
+    {
+      "name": "construction_repeats:grid:gb_center",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "construction_recomputed:grid:gb_center",
+      "passed": true,
+      "actual": 13.155476399999998,
+      "expected": {
+        "value": 13.155476399999998,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_recomputed_latency:grid:gb_medoid",
+      "passed": true,
+      "actual": 6.174398076923077,
+      "expected": {
+        "value": 6.174398076923077,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "construction_complete:grid:gb_medoid",
+      "passed": true
+    },
+    {
+      "name": "construction_repeats:grid:gb_medoid",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "construction_recomputed:grid:gb_medoid",
+      "passed": true,
+      "actual": 13.48981529999999,
+      "expected": {
+        "value": 13.48981529999999,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_recomputed_latency:grid:ff_raw",
+      "passed": true,
+      "actual": 6.1622403846153855,
+      "expected": {
+        "value": 6.1622403846153855,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "construction_complete:grid:ff_raw",
+      "passed": true
+    },
+    {
+      "name": "construction_repeats:grid:ff_raw",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "construction_recomputed:grid:ff_raw",
+      "passed": true,
+      "actual": 4.599585499999989,
+      "expected": {
+        "value": 4.599585499999989,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "training_rows:hazelnut",
+      "passed": true,
+      "actual": 30654,
+      "expected": 30654
+    },
+    {
+      "name": "training_dimension:hazelnut",
+      "passed": true,
+      "actual": 1024,
+      "expected": 1024
+    },
+    {
+      "name": "training_selected_mapping:hazelnut",
+      "passed": true
+    },
+    {
+      "name": "matched_k:hazelnut:gb_center",
+      "passed": true,
+      "actual": 2201,
+      "expected": 2201
+    },
+    {
+      "name": "faiss_vectors:hazelnut:gb_center",
+      "passed": true
+    },
+    {
+      "name": "matched_k:hazelnut:gb_medoid",
+      "passed": true,
+      "actual": 2201,
+      "expected": 2201
+    },
+    {
+      "name": "faiss_vectors:hazelnut:gb_medoid",
+      "passed": true
+    },
+    {
+      "name": "matched_k:hazelnut:ff_raw",
+      "passed": true,
+      "actual": 2201,
+      "expected": 2201
+    },
+    {
+      "name": "faiss_vectors:hazelnut:ff_raw",
+      "passed": true
+    },
+    {
+      "name": "gb_config:hazelnut:seed",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "gb_config:hazelnut:min_ball_size",
+      "passed": true,
+      "actual": 64,
+      "expected": 64
+    },
+    {
+      "name": "gb_config:hazelnut:center_consistency_threshold",
+      "passed": true,
+      "actual": 1.3,
+      "expected": 1.3
+    },
+    {
+      "name": "gb_config:hazelnut:coarse_kmeans_iterations",
+      "passed": true,
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "name": "gb_config:hazelnut:two_means_iterations",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "name": "gb_config:hazelnut:assignment_batch_size",
+      "passed": true,
+      "actual": 4096,
+      "expected": 4096
+    },
+    {
+      "name": "gb_missing_assignments:hazelnut",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "gb_duplicate_assignments:hazelnut",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "query_complete:hazelnut",
+      "passed": true
+    },
+    {
+      "name": "query_protocol:hazelnut:repeats",
+      "passed": true,
+      "actual": 32,
+      "expected": 32
+    },
+    {
+      "name": "query_protocol:hazelnut:warmup_rounds",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "name": "query_protocol:hazelnut:warmup_batches_per_round",
+      "passed": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "name": "query_protocol:hazelnut:faiss_workers",
+      "passed": true,
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "name": "query_protocol:hazelnut:schedule_seed",
+      "passed": true,
+      "actual": 20260922,
+      "expected": 20260922
+    },
+    {
+      "name": "query_record_count:hazelnut",
+      "passed": true,
+      "actual": 128,
+      "expected": 128
+    },
+    {
+      "name": "query_position_balance:hazelnut",
+      "passed": true
+    },
+    {
+      "name": "query_recomputed_speedup:hazelnut",
+      "passed": true,
+      "actual": 10.300440041932735,
+      "expected": {
+        "value": 10.300440041932735,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_saved_validation:hazelnut",
+      "passed": true
+    },
+    {
+      "name": "query_recomputed_latency:hazelnut:original",
+      "passed": true,
+      "actual": 77.9870540909091,
+      "expected": {
+        "value": 77.9870540909091,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_recomputed_latency:hazelnut:gb_center",
+      "passed": true,
+      "actual": 7.612500454545454,
+      "expected": {
+        "value": 7.612500454545454,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "construction_complete:hazelnut:gb_center",
+      "passed": true
+    },
+    {
+      "name": "construction_repeats:hazelnut:gb_center",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "construction_recomputed:hazelnut:gb_center",
+      "passed": true,
+      "actual": 21.867576799999995,
+      "expected": {
+        "value": 21.867576799999995,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_recomputed_latency:hazelnut:gb_medoid",
+      "passed": true,
+      "actual": 7.657079545454545,
+      "expected": {
+        "value": 7.657079545454545,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "construction_complete:hazelnut:gb_medoid",
+      "passed": true
+    },
+    {
+      "name": "construction_repeats:hazelnut:gb_medoid",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "construction_recomputed:hazelnut:gb_medoid",
+      "passed": true,
+      "actual": 22.78306729999997,
+      "expected": {
+        "value": 22.78306729999997,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_recomputed_latency:hazelnut:ff_raw",
+      "passed": true,
+      "actual": 7.54681409090909,
+      "expected": {
+        "value": 7.54681409090909,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "construction_complete:hazelnut:ff_raw",
+      "passed": true
+    },
+    {
+      "name": "construction_repeats:hazelnut:ff_raw",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "construction_recomputed:hazelnut:ff_raw",
+      "passed": true,
+      "actual": 9.095162799999997,
+      "expected": {
+        "value": 9.095162799999997,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "training_rows:leather",
+      "passed": true,
+      "actual": 19208,
+      "expected": 19208
+    },
+    {
+      "name": "training_dimension:leather",
+      "passed": true,
+      "actual": 1024,
+      "expected": 1024
+    },
+    {
+      "name": "training_selected_mapping:leather",
+      "passed": true
+    },
+    {
+      "name": "matched_k:leather:gb_center",
+      "passed": true,
+      "actual": 1457,
+      "expected": 1457
+    },
+    {
+      "name": "faiss_vectors:leather:gb_center",
+      "passed": true
+    },
+    {
+      "name": "matched_k:leather:gb_medoid",
+      "passed": true,
+      "actual": 1457,
+      "expected": 1457
+    },
+    {
+      "name": "faiss_vectors:leather:gb_medoid",
+      "passed": true
+    },
+    {
+      "name": "matched_k:leather:ff_raw",
+      "passed": true,
+      "actual": 1457,
+      "expected": 1457
+    },
+    {
+      "name": "faiss_vectors:leather:ff_raw",
+      "passed": true
+    },
+    {
+      "name": "gb_config:leather:seed",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "gb_config:leather:min_ball_size",
+      "passed": true,
+      "actual": 64,
+      "expected": 64
+    },
+    {
+      "name": "gb_config:leather:center_consistency_threshold",
+      "passed": true,
+      "actual": 1.3,
+      "expected": 1.3
+    },
+    {
+      "name": "gb_config:leather:coarse_kmeans_iterations",
+      "passed": true,
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "name": "gb_config:leather:two_means_iterations",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "name": "gb_config:leather:assignment_batch_size",
+      "passed": true,
+      "actual": 4096,
+      "expected": 4096
+    },
+    {
+      "name": "gb_missing_assignments:leather",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "gb_duplicate_assignments:leather",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "query_complete:leather",
+      "passed": true
+    },
+    {
+      "name": "query_protocol:leather:repeats",
+      "passed": true,
+      "actual": 32,
+      "expected": 32
+    },
+    {
+      "name": "query_protocol:leather:warmup_rounds",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "name": "query_protocol:leather:warmup_batches_per_round",
+      "passed": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "name": "query_protocol:leather:faiss_workers",
+      "passed": true,
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "name": "query_protocol:leather:schedule_seed",
+      "passed": true,
+      "actual": 20260922,
+      "expected": 20260922
+    },
+    {
+      "name": "query_record_count:leather",
+      "passed": true,
+      "actual": 128,
+      "expected": 128
+    },
+    {
+      "name": "query_position_balance:leather",
+      "passed": true
+    },
+    {
+      "name": "query_recomputed_speedup:leather",
+      "passed": true,
+      "actual": 8.775476231106364,
+      "expected": {
+        "value": 8.775476231106364,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_saved_validation:leather",
+      "passed": true
+    },
+    {
+      "name": "query_recomputed_latency:leather:original",
+      "passed": true,
+      "actual": 49.941702822580645,
+      "expected": {
+        "value": 49.941702822580645,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_recomputed_latency:leather:gb_center",
+      "passed": true,
+      "actual": 5.706488306451613,
+      "expected": {
+        "value": 5.706488306451613,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "construction_complete:leather:gb_center",
+      "passed": true
+    },
+    {
+      "name": "construction_repeats:leather:gb_center",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "construction_recomputed:leather:gb_center",
+      "passed": true,
+      "actual": 11.447853799999962,
+      "expected": {
+        "value": 11.447853799999962,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_recomputed_latency:leather:gb_medoid",
+      "passed": true,
+      "actual": 5.642566532258064,
+      "expected": {
+        "value": 5.642566532258064,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "construction_complete:leather:gb_medoid",
+      "passed": true
+    },
+    {
+      "name": "construction_repeats:leather:gb_medoid",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "construction_recomputed:leather:gb_medoid",
+      "passed": true,
+      "actual": 11.916841499999975,
+      "expected": {
+        "value": 11.916841499999975,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_recomputed_latency:leather:ff_raw",
+      "passed": true,
+      "actual": 5.669995161290322,
+      "expected": {
+        "value": 5.669995161290322,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "construction_complete:leather:ff_raw",
+      "passed": true
+    },
+    {
+      "name": "construction_repeats:leather:ff_raw",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "construction_recomputed:leather:ff_raw",
+      "passed": true,
+      "actual": 4.9901216,
+      "expected": {
+        "value": 4.9901216,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "training_rows:metal_nut",
+      "passed": true,
+      "actual": 17248,
+      "expected": 17248
+    },
+    {
+      "name": "training_dimension:metal_nut",
+      "passed": true,
+      "actual": 1024,
+      "expected": 1024
+    },
+    {
+      "name": "training_selected_mapping:metal_nut",
+      "passed": true
+    },
+    {
+      "name": "matched_k:metal_nut:gb_center",
+      "passed": true,
+      "actual": 1473,
+      "expected": 1473
+    },
+    {
+      "name": "faiss_vectors:metal_nut:gb_center",
+      "passed": true
+    },
+    {
+      "name": "matched_k:metal_nut:gb_medoid",
+      "passed": true,
+      "actual": 1473,
+      "expected": 1473
+    },
+    {
+      "name": "faiss_vectors:metal_nut:gb_medoid",
+      "passed": true
+    },
+    {
+      "name": "matched_k:metal_nut:ff_raw",
+      "passed": true,
+      "actual": 1473,
+      "expected": 1473
+    },
+    {
+      "name": "faiss_vectors:metal_nut:ff_raw",
+      "passed": true
+    },
+    {
+      "name": "gb_config:metal_nut:seed",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "gb_config:metal_nut:min_ball_size",
+      "passed": true,
+      "actual": 64,
+      "expected": 64
+    },
+    {
+      "name": "gb_config:metal_nut:center_consistency_threshold",
+      "passed": true,
+      "actual": 1.3,
+      "expected": 1.3
+    },
+    {
+      "name": "gb_config:metal_nut:coarse_kmeans_iterations",
+      "passed": true,
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "name": "gb_config:metal_nut:two_means_iterations",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "name": "gb_config:metal_nut:assignment_batch_size",
+      "passed": true,
+      "actual": 4096,
+      "expected": 4096
+    },
+    {
+      "name": "gb_missing_assignments:metal_nut",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "gb_duplicate_assignments:metal_nut",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "query_complete:metal_nut",
+      "passed": true
+    },
+    {
+      "name": "query_protocol:metal_nut:repeats",
+      "passed": true,
+      "actual": 32,
+      "expected": 32
+    },
+    {
+      "name": "query_protocol:metal_nut:warmup_rounds",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "name": "query_protocol:metal_nut:warmup_batches_per_round",
+      "passed": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "name": "query_protocol:metal_nut:faiss_workers",
+      "passed": true,
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "name": "query_protocol:metal_nut:schedule_seed",
+      "passed": true,
+      "actual": 20260922,
+      "expected": 20260922
+    },
+    {
+      "name": "query_record_count:metal_nut",
+      "passed": true,
+      "actual": 128,
+      "expected": 128
+    },
+    {
+      "name": "query_position_balance:metal_nut",
+      "passed": true
+    },
+    {
+      "name": "query_recomputed_speedup:metal_nut",
+      "passed": true,
+      "actual": 7.996593433057611,
+      "expected": {
+        "value": 7.996593433057611,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_saved_validation:metal_nut",
+      "passed": true
+    },
+    {
+      "name": "query_recomputed_latency:metal_nut:original",
+      "passed": true,
+      "actual": 45.337654782608695,
+      "expected": {
+        "value": 45.337654782608695,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_recomputed_latency:metal_nut:gb_center",
+      "passed": true,
+      "actual": 5.72031,
+      "expected": {
+        "value": 5.72031,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "construction_complete:metal_nut:gb_center",
+      "passed": true
+    },
+    {
+      "name": "construction_repeats:metal_nut:gb_center",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "construction_recomputed:metal_nut:gb_center",
+      "passed": true,
+      "actual": 9.123521199999999,
+      "expected": {
+        "value": 9.123521199999999,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_recomputed_latency:metal_nut:gb_medoid",
+      "passed": true,
+      "actual": 5.746801739130435,
+      "expected": {
+        "value": 5.746801739130435,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "construction_complete:metal_nut:gb_medoid",
+      "passed": true
+    },
+    {
+      "name": "construction_repeats:metal_nut:gb_medoid",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "construction_recomputed:metal_nut:gb_medoid",
+      "passed": true,
+      "actual": 9.636820200000003,
+      "expected": {
+        "value": 9.636820200000003,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_recomputed_latency:metal_nut:ff_raw",
+      "passed": true,
+      "actual": 5.788010869565218,
+      "expected": {
+        "value": 5.788010869565218,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "construction_complete:metal_nut:ff_raw",
+      "passed": true
+    },
+    {
+      "name": "construction_repeats:metal_nut:ff_raw",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "construction_recomputed:metal_nut:ff_raw",
+      "passed": true,
+      "actual": 3.5370087999999953,
+      "expected": {
+        "value": 3.5370087999999953,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "training_rows:pill",
+      "passed": true,
+      "actual": 20932,
+      "expected": 20932
+    },
+    {
+      "name": "training_dimension:pill",
+      "passed": true,
+      "actual": 1024,
+      "expected": 1024
+    },
+    {
+      "name": "training_selected_mapping:pill",
+      "passed": true
+    },
+    {
+      "name": "matched_k:pill:gb_center",
+      "passed": true,
+      "actual": 1542,
+      "expected": 1542
+    },
+    {
+      "name": "faiss_vectors:pill:gb_center",
+      "passed": true
+    },
+    {
+      "name": "matched_k:pill:gb_medoid",
+      "passed": true,
+      "actual": 1542,
+      "expected": 1542
+    },
+    {
+      "name": "faiss_vectors:pill:gb_medoid",
+      "passed": true
+    },
+    {
+      "name": "matched_k:pill:ff_raw",
+      "passed": true,
+      "actual": 1542,
+      "expected": 1542
+    },
+    {
+      "name": "faiss_vectors:pill:ff_raw",
+      "passed": true
+    },
+    {
+      "name": "gb_config:pill:seed",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "gb_config:pill:min_ball_size",
+      "passed": true,
+      "actual": 64,
+      "expected": 64
+    },
+    {
+      "name": "gb_config:pill:center_consistency_threshold",
+      "passed": true,
+      "actual": 1.3,
+      "expected": 1.3
+    },
+    {
+      "name": "gb_config:pill:coarse_kmeans_iterations",
+      "passed": true,
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "name": "gb_config:pill:two_means_iterations",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "name": "gb_config:pill:assignment_batch_size",
+      "passed": true,
+      "actual": 4096,
+      "expected": 4096
+    },
+    {
+      "name": "gb_missing_assignments:pill",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "gb_duplicate_assignments:pill",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "query_complete:pill",
+      "passed": true
+    },
+    {
+      "name": "query_protocol:pill:repeats",
+      "passed": true,
+      "actual": 32,
+      "expected": 32
+    },
+    {
+      "name": "query_protocol:pill:warmup_rounds",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "name": "query_protocol:pill:warmup_batches_per_round",
+      "passed": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "name": "query_protocol:pill:faiss_workers",
+      "passed": true,
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "name": "query_protocol:pill:schedule_seed",
+      "passed": true,
+      "actual": 20260922,
+      "expected": 20260922
+    },
+    {
+      "name": "query_record_count:pill",
+      "passed": true,
+      "actual": 128,
+      "expected": 128
+    },
+    {
+      "name": "query_position_balance:pill",
+      "passed": true
+    },
+    {
+      "name": "query_recomputed_speedup:pill",
+      "passed": true,
+      "actual": 9.333881694476833,
+      "expected": {
+        "value": 9.333881694476833,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_saved_validation:pill",
+      "passed": true
+    },
+    {
+      "name": "query_recomputed_latency:pill:original",
+      "passed": true,
+      "actual": 50.59685988023952,
+      "expected": {
+        "value": 50.59685988023952,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_recomputed_latency:pill:gb_center",
+      "passed": true,
+      "actual": 5.3983149700598805,
+      "expected": {
+        "value": 5.3983149700598805,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "construction_complete:pill:gb_center",
+      "passed": true
+    },
+    {
+      "name": "construction_repeats:pill:gb_center",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "construction_recomputed:pill:gb_center",
+      "passed": true,
+      "actual": 12.762766,
+      "expected": {
+        "value": 12.762766,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_recomputed_latency:pill:gb_medoid",
+      "passed": true,
+      "actual": 5.402546706586826,
+      "expected": {
+        "value": 5.402546706586826,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "construction_complete:pill:gb_medoid",
+      "passed": true
+    },
+    {
+      "name": "construction_repeats:pill:gb_medoid",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "construction_recomputed:pill:gb_medoid",
+      "passed": true,
+      "actual": 13.28774230000002,
+      "expected": {
+        "value": 13.28774230000002,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_recomputed_latency:pill:ff_raw",
+      "passed": true,
+      "actual": 5.3674940119760475,
+      "expected": {
+        "value": 5.3674940119760475,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "construction_complete:pill:ff_raw",
+      "passed": true
+    },
+    {
+      "name": "construction_repeats:pill:ff_raw",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "construction_recomputed:pill:ff_raw",
+      "passed": true,
+      "actual": 4.44400619999999,
+      "expected": {
+        "value": 4.44400619999999,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "training_rows:screw",
+      "passed": true,
+      "actual": 25088,
+      "expected": 25088
+    },
+    {
+      "name": "training_dimension:screw",
+      "passed": true,
+      "actual": 1024,
+      "expected": 1024
+    },
+    {
+      "name": "training_selected_mapping:screw",
+      "passed": true
+    },
+    {
+      "name": "matched_k:screw:gb_center",
+      "passed": true,
+      "actual": 1969,
+      "expected": 1969
+    },
+    {
+      "name": "faiss_vectors:screw:gb_center",
+      "passed": true
+    },
+    {
+      "name": "matched_k:screw:gb_medoid",
+      "passed": true,
+      "actual": 1969,
+      "expected": 1969
+    },
+    {
+      "name": "faiss_vectors:screw:gb_medoid",
+      "passed": true
+    },
+    {
+      "name": "matched_k:screw:ff_raw",
+      "passed": true,
+      "actual": 1969,
+      "expected": 1969
+    },
+    {
+      "name": "faiss_vectors:screw:ff_raw",
+      "passed": true
+    },
+    {
+      "name": "gb_config:screw:seed",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "gb_config:screw:min_ball_size",
+      "passed": true,
+      "actual": 64,
+      "expected": 64
+    },
+    {
+      "name": "gb_config:screw:center_consistency_threshold",
+      "passed": true,
+      "actual": 1.3,
+      "expected": 1.3
+    },
+    {
+      "name": "gb_config:screw:coarse_kmeans_iterations",
+      "passed": true,
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "name": "gb_config:screw:two_means_iterations",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "name": "gb_config:screw:assignment_batch_size",
+      "passed": true,
+      "actual": 4096,
+      "expected": 4096
+    },
+    {
+      "name": "gb_missing_assignments:screw",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "gb_duplicate_assignments:screw",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "query_complete:screw",
+      "passed": true
+    },
+    {
+      "name": "query_protocol:screw:repeats",
+      "passed": true,
+      "actual": 32,
+      "expected": 32
+    },
+    {
+      "name": "query_protocol:screw:warmup_rounds",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "name": "query_protocol:screw:warmup_batches_per_round",
+      "passed": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "name": "query_protocol:screw:faiss_workers",
+      "passed": true,
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "name": "query_protocol:screw:schedule_seed",
+      "passed": true,
+      "actual": 20260922,
+      "expected": 20260922
+    },
+    {
+      "name": "query_record_count:screw",
+      "passed": true,
+      "actual": 128,
+      "expected": 128
+    },
+    {
+      "name": "query_position_balance:screw",
+      "passed": true
+    },
+    {
+      "name": "query_recomputed_speedup:screw",
+      "passed": true,
+      "actual": 10.923841592408891,
+      "expected": {
+        "value": 10.923841592408891,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_saved_validation:screw",
+      "passed": true
+    },
+    {
+      "name": "query_recomputed_latency:screw:original",
+      "passed": true,
+      "actual": 62.826275624999994,
+      "expected": {
+        "value": 62.826275624999994,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_recomputed_latency:screw:gb_center",
+      "passed": true,
+      "actual": 5.959578437500001,
+      "expected": {
+        "value": 5.959578437500001,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "construction_complete:screw:gb_center",
+      "passed": true
+    },
+    {
+      "name": "construction_repeats:screw:gb_center",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "construction_recomputed:screw:gb_center",
+      "passed": true,
+      "actual": 17.233280800000017,
+      "expected": {
+        "value": 17.233280800000017,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_recomputed_latency:screw:gb_medoid",
+      "passed": true,
+      "actual": 5.9524459375,
+      "expected": {
+        "value": 5.9524459375,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "construction_complete:screw:gb_medoid",
+      "passed": true
+    },
+    {
+      "name": "construction_repeats:screw:gb_medoid",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "construction_recomputed:screw:gb_medoid",
+      "passed": true,
+      "actual": 18.106749500000006,
+      "expected": {
+        "value": 18.106749500000006,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_recomputed_latency:screw:ff_raw",
+      "passed": true,
+      "actual": 5.9520146875,
+      "expected": {
+        "value": 5.9520146875,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "construction_complete:screw:ff_raw",
+      "passed": true
+    },
+    {
+      "name": "construction_repeats:screw:ff_raw",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "construction_recomputed:screw:ff_raw",
+      "passed": true,
+      "actual": 6.570672900000005,
+      "expected": {
+        "value": 6.570672900000005,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "training_rows:tile",
+      "passed": true,
+      "actual": 18032,
+      "expected": 18032
+    },
+    {
+      "name": "training_dimension:tile",
+      "passed": true,
+      "actual": 1024,
+      "expected": 1024
+    },
+    {
+      "name": "training_selected_mapping:tile",
+      "passed": true
+    },
+    {
+      "name": "matched_k:tile:gb_center",
+      "passed": true,
+      "actual": 1300,
+      "expected": 1300
+    },
+    {
+      "name": "faiss_vectors:tile:gb_center",
+      "passed": true
+    },
+    {
+      "name": "matched_k:tile:gb_medoid",
+      "passed": true,
+      "actual": 1300,
+      "expected": 1300
+    },
+    {
+      "name": "faiss_vectors:tile:gb_medoid",
+      "passed": true
+    },
+    {
+      "name": "matched_k:tile:ff_raw",
+      "passed": true,
+      "actual": 1300,
+      "expected": 1300
+    },
+    {
+      "name": "faiss_vectors:tile:ff_raw",
+      "passed": true
+    },
+    {
+      "name": "gb_config:tile:seed",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "gb_config:tile:min_ball_size",
+      "passed": true,
+      "actual": 64,
+      "expected": 64
+    },
+    {
+      "name": "gb_config:tile:center_consistency_threshold",
+      "passed": true,
+      "actual": 1.3,
+      "expected": 1.3
+    },
+    {
+      "name": "gb_config:tile:coarse_kmeans_iterations",
+      "passed": true,
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "name": "gb_config:tile:two_means_iterations",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "name": "gb_config:tile:assignment_batch_size",
+      "passed": true,
+      "actual": 4096,
+      "expected": 4096
+    },
+    {
+      "name": "gb_missing_assignments:tile",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "gb_duplicate_assignments:tile",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "query_complete:tile",
+      "passed": true
+    },
+    {
+      "name": "query_protocol:tile:repeats",
+      "passed": true,
+      "actual": 32,
+      "expected": 32
+    },
+    {
+      "name": "query_protocol:tile:warmup_rounds",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "name": "query_protocol:tile:warmup_batches_per_round",
+      "passed": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "name": "query_protocol:tile:faiss_workers",
+      "passed": true,
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "name": "query_protocol:tile:schedule_seed",
+      "passed": true,
+      "actual": 20260922,
+      "expected": 20260922
+    },
+    {
+      "name": "query_record_count:tile",
+      "passed": true,
+      "actual": 128,
+      "expected": 128
+    },
+    {
+      "name": "query_position_balance:tile",
+      "passed": true
+    },
+    {
+      "name": "query_recomputed_speedup:tile",
+      "passed": true,
+      "actual": 8.752478249855866,
+      "expected": {
+        "value": 8.752478249855866,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_saved_validation:tile",
+      "passed": true
+    },
+    {
+      "name": "query_recomputed_latency:tile:original",
+      "passed": true,
+      "actual": 43.07480128205128,
+      "expected": {
+        "value": 43.07480128205128,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_recomputed_latency:tile:gb_center",
+      "passed": true,
+      "actual": 4.895069658119658,
+      "expected": {
+        "value": 4.895069658119658,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "construction_complete:tile:gb_center",
+      "passed": true
+    },
+    {
+      "name": "construction_repeats:tile:gb_center",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "construction_recomputed:tile:gb_center",
+      "passed": true,
+      "actual": 11.047282500000001,
+      "expected": {
+        "value": 11.047282500000001,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_recomputed_latency:tile:gb_medoid",
+      "passed": true,
+      "actual": 4.870801709401709,
+      "expected": {
+        "value": 4.870801709401709,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "construction_complete:tile:gb_medoid",
+      "passed": true
+    },
+    {
+      "name": "construction_repeats:tile:gb_medoid",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "construction_recomputed:tile:gb_medoid",
+      "passed": true,
+      "actual": 11.923783000000007,
+      "expected": {
+        "value": 11.923783000000007,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_recomputed_latency:tile:ff_raw",
+      "passed": true,
+      "actual": 4.9112854700854705,
+      "expected": {
+        "value": 4.9112854700854705,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "construction_complete:tile:ff_raw",
+      "passed": true
+    },
+    {
+      "name": "construction_repeats:tile:ff_raw",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "construction_recomputed:tile:ff_raw",
+      "passed": true,
+      "actual": 3.3316592999999557,
+      "expected": {
+        "value": 3.3316592999999557,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "training_rows:toothbrush",
+      "passed": true,
+      "actual": 4704,
+      "expected": 4704
+    },
+    {
+      "name": "training_dimension:toothbrush",
+      "passed": true,
+      "actual": 1024,
+      "expected": 1024
+    },
+    {
+      "name": "training_selected_mapping:toothbrush",
+      "passed": true
+    },
+    {
+      "name": "matched_k:toothbrush:gb_center",
+      "passed": true,
+      "actual": 398,
+      "expected": 398
+    },
+    {
+      "name": "faiss_vectors:toothbrush:gb_center",
+      "passed": true
+    },
+    {
+      "name": "matched_k:toothbrush:gb_medoid",
+      "passed": true,
+      "actual": 398,
+      "expected": 398
+    },
+    {
+      "name": "faiss_vectors:toothbrush:gb_medoid",
+      "passed": true
+    },
+    {
+      "name": "matched_k:toothbrush:ff_raw",
+      "passed": true,
+      "actual": 398,
+      "expected": 398
+    },
+    {
+      "name": "faiss_vectors:toothbrush:ff_raw",
+      "passed": true
+    },
+    {
+      "name": "gb_config:toothbrush:seed",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "gb_config:toothbrush:min_ball_size",
+      "passed": true,
+      "actual": 64,
+      "expected": 64
+    },
+    {
+      "name": "gb_config:toothbrush:center_consistency_threshold",
+      "passed": true,
+      "actual": 1.3,
+      "expected": 1.3
+    },
+    {
+      "name": "gb_config:toothbrush:coarse_kmeans_iterations",
+      "passed": true,
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "name": "gb_config:toothbrush:two_means_iterations",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "name": "gb_config:toothbrush:assignment_batch_size",
+      "passed": true,
+      "actual": 4096,
+      "expected": 4096
+    },
+    {
+      "name": "gb_missing_assignments:toothbrush",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "gb_duplicate_assignments:toothbrush",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "query_complete:toothbrush",
+      "passed": true
+    },
+    {
+      "name": "query_protocol:toothbrush:repeats",
+      "passed": true,
+      "actual": 32,
+      "expected": 32
+    },
+    {
+      "name": "query_protocol:toothbrush:warmup_rounds",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "name": "query_protocol:toothbrush:warmup_batches_per_round",
+      "passed": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "name": "query_protocol:toothbrush:faiss_workers",
+      "passed": true,
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "name": "query_protocol:toothbrush:schedule_seed",
+      "passed": true,
+      "actual": 20260922,
+      "expected": 20260922
+    },
+    {
+      "name": "query_record_count:toothbrush",
+      "passed": true,
+      "actual": 128,
+      "expected": 128
+    },
+    {
+      "name": "query_position_balance:toothbrush",
+      "passed": true
+    },
+    {
+      "name": "query_recomputed_speedup:toothbrush",
+      "passed": true,
+      "actual": 5.297421836410382,
+      "expected": {
+        "value": 5.297421836410382,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_saved_validation:toothbrush",
+      "passed": true
+    },
+    {
+      "name": "query_recomputed_latency:toothbrush:original",
+      "passed": true,
+      "actual": 13.089588095238096,
+      "expected": {
+        "value": 13.089588095238096,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_recomputed_latency:toothbrush:gb_center",
+      "passed": true,
+      "actual": 2.4788345238095237,
+      "expected": {
+        "value": 2.4788345238095237,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "construction_complete:toothbrush:gb_center",
+      "passed": true
+    },
+    {
+      "name": "construction_repeats:toothbrush:gb_center",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "construction_recomputed:toothbrush:gb_center",
+      "passed": true,
+      "actual": 1.9959964000000099,
+      "expected": {
+        "value": 1.9959964000000099,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_recomputed_latency:toothbrush:gb_medoid",
+      "passed": true,
+      "actual": 2.4906738095238095,
+      "expected": {
+        "value": 2.4906738095238095,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "construction_complete:toothbrush:gb_medoid",
+      "passed": true
+    },
+    {
+      "name": "construction_repeats:toothbrush:gb_medoid",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "construction_recomputed:toothbrush:gb_medoid",
+      "passed": true,
+      "actual": 2.2545979999999872,
+      "expected": {
+        "value": 2.2545979999999872,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_recomputed_latency:toothbrush:ff_raw",
+      "passed": true,
+      "actual": 2.414009523809524,
+      "expected": {
+        "value": 2.414009523809524,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "construction_complete:toothbrush:ff_raw",
+      "passed": true
+    },
+    {
+      "name": "construction_repeats:toothbrush:ff_raw",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "construction_recomputed:toothbrush:ff_raw",
+      "passed": true,
+      "actual": 0.3659368000000143,
+      "expected": {
+        "value": 0.3659368000000143,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "training_rows:transistor",
+      "passed": true,
+      "actual": 16699,
+      "expected": 16699
+    },
+    {
+      "name": "training_dimension:transistor",
+      "passed": true,
+      "actual": 1024,
+      "expected": 1024
+    },
+    {
+      "name": "training_selected_mapping:transistor",
+      "passed": true
+    },
+    {
+      "name": "matched_k:transistor:gb_center",
+      "passed": true,
+      "actual": 1206,
+      "expected": 1206
+    },
+    {
+      "name": "faiss_vectors:transistor:gb_center",
+      "passed": true
+    },
+    {
+      "name": "matched_k:transistor:gb_medoid",
+      "passed": true,
+      "actual": 1206,
+      "expected": 1206
+    },
+    {
+      "name": "faiss_vectors:transistor:gb_medoid",
+      "passed": true
+    },
+    {
+      "name": "matched_k:transistor:ff_raw",
+      "passed": true,
+      "actual": 1206,
+      "expected": 1206
+    },
+    {
+      "name": "faiss_vectors:transistor:ff_raw",
+      "passed": true
+    },
+    {
+      "name": "gb_config:transistor:seed",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "gb_config:transistor:min_ball_size",
+      "passed": true,
+      "actual": 64,
+      "expected": 64
+    },
+    {
+      "name": "gb_config:transistor:center_consistency_threshold",
+      "passed": true,
+      "actual": 1.3,
+      "expected": 1.3
+    },
+    {
+      "name": "gb_config:transistor:coarse_kmeans_iterations",
+      "passed": true,
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "name": "gb_config:transistor:two_means_iterations",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "name": "gb_config:transistor:assignment_batch_size",
+      "passed": true,
+      "actual": 4096,
+      "expected": 4096
+    },
+    {
+      "name": "gb_missing_assignments:transistor",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "gb_duplicate_assignments:transistor",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "query_complete:transistor",
+      "passed": true
+    },
+    {
+      "name": "query_protocol:transistor:repeats",
+      "passed": true,
+      "actual": 32,
+      "expected": 32
+    },
+    {
+      "name": "query_protocol:transistor:warmup_rounds",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "name": "query_protocol:transistor:warmup_batches_per_round",
+      "passed": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "name": "query_protocol:transistor:faiss_workers",
+      "passed": true,
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "name": "query_protocol:transistor:schedule_seed",
+      "passed": true,
+      "actual": 20260922,
+      "expected": 20260922
+    },
+    {
+      "name": "query_record_count:transistor",
+      "passed": true,
+      "actual": 128,
+      "expected": 128
+    },
+    {
+      "name": "query_position_balance:transistor",
+      "passed": true
+    },
+    {
+      "name": "query_recomputed_speedup:transistor",
+      "passed": true,
+      "actual": 8.58771186885853,
+      "expected": {
+        "value": 8.58771186885853,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_saved_validation:transistor",
+      "passed": true
+    },
+    {
+      "name": "query_recomputed_latency:transistor:original",
+      "passed": true,
+      "actual": 40.29738449999999,
+      "expected": {
+        "value": 40.29738449999999,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_recomputed_latency:transistor:gb_center",
+      "passed": true,
+      "actual": 4.666922,
+      "expected": {
+        "value": 4.666922,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "construction_complete:transistor:gb_center",
+      "passed": true
+    },
+    {
+      "name": "construction_repeats:transistor:gb_center",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "construction_recomputed:transistor:gb_center",
+      "passed": true,
+      "actual": 9.200173299999989,
+      "expected": {
+        "value": 9.200173299999989,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_recomputed_latency:transistor:gb_medoid",
+      "passed": true,
+      "actual": 4.695011,
+      "expected": {
+        "value": 4.695011,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "construction_complete:transistor:gb_medoid",
+      "passed": true
+    },
+    {
+      "name": "construction_repeats:transistor:gb_medoid",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "construction_recomputed:transistor:gb_medoid",
+      "passed": true,
+      "actual": 9.693172400000009,
+      "expected": {
+        "value": 9.693172400000009,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_recomputed_latency:transistor:ff_raw",
+      "passed": true,
+      "actual": 4.652505,
+      "expected": {
+        "value": 4.652505,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "construction_complete:transistor:ff_raw",
+      "passed": true
+    },
+    {
+      "name": "construction_repeats:transistor:ff_raw",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "construction_recomputed:transistor:ff_raw",
+      "passed": true,
+      "actual": 2.8867620000000045,
+      "expected": {
+        "value": 2.8867620000000045,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "training_rows:wood",
+      "passed": true,
+      "actual": 19364,
+      "expected": 19364
+    },
+    {
+      "name": "training_dimension:wood",
+      "passed": true,
+      "actual": 1024,
+      "expected": 1024
+    },
+    {
+      "name": "training_selected_mapping:wood",
+      "passed": true
+    },
+    {
+      "name": "matched_k:wood:gb_center",
+      "passed": true,
+      "actual": 1413,
+      "expected": 1413
+    },
+    {
+      "name": "faiss_vectors:wood:gb_center",
+      "passed": true
+    },
+    {
+      "name": "matched_k:wood:gb_medoid",
+      "passed": true,
+      "actual": 1413,
+      "expected": 1413
+    },
+    {
+      "name": "faiss_vectors:wood:gb_medoid",
+      "passed": true
+    },
+    {
+      "name": "matched_k:wood:ff_raw",
+      "passed": true,
+      "actual": 1413,
+      "expected": 1413
+    },
+    {
+      "name": "faiss_vectors:wood:ff_raw",
+      "passed": true
+    },
+    {
+      "name": "gb_config:wood:seed",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "gb_config:wood:min_ball_size",
+      "passed": true,
+      "actual": 64,
+      "expected": 64
+    },
+    {
+      "name": "gb_config:wood:center_consistency_threshold",
+      "passed": true,
+      "actual": 1.3,
+      "expected": 1.3
+    },
+    {
+      "name": "gb_config:wood:coarse_kmeans_iterations",
+      "passed": true,
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "name": "gb_config:wood:two_means_iterations",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "name": "gb_config:wood:assignment_batch_size",
+      "passed": true,
+      "actual": 4096,
+      "expected": 4096
+    },
+    {
+      "name": "gb_missing_assignments:wood",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "gb_duplicate_assignments:wood",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "query_complete:wood",
+      "passed": true
+    },
+    {
+      "name": "query_protocol:wood:repeats",
+      "passed": true,
+      "actual": 32,
+      "expected": 32
+    },
+    {
+      "name": "query_protocol:wood:warmup_rounds",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "name": "query_protocol:wood:warmup_batches_per_round",
+      "passed": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "name": "query_protocol:wood:faiss_workers",
+      "passed": true,
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "name": "query_protocol:wood:schedule_seed",
+      "passed": true,
+      "actual": 20260922,
+      "expected": 20260922
+    },
+    {
+      "name": "query_record_count:wood",
+      "passed": true,
+      "actual": 128,
+      "expected": 128
+    },
+    {
+      "name": "query_position_balance:wood",
+      "passed": true
+    },
+    {
+      "name": "query_recomputed_speedup:wood",
+      "passed": true,
+      "actual": 9.124171209625565,
+      "expected": {
+        "value": 9.124171209625565,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_saved_validation:wood",
+      "passed": true
+    },
+    {
+      "name": "query_recomputed_latency:wood:original",
+      "passed": true,
+      "actual": 46.20677784810127,
+      "expected": {
+        "value": 46.20677784810127,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_recomputed_latency:wood:gb_center",
+      "passed": true,
+      "actual": 5.058378481012658,
+      "expected": {
+        "value": 5.058378481012658,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "construction_complete:wood:gb_center",
+      "passed": true
+    },
+    {
+      "name": "construction_repeats:wood:gb_center",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "construction_recomputed:wood:gb_center",
+      "passed": true,
+      "actual": 11.75854559999999,
+      "expected": {
+        "value": 11.75854559999999,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_recomputed_latency:wood:gb_medoid",
+      "passed": true,
+      "actual": 5.07408417721519,
+      "expected": {
+        "value": 5.07408417721519,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "construction_complete:wood:gb_medoid",
+      "passed": true
+    },
+    {
+      "name": "construction_repeats:wood:gb_medoid",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "construction_recomputed:wood:gb_medoid",
+      "passed": true,
+      "actual": 12.321454300000028,
+      "expected": {
+        "value": 12.321454300000028,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_recomputed_latency:wood:ff_raw",
+      "passed": true,
+      "actual": 5.041548101265823,
+      "expected": {
+        "value": 5.041548101265823,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "construction_complete:wood:ff_raw",
+      "passed": true
+    },
+    {
+      "name": "construction_repeats:wood:ff_raw",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "construction_recomputed:wood:ff_raw",
+      "passed": true,
+      "actual": 3.8590595000000008,
+      "expected": {
+        "value": 3.8590595000000008,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "training_rows:zipper",
+      "passed": true,
+      "actual": 18816,
+      "expected": 18816
+    },
+    {
+      "name": "training_dimension:zipper",
+      "passed": true,
+      "actual": 1024,
+      "expected": 1024
+    },
+    {
+      "name": "training_selected_mapping:zipper",
+      "passed": true
+    },
+    {
+      "name": "matched_k:zipper:gb_center",
+      "passed": true,
+      "actual": 1335,
+      "expected": 1335
+    },
+    {
+      "name": "faiss_vectors:zipper:gb_center",
+      "passed": true
+    },
+    {
+      "name": "matched_k:zipper:gb_medoid",
+      "passed": true,
+      "actual": 1335,
+      "expected": 1335
+    },
+    {
+      "name": "faiss_vectors:zipper:gb_medoid",
+      "passed": true
+    },
+    {
+      "name": "matched_k:zipper:ff_raw",
+      "passed": true,
+      "actual": 1335,
+      "expected": 1335
+    },
+    {
+      "name": "faiss_vectors:zipper:ff_raw",
+      "passed": true
+    },
+    {
+      "name": "gb_config:zipper:seed",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "gb_config:zipper:min_ball_size",
+      "passed": true,
+      "actual": 64,
+      "expected": 64
+    },
+    {
+      "name": "gb_config:zipper:center_consistency_threshold",
+      "passed": true,
+      "actual": 1.3,
+      "expected": 1.3
+    },
+    {
+      "name": "gb_config:zipper:coarse_kmeans_iterations",
+      "passed": true,
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "name": "gb_config:zipper:two_means_iterations",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "name": "gb_config:zipper:assignment_batch_size",
+      "passed": true,
+      "actual": 4096,
+      "expected": 4096
+    },
+    {
+      "name": "gb_missing_assignments:zipper",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "gb_duplicate_assignments:zipper",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "query_complete:zipper",
+      "passed": true
+    },
+    {
+      "name": "query_protocol:zipper:repeats",
+      "passed": true,
+      "actual": 32,
+      "expected": 32
+    },
+    {
+      "name": "query_protocol:zipper:warmup_rounds",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "name": "query_protocol:zipper:warmup_batches_per_round",
+      "passed": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "name": "query_protocol:zipper:faiss_workers",
+      "passed": true,
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "name": "query_protocol:zipper:schedule_seed",
+      "passed": true,
+      "actual": 20260922,
+      "expected": 20260922
+    },
+    {
+      "name": "query_record_count:zipper",
+      "passed": true,
+      "actual": 128,
+      "expected": 128
+    },
+    {
+      "name": "query_position_balance:zipper",
+      "passed": true
+    },
+    {
+      "name": "query_recomputed_speedup:zipper",
+      "passed": true,
+      "actual": 9.042829765298618,
+      "expected": {
+        "value": 9.042829765298618,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_saved_validation:zipper",
+      "passed": true
+    },
+    {
+      "name": "query_recomputed_latency:zipper:original",
+      "passed": true,
+      "actual": 45.90429635761589,
+      "expected": {
+        "value": 45.90429635761589,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_recomputed_latency:zipper:gb_center",
+      "passed": true,
+      "actual": 5.029750662251656,
+      "expected": {
+        "value": 5.029750662251656,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "construction_complete:zipper:gb_center",
+      "passed": true
+    },
+    {
+      "name": "construction_repeats:zipper:gb_center",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "construction_recomputed:zipper:gb_center",
+      "passed": true,
+      "actual": 11.098558600000047,
+      "expected": {
+        "value": 11.098558600000047,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_recomputed_latency:zipper:gb_medoid",
+      "passed": true,
+      "actual": 5.021699999999999,
+      "expected": {
+        "value": 5.021699999999999,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "construction_complete:zipper:gb_medoid",
+      "passed": true
+    },
+    {
+      "name": "construction_repeats:zipper:gb_medoid",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "construction_recomputed:zipper:gb_medoid",
+      "passed": true,
+      "actual": 11.693470900000008,
+      "expected": {
+        "value": 11.693470900000008,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_recomputed_latency:zipper:ff_raw",
+      "passed": true,
+      "actual": 5.007270198675497,
+      "expected": {
+        "value": 5.007270198675497,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "construction_complete:zipper:ff_raw",
+      "passed": true
+    },
+    {
+      "name": "construction_repeats:zipper:ff_raw",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "construction_recomputed:zipper:ff_raw",
+      "passed": true,
+      "actual": 3.568549399999995,
+      "expected": {
+        "value": 3.568549399999995,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "ff_wins_losses_ties",
+      "passed": true,
+      "actual": {
+        "wins": 8,
+        "losses": 4,
+        "ties": 3
+      },
+      "expected": {
+        "wins": 8,
+        "losses": 4,
+        "ties": 3
+      }
+    },
+    {
+      "name": "5pp_tolerance_count",
+      "passed": true,
+      "actual": 14,
+      "expected": 14
+    },
+    {
+      "name": "headline_compression",
+      "passed": true,
+      "actual": "13.5",
+      "expected": "13.5"
+    },
+    {
+      "name": "headline_query_speedup",
+      "passed": true,
+      "actual": "8.9",
+      "expected": "8.9"
+    },
+    {
+      "name": "headline_mean_image_drop_pp",
+      "passed": true,
+      "actual": "2.78",
+      "expected": "2.78"
+    },
+    {
+      "name": "headline_mean_pixel_drop_pp",
+      "passed": true,
+      "actual": "0.32",
+      "expected": "0.32"
+    },
+    {
+      "name": "headline_query_baseline_ms",
+      "passed": true,
+      "actual": "47.24",
+      "expected": "47.24"
+    },
+    {
+      "name": "headline_query_gb_ms",
+      "passed": true,
+      "actual": "5.22",
+      "expected": "5.22"
+    },
+    {
+      "name": "headline_medoid_image_loss_pp",
+      "passed": true,
+      "actual": "1.44",
+      "expected": "1.44"
+    },
+    {
+      "name": "gb_inactive_consistency_stops",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "gb_inactive_all_logs_above_threshold",
+      "passed": true
+    },
+    {
+      "name": "headline_minimum_log_consistency",
+      "passed": true,
+      "actual": "35.5",
+      "expected": "35.5"
+    },
+    {
+      "name": "screw_center_capacity",
+      "passed": true,
+      "actual": [
+        1969,
+        4037,
+        8104
+      ],
+      "expected": [
+        1969,
+        4037,
+        8104
+      ]
+    },
+    {
+      "name": "screw_coreset_ff_capacity",
+      "passed": true,
+      "actual": [
+        1969,
+        3938,
+        7876
+      ],
+      "expected": [
+        1969,
+        3938,
+        7876
+      ]
+    },
+    {
+      "name": "screw_ff_populations_distinct",
+      "passed": true
+    },
+    {
+      "name": "headline_screw_coreset_ff_x2_auroc",
+      "passed": true,
+      "actual": "0.981",
+      "expected": "0.981"
+    },
+    {
+      "name": "hybrid_same_capacity:bottle",
+      "passed": true,
+      "actual": 1072,
+      "expected": 1072
+    },
+    {
+      "name": "hybrid_center_control:bottle",
+      "passed": true,
+      "actual": 1.0,
+      "expected": {
+        "value": 1.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "hybrid_ff_control:bottle",
+      "passed": true,
+      "actual": 1.0,
+      "expected": {
+        "value": 1.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "hybrid_same_capacity:cable",
+      "passed": true,
+      "actual": 1522,
+      "expected": 1522
+    },
+    {
+      "name": "hybrid_center_control:cable",
+      "passed": true,
+      "actual": 0.9717016491754122,
+      "expected": {
+        "value": 0.9717016491754122,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "hybrid_ff_control:cable",
+      "passed": true,
+      "actual": 0.9973763118440779,
+      "expected": {
+        "value": 0.9973763118440779,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "hybrid_same_capacity:capsule",
+      "passed": true,
+      "actual": 945,
+      "expected": 945
+    },
+    {
+      "name": "hybrid_center_control:capsule",
+      "passed": true,
+      "actual": 0.9389708815317114,
+      "expected": {
+        "value": 0.9389708815317114,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "hybrid_ff_control:capsule",
+      "passed": true,
+      "actual": 0.9696848823294776,
+      "expected": {
+        "value": 0.9696848823294776,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "hybrid_same_capacity:carpet",
+      "passed": true,
+      "actual": 1718,
+      "expected": 1718
+    },
+    {
+      "name": "hybrid_center_control:carpet",
+      "passed": true,
+      "actual": 0.9847512038523274,
+      "expected": {
+        "value": 0.9847512038523274,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "hybrid_ff_control:carpet",
+      "passed": true,
+      "actual": 0.9747191011235955,
+      "expected": {
+        "value": 0.9747191011235955,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "hybrid_same_capacity:grid",
+      "passed": true,
+      "actual": 1621,
+      "expected": 1621
+    },
+    {
+      "name": "hybrid_center_control:grid",
+      "passed": true,
+      "actual": 0.9573934837092732,
+      "expected": {
+        "value": 0.9573934837092732,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "hybrid_ff_control:grid",
+      "passed": true,
+      "actual": 0.9799498746867168,
+      "expected": {
+        "value": 0.9799498746867168,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "hybrid_same_capacity:hazelnut",
+      "passed": true,
+      "actual": 2201,
+      "expected": 2201
+    },
+    {
+      "name": "hybrid_center_control:hazelnut",
+      "passed": true,
+      "actual": 1.0,
+      "expected": {
+        "value": 1.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "hybrid_ff_control:hazelnut",
+      "passed": true,
+      "actual": 1.0,
+      "expected": {
+        "value": 1.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "hybrid_same_capacity:leather",
+      "passed": true,
+      "actual": 1457,
+      "expected": 1457
+    },
+    {
+      "name": "hybrid_center_control:leather",
+      "passed": true,
+      "actual": 1.0,
+      "expected": {
+        "value": 1.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "hybrid_ff_control:leather",
+      "passed": true,
+      "actual": 1.0,
+      "expected": {
+        "value": 1.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "hybrid_same_capacity:metal_nut",
+      "passed": true,
+      "actual": 1473,
+      "expected": 1473
+    },
+    {
+      "name": "hybrid_center_control:metal_nut",
+      "passed": true,
+      "actual": 0.9926686217008798,
+      "expected": {
+        "value": 0.9926686217008798,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "hybrid_ff_control:metal_nut",
+      "passed": true,
+      "actual": 0.9965786901270772,
+      "expected": {
+        "value": 0.9965786901270772,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "hybrid_same_capacity:pill",
+      "passed": true,
+      "actual": 1542,
+      "expected": 1542
+    },
+    {
+      "name": "hybrid_center_control:pill",
+      "passed": true,
+      "actual": 0.9440807419530823,
+      "expected": {
+        "value": 0.9440807419530823,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "hybrid_ff_control:pill",
+      "passed": true,
+      "actual": 0.9893617021276596,
+      "expected": {
+        "value": 0.9893617021276596,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "hybrid_same_capacity:screw",
+      "passed": true,
+      "actual": 1969,
+      "expected": 1969
+    },
+    {
+      "name": "hybrid_center_control:screw",
+      "passed": true,
+      "actual": 0.6872309899569584,
+      "expected": {
+        "value": 0.6872309899569584,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "hybrid_ff_control:screw",
+      "passed": true,
+      "actual": 0.9663865546218486,
+      "expected": {
+        "value": 0.9663865546218486,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "hybrid_same_capacity:tile",
+      "passed": true,
+      "actual": 1300,
+      "expected": 1300
+    },
+    {
+      "name": "hybrid_center_control:tile",
+      "passed": true,
+      "actual": 0.9931457431457432,
+      "expected": {
+        "value": 0.9931457431457432,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "hybrid_ff_control:tile",
+      "passed": true,
+      "actual": 0.9873737373737373,
+      "expected": {
+        "value": 0.9873737373737373,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "hybrid_same_capacity:toothbrush",
+      "passed": true,
+      "actual": 398,
+      "expected": 398
+    },
+    {
+      "name": "hybrid_center_control:toothbrush",
+      "passed": true,
+      "actual": 1.0,
+      "expected": {
+        "value": 1.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "hybrid_ff_control:toothbrush",
+      "passed": true,
+      "actual": 0.9916666666666667,
+      "expected": {
+        "value": 0.9916666666666667,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "hybrid_same_capacity:transistor",
+      "passed": true,
+      "actual": 1206,
+      "expected": 1206
+    },
+    {
+      "name": "hybrid_center_control:transistor",
+      "passed": true,
+      "actual": 0.9983333333333333,
+      "expected": {
+        "value": 0.9983333333333333,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "hybrid_ff_control:transistor",
+      "passed": true,
+      "actual": 0.99625,
+      "expected": {
+        "value": 0.99625,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "hybrid_same_capacity:wood",
+      "passed": true,
+      "actual": 1413,
+      "expected": 1413
+    },
+    {
+      "name": "hybrid_center_control:wood",
+      "passed": true,
+      "actual": 0.987719298245614,
+      "expected": {
+        "value": 0.987719298245614,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "hybrid_ff_control:wood",
+      "passed": true,
+      "actual": 0.9894736842105263,
+      "expected": {
+        "value": 0.9894736842105263,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "hybrid_same_capacity:zipper",
+      "passed": true,
+      "actual": 1335,
+      "expected": 1335
+    },
+    {
+      "name": "hybrid_center_control:zipper",
+      "passed": true,
+      "actual": 0.9863445378151261,
+      "expected": {
+        "value": 0.9863445378151261,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "hybrid_ff_control:zipper",
+      "passed": true,
+      "actual": 0.9926470588235294,
+      "expected": {
+        "value": 0.9926470588235294,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "hybrid_saved_macro:hybrid",
+      "passed": true,
+      "actual": 0.9796138296444065,
+      "expected": {
+        "value": 0.9796138296444066,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "hybrid_saved_macro:gb_center",
+      "passed": true,
+      "actual": 0.9628226989612975,
+      "expected": {
+        "value": 0.9628226989612972,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "hybrid_saved_macro:ff_real",
+      "passed": true,
+      "actual": 0.9887645509289942,
+      "expected": {
+        "value": 0.9887645509289942,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "headline_hybrid_screw",
+      "passed": true,
+      "actual": "0.895",
+      "expected": "0.895"
+    },
+    {
+      "name": "headline_hybrid_macro",
+      "passed": true,
+      "actual": "0.980",
+      "expected": "0.980"
+    },
+    {
+      "name": "spade_saved_macro:full_normal_gallery",
+      "passed": true,
+      "actual": 0.8450961634508425,
+      "expected": {
+        "value": 0.8450961634508426,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "spade_saved_macro:gb_centers",
+      "passed": true,
+      "actual": 0.8208000392495696,
+      "expected": {
+        "value": 0.8208000392495696,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "spade_saved_macro:same_k_ff_real_images",
+      "passed": true,
+      "actual": 0.8372319611070984,
+      "expected": {
+        "value": 0.8372319611070984,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "spade_saved_compression",
+      "passed": true,
+      "actual": 6.96510637015354,
+      "expected": {
+        "value": 6.96510637015354,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "headline_spade_compression",
+      "passed": true,
+      "actual": "6.97",
+      "expected": "6.97"
+    },
+    {
+      "name": "headline_spade_auroc:full_normal_gallery",
+      "passed": true,
+      "actual": "0.845",
+      "expected": "0.845"
+    },
+    {
+      "name": "headline_spade_auroc:gb_centers",
+      "passed": true,
+      "actual": "0.821",
+      "expected": "0.821"
+    },
+    {
+      "name": "headline_spade_auroc:same_k_ff_real_images",
+      "passed": true,
+      "actual": "0.837",
+      "expected": "0.837"
+    },
+    {
+      "name": "screw_feature_control:gb_center",
+      "passed": true,
+      "actual": 0.6872309899569584,
+      "expected": {
+        "value": 0.6872309899569584,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "screw_feature_control:gb_medoid",
+      "passed": true,
+      "actual": 0.6564869850379176,
+      "expected": {
+        "value": 0.6564869850379176,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "screw_feature_control:ff_raw",
+      "passed": true,
+      "actual": 0.9663865546218486,
+      "expected": {
+        "value": 0.9663865546218486,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "headline_feature:gb_normal_patch_median",
+      "passed": true,
+      "actual": "0.524",
+      "expected": "0.524"
+    },
+    {
+      "name": "headline_feature:ff_normal_patch_median",
+      "passed": true,
+      "actual": "1.318",
+      "expected": "1.318"
+    },
+    {
+      "name": "headline_feature:gb_normal_patch_p999",
+      "passed": true,
+      "actual": "2.660",
+      "expected": "2.660"
+    },
+    {
+      "name": "headline_feature:ff_normal_patch_p999",
+      "passed": true,
+      "actual": "2.194",
+      "expected": "2.194"
+    },
+    {
+      "name": "headline_feature:defect_core_center_smaller_fraction",
+      "passed": true,
+      "actual": "81.9",
+      "expected": "81.9"
+    },
+    {
+      "name": "headline_feature:gb_max_in_defect_core_rate",
+      "passed": true,
+      "actual": "49.6",
+      "expected": "49.6"
+    },
+    {
+      "name": "headline_feature:ff_max_in_defect_core_rate",
+      "passed": true,
+      "actual": "73.9",
+      "expected": "73.9"
+    },
+    {
+      "name": "query_saved_macro_speedup",
+      "passed": true,
+      "actual": 8.924969407007225,
+      "expected": {
+        "value": 8.924969407007223,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "query_saved_macro_compression",
+      "passed": true,
+      "actual": 13.533843948999168,
+      "expected": {
+        "value": 13.533843948999166,
+        "absolute_tolerance": 1e-10
+      }
+    }
+  ],
+  "warnings": [],
+  "computed": {
+    "main": {
+      "image_drop_pp": {
+        "count": 15,
+        "mean": 2.7800081243474604,
+        "median": 0.4414125200642216,
+        "min": -0.3968253968253954,
+        "max": 29.92416478786637
+      },
+      "pixel_drop_pp": {
+        "count": 15,
+        "mean": 0.32417368409974073,
+        "median": 0.1468112328884108,
+        "min": -0.014359341835490369,
+        "max": 1.5789474586538121
+      },
+      "compression": {
+        "count": 15,
+        "mean": 13.533843948999168,
+        "median": 13.574578469520103,
+        "min": 11.538107752956636,
+        "max": 18.168253968253968
+      },
+      "query_speedup": {
+        "count": 15,
+        "mean": 8.924969407007225,
+        "median": 8.999068732792999,
+        "min": 5.297421836410382,
+        "max": 10.923841592408891
+      },
+      "gb_center_construction_over_ff": {
+        "count": 15,
+        "mean": 3.037286990851829,
+        "median": 2.860143897749053,
+        "min": 2.294103173758323,
+        "max": 5.454483943675334
+      },
+      "mean_image_auroc": {
+        "baseline": 0.990622780204772,
+        "center": 0.9628226989612975,
+        "ff_raw": 0.9887645509289942,
+        "medoid": 0.9484685318078164
+      },
+      "mean_pixel_auroc": {
+        "baseline": 0.9811750262018779,
+        "center": 0.9779332893608805,
+        "ff_raw": 0.9787756050571909,
+        "medoid": 0.9741178926651971
+      },
+      "ff_vs_center": {
+        "wins": 8,
+        "losses": 4,
+        "ties": 3
+      },
+      "image_drop_within_5pp_count": 14,
+      "macro_query_ms_per_image": {
+        "original": 47.23792130586368,
+        "gb_center": 5.217850209288072,
+        "gb_medoid": 5.220508148206461,
+        "ff_raw": 5.210099686585122
+      }
+    },
+    "per_category": [
+      {
+        "category": "bottle",
+        "k_gb": 1072,
+        "baseline_k": 16385,
+        "baseline_image_auroc": 1.0,
+        "center_image_auroc": 1.0,
+        "ff_raw_image_auroc": 1.0,
+        "medoid_image_auroc": 1.0,
+        "baseline_pixel_auroc": 0.98490951405861,
+        "center_pixel_auroc": 0.9840336989036511,
+        "ff_raw_pixel_auroc": 0.9838958021010477,
+        "medoid_pixel_auroc": 0.9837173632912639,
+        "image_drop_pp": 0.0,
+        "pixel_drop_pp": 0.08758151549589366,
+        "compression": 15.284514925373134,
+        "query_speedup": 9.318340621102408,
+        "query_ms_per_image_medians": {
+          "original": 39.3326734939759,
+          "gb_center": 4.194774698795181,
+          "gb_medoid": 4.188037951807229,
+          "ff_raw": 4.209810843373494
+        },
+        "construction_seconds_medians": {
+          "gb_center": 8.321237400000001,
+          "gb_medoid": 8.7791605,
+          "ff_raw": 3.2748286999999863
+        },
+        "gb_center_construction_over_ff": 2.5409687535717627
+      },
+      {
+        "category": "cable",
+        "k_gb": 1522,
+        "baseline_k": 17561,
+        "baseline_image_auroc": 0.9973763118440779,
+        "center_image_auroc": 0.9717016491754122,
+        "ff_raw_image_auroc": 0.9973763118440779,
+        "medoid_image_auroc": 0.937968515742129,
+        "baseline_pixel_auroc": 0.9839740896942827,
+        "center_pixel_auroc": 0.9805016719671433,
+        "ff_raw_pixel_auroc": 0.9792599155965196,
+        "medoid_pixel_auroc": 0.9761966623552941,
+        "image_drop_pp": 2.5674662668665693,
+        "pixel_drop_pp": 0.3472417727139354,
+        "compression": 11.538107752956636,
+        "query_speedup": 7.988034741161723,
+        "query_ms_per_image_medians": {
+          "original": 42.02249933333333,
+          "gb_center": 5.2477763333333325,
+          "gb_medoid": 5.206129000000001,
+          "ff_raw": 5.226486
+        },
+        "construction_seconds_medians": {
+          "gb_center": 9.210499099999993,
+          "gb_medoid": 9.747884900000003,
+          "ff_raw": 3.7305104
+        },
+        "gb_center_construction_over_ff": 2.46896486336025
+      },
+      {
+        "category": "capsule",
+        "k_gb": 945,
+        "baseline_k": 17169,
+        "baseline_image_auroc": 0.9764658954926206,
+        "center_image_auroc": 0.9389708815317114,
+        "ff_raw_image_auroc": 0.9696848823294776,
+        "medoid_image_auroc": 0.9042680494615079,
+        "baseline_pixel_auroc": 0.989556929118195,
+        "center_pixel_auroc": 0.9874523822529949,
+        "ff_raw_pixel_auroc": 0.989392435628572,
+        "medoid_pixel_auroc": 0.9858505785921785,
+        "image_drop_pp": 3.7495013960909263,
+        "pixel_drop_pp": 0.21045468652001187,
+        "compression": 18.168253968253968,
+        "query_speedup": 10.739027685179856,
+        "query_ms_per_image_medians": {
+          "original": 42.32793181818182,
+          "gb_center": 3.938305681818182,
+          "gb_medoid": 3.8590575757575754,
+          "ff_raw": 3.9022545454545456
+        },
+        "construction_seconds_medians": {
+          "gb_center": 9.482109500000007,
+          "gb_medoid": 9.825930200000016,
+          "ff_raw": 2.3820236999999906
+        },
+        "gb_center_construction_over_ff": 3.980694860424791
+      },
+      {
+        "category": "carpet",
+        "k_gb": 1718,
+        "baseline_k": 21952,
+        "baseline_image_auroc": 0.9891653290529696,
+        "center_image_auroc": 0.9847512038523274,
+        "ff_raw_image_auroc": 0.9747191011235955,
+        "medoid_image_auroc": 0.9867576243980738,
+        "baseline_pixel_auroc": 0.9904481905089549,
+        "center_pixel_auroc": 0.9905866838703524,
+        "ff_raw_pixel_auroc": 0.9898444289268671,
+        "medoid_pixel_auroc": 0.9907883224717058,
+        "image_drop_pp": 0.4414125200642216,
+        "pixel_drop_pp": -0.01384933613974848,
+        "compression": 12.777648428405122,
+        "query_speedup": 8.999068732792999,
+        "query_ms_per_image_medians": {
+          "original": 56.76001196581197,
+          "gb_center": 6.2719559829059826,
+          "gb_medoid": 6.326288461538462,
+          "ff_raw": 6.29975641025641
+        },
+        "construction_seconds_medians": {
+          "gb_center": 14.585403100000008,
+          "gb_medoid": 15.303795199999996,
+          "ff_raw": 5.169277599999987
+        },
+        "gb_center_construction_over_ff": 2.8215553948969667
+      },
+      {
+        "category": "grid",
+        "k_gb": 1621,
+        "baseline_k": 20697,
+        "baseline_image_auroc": 0.9757727652464494,
+        "center_image_auroc": 0.9573934837092732,
+        "ff_raw_image_auroc": 0.9799498746867168,
+        "medoid_image_auroc": 0.9390142021720969,
+        "baseline_pixel_auroc": 0.9878132586017412,
+        "center_pixel_auroc": 0.9846601509637398,
+        "ff_raw_pixel_auroc": 0.980226822983541,
+        "medoid_pixel_auroc": 0.9780611593599261,
+        "image_drop_pp": 1.8379281537176162,
+        "pixel_drop_pp": 0.31531076380013623,
+        "compression": 12.768044417026527,
+        "query_speedup": 8.69522340183999,
+        "query_ms_per_image_medians": {
+          "original": 52.86330769230769,
+          "gb_center": 6.088792948717948,
+          "gb_medoid": 6.174398076923077,
+          "ff_raw": 6.1622403846153855
+        },
+        "construction_seconds_medians": {
+          "gb_center": 13.155476399999998,
+          "gb_medoid": 13.48981529999999,
+          "ff_raw": 4.599585499999989
+        },
+        "gb_center_construction_over_ff": 2.860143897749053
+      },
+      {
+        "category": "hazelnut",
+        "k_gb": 2201,
+        "baseline_k": 30654,
+        "baseline_image_auroc": 1.0,
+        "center_image_auroc": 1.0,
+        "ff_raw_image_auroc": 1.0,
+        "medoid_image_auroc": 1.0,
+        "baseline_pixel_auroc": 0.9868303638245278,
+        "center_pixel_auroc": 0.985351730760756,
+        "ff_raw_pixel_auroc": 0.9852091966090992,
+        "medoid_pixel_auroc": 0.9852073435347863,
+        "image_drop_pp": 0.0,
+        "pixel_drop_pp": 0.1478633063771828,
+        "compression": 13.927305770104498,
+        "query_speedup": 10.300440041932735,
+        "query_ms_per_image_medians": {
+          "original": 77.9870540909091,
+          "gb_center": 7.612500454545454,
+          "gb_medoid": 7.657079545454545,
+          "ff_raw": 7.54681409090909
+        },
+        "construction_seconds_medians": {
+          "gb_center": 21.867576799999995,
+          "gb_medoid": 22.78306729999997,
+          "ff_raw": 9.095162799999997
+        },
+        "gb_center_construction_over_ff": 2.4043084528404486
+      },
+      {
+        "category": "leather",
+        "k_gb": 1457,
+        "baseline_k": 19208,
+        "baseline_image_auroc": 1.0,
+        "center_image_auroc": 1.0,
+        "ff_raw_image_auroc": 1.0,
+        "medoid_image_auroc": 1.0,
+        "baseline_pixel_auroc": 0.9928555997755988,
+        "center_pixel_auroc": 0.9929852032313895,
+        "ff_raw_pixel_auroc": 0.9928512934523629,
+        "medoid_pixel_auroc": 0.9928526212237679,
+        "image_drop_pp": 0.0,
+        "pixel_drop_pp": -0.012960345579071664,
+        "compression": 13.183253260123541,
+        "query_speedup": 8.775476231106364,
+        "query_ms_per_image_medians": {
+          "original": 49.941702822580645,
+          "gb_center": 5.706488306451613,
+          "gb_medoid": 5.642566532258064,
+          "ff_raw": 5.669995161290322
+        },
+        "construction_seconds_medians": {
+          "gb_center": 11.447853799999962,
+          "gb_medoid": 11.916841499999975,
+          "ff_raw": 4.9901216
+        },
+        "gb_center_construction_over_ff": 2.294103173758323
+      },
+      {
+        "category": "metal_nut",
+        "k_gb": 1473,
+        "baseline_k": 17248,
+        "baseline_image_auroc": 0.9990224828934506,
+        "center_image_auroc": 0.9926686217008798,
+        "ff_raw_image_auroc": 0.9965786901270772,
+        "medoid_image_auroc": 0.9804496578690127,
+        "baseline_pixel_auroc": 0.9832660237159883,
+        "center_pixel_auroc": 0.9817979113871041,
+        "ff_raw_pixel_auroc": 0.9826704667726153,
+        "medoid_pixel_auroc": 0.9767466513835162,
+        "image_drop_pp": 0.6353861192570864,
+        "pixel_drop_pp": 0.1468112328884108,
+        "compression": 11.709436524100475,
+        "query_speedup": 7.996593433057611,
+        "query_ms_per_image_medians": {
+          "original": 45.337654782608695,
+          "gb_center": 5.72031,
+          "gb_medoid": 5.746801739130435,
+          "ff_raw": 5.788010869565218
+        },
+        "construction_seconds_medians": {
+          "gb_center": 9.123521199999999,
+          "gb_medoid": 9.636820200000003,
+          "ff_raw": 3.5370087999999953
+        },
+        "gb_center_construction_over_ff": 2.579445434232454
+      },
+      {
+        "category": "pill",
+        "k_gb": 1542,
+        "baseline_k": 20932,
+        "baseline_image_auroc": 0.964266230223677,
+        "center_image_auroc": 0.9440807419530823,
+        "ff_raw_image_auroc": 0.9893617021276596,
+        "medoid_image_auroc": 0.8985270049099836,
+        "baseline_pixel_auroc": 0.9780528377718392,
+        "center_pixel_auroc": 0.9718388800918453,
+        "ff_raw_pixel_auroc": 0.9742354170358869,
+        "medoid_pixel_auroc": 0.9615512431498162,
+        "image_drop_pp": 2.018548827059463,
+        "pixel_drop_pp": 0.6213957679993887,
+        "compression": 13.574578469520103,
+        "query_speedup": 9.333881694476833,
+        "query_ms_per_image_medians": {
+          "original": 50.59685988023952,
+          "gb_center": 5.3983149700598805,
+          "gb_medoid": 5.402546706586826,
+          "ff_raw": 5.3674940119760475
+        },
+        "construction_seconds_medians": {
+          "gb_center": 12.762766,
+          "gb_medoid": 13.28774230000002,
+          "ff_raw": 4.44400619999999
+        },
+        "gb_center_construction_over_ff": 2.8719055342452107
+      },
+      {
+        "category": "screw",
+        "k_gb": 1969,
+        "baseline_k": 25088,
+        "baseline_image_auroc": 0.9864726378356221,
+        "center_image_auroc": 0.6872309899569584,
+        "ff_raw_image_auroc": 0.9663865546218486,
+        "medoid_image_auroc": 0.6564869850379176,
+        "baseline_pixel_auroc": 0.9952047101584623,
+        "center_pixel_auroc": 0.9794152355719242,
+        "ff_raw_pixel_auroc": 0.9926475493570562,
+        "medoid_pixel_auroc": 0.9763921806377625,
+        "image_drop_pp": 29.92416478786637,
+        "pixel_drop_pp": 1.5789474586538121,
+        "compression": 12.74149314372778,
+        "query_speedup": 10.923841592408891,
+        "query_ms_per_image_medians": {
+          "original": 62.826275624999994,
+          "gb_center": 5.959578437500001,
+          "gb_medoid": 5.9524459375,
+          "ff_raw": 5.9520146875
+        },
+        "construction_seconds_medians": {
+          "gb_center": 17.233280800000017,
+          "gb_medoid": 18.106749500000006,
+          "ff_raw": 6.570672900000005
+        },
+        "gb_center_construction_over_ff": 2.622757373906104
+      },
+      {
+        "category": "tile",
+        "k_gb": 1300,
+        "baseline_k": 18032,
+        "baseline_image_auroc": 0.9891774891774893,
+        "center_image_auroc": 0.9931457431457432,
+        "ff_raw_image_auroc": 0.9873737373737373,
+        "medoid_image_auroc": 0.990981240981241,
+        "baseline_pixel_auroc": 0.9573667795776543,
+        "center_pixel_auroc": 0.9566774092036816,
+        "ff_raw_pixel_auroc": 0.9544585603059484,
+        "medoid_pixel_auroc": 0.9527510281985794,
+        "image_drop_pp": -0.3968253968253954,
+        "pixel_drop_pp": 0.06893703739726531,
+        "compression": 13.87076923076923,
+        "query_speedup": 8.752478249855866,
+        "query_ms_per_image_medians": {
+          "original": 43.07480128205128,
+          "gb_center": 4.895069658119658,
+          "gb_medoid": 4.870801709401709,
+          "ff_raw": 4.9112854700854705
+        },
+        "construction_seconds_medians": {
+          "gb_center": 11.047282500000001,
+          "gb_medoid": 11.923783000000007,
+          "ff_raw": 3.3316592999999557
+        },
+        "gb_center_construction_over_ff": 3.315850003030066
+      },
+      {
+        "category": "toothbrush",
+        "k_gb": 398,
+        "baseline_k": 4704,
+        "baseline_image_auroc": 0.9972222222222222,
+        "center_image_auroc": 1.0,
+        "ff_raw_image_auroc": 0.9916666666666667,
+        "medoid_image_auroc": 0.9777777777777779,
+        "baseline_pixel_auroc": 0.9857629716868138,
+        "center_pixel_auroc": 0.9849374226046765,
+        "ff_raw_pixel_auroc": 0.9838008075606703,
+        "medoid_pixel_auroc": 0.9844878682806465,
+        "image_drop_pp": -0.2777777777777768,
+        "pixel_drop_pp": 0.0825549082137278,
+        "compression": 11.819095477386934,
+        "query_speedup": 5.297421836410382,
+        "query_ms_per_image_medians": {
+          "original": 13.089588095238096,
+          "gb_center": 2.4788345238095237,
+          "gb_medoid": 2.4906738095238095,
+          "ff_raw": 2.414009523809524
+        },
+        "construction_seconds_medians": {
+          "gb_center": 1.9959964000000099,
+          "gb_medoid": 2.2545979999999872,
+          "ff_raw": 0.3659368000000143
+        },
+        "gb_center_construction_over_ff": 5.454483943675334
+      },
+      {
+        "category": "transistor",
+        "k_gb": 1206,
+        "baseline_k": 16699,
+        "baseline_image_auroc": 1.0,
+        "center_image_auroc": 0.9983333333333333,
+        "ff_raw_image_auroc": 0.99625,
+        "medoid_image_auroc": 0.9895833333333333,
+        "baseline_pixel_auroc": 0.9626154692042428,
+        "center_pixel_auroc": 0.9508965623450616,
+        "ff_raw_pixel_auroc": 0.9547202546564856,
+        "medoid_pixel_auroc": 0.9317744287312723,
+        "image_drop_pp": 0.16666666666667052,
+        "pixel_drop_pp": 1.17189068591812,
+        "compression": 13.846600331674958,
+        "query_speedup": 8.58771186885853,
+        "query_ms_per_image_medians": {
+          "original": 40.29738449999999,
+          "gb_center": 4.666922,
+          "gb_medoid": 4.695011,
+          "ff_raw": 4.652505
+        },
+        "construction_seconds_medians": {
+          "gb_center": 9.200173299999989,
+          "gb_medoid": 9.693172400000009,
+          "ff_raw": 2.8867620000000045
+        },
+        "gb_center_construction_over_ff": 3.187021756556299
+      },
+      {
+        "category": "wood",
+        "k_gb": 1413,
+        "baseline_k": 19364,
+        "baseline_image_auroc": 0.9912280701754386,
+        "center_image_auroc": 0.987719298245614,
+        "ff_raw_image_auroc": 0.9894736842105263,
+        "medoid_image_auroc": 0.9833333333333333,
+        "baseline_pixel_auroc": 0.9502648242024962,
+        "center_pixel_auroc": 0.9504084176208512,
+        "ff_raw_pixel_auroc": 0.9504267782225374,
+        "medoid_pixel_auroc": 0.948577442098481,
+        "image_drop_pp": 0.35087719298245723,
+        "pixel_drop_pp": -0.014359341835490369,
+        "compression": 13.70417551309271,
+        "query_speedup": 9.124171209625565,
+        "query_ms_per_image_medians": {
+          "original": 46.20677784810127,
+          "gb_center": 5.058378481012658,
+          "gb_medoid": 5.07408417721519,
+          "ff_raw": 5.041548101265823
+        },
+        "construction_seconds_medians": {
+          "gb_center": 11.75854559999999,
+          "gb_medoid": 12.321454300000028,
+          "ff_raw": 3.8590595000000008
+        },
+        "gb_center_construction_over_ff": 3.046997746471644
+      },
+      {
+        "category": "zipper",
+        "k_gb": 1335,
+        "baseline_k": 18816,
+        "baseline_image_auroc": 0.993172268907563,
+        "center_image_auroc": 0.9863445378151261,
+        "ff_raw_image_auroc": 0.9926470588235294,
+        "medoid_image_auroc": 0.9818802521008403,
+        "baseline_pixel_auroc": 0.9887038311287611,
+        "center_pixel_auroc": 0.9874559796380358,
+        "ff_raw_pixel_auroc": 0.9879943466486527,
+        "medoid_pixel_auroc": 0.986813496668959,
+        "image_drop_pp": 0.682773109243695,
+        "pixel_drop_pp": 0.12478514907253713,
+        "compression": 14.09438202247191,
+        "query_speedup": 9.042829765298618,
+        "query_ms_per_image_medians": {
+          "original": 45.90429635761589,
+          "gb_center": 5.029750662251656,
+          "gb_medoid": 5.021699999999999,
+          "ff_raw": 5.007270198675497
+        },
+        "construction_seconds_medians": {
+          "gb_center": 11.098558600000047,
+          "gb_medoid": 11.693470900000008,
+          "ff_raw": 3.568549399999995
+        },
+        "gb_center_construction_over_ff": 3.1101036740587262
+      }
+    ],
+    "inactive_consistency": {
+      "minimum_finite_log_consistency": 35.50926388547327,
+      "log_threshold": 0.26236426446749106,
+      "consistency_stopped_splits": 0
+    },
+    "screw_capacity": {
+      "center_curve": [
+        {
+          "k": 1969,
+          "image_auroc": 0.6872309899569584,
+          "min_ball_size": 64
+        },
+        {
+          "k": 4037,
+          "image_auroc": 0.827628612420578,
+          "min_ball_size": 32
+        },
+        {
+          "k": 8104,
+          "image_auroc": 0.906538225046116,
+          "min_ball_size": 16
+        }
+      ],
+      "figure_ff_curve": {
+        "population": "original 10% coreset",
+        "points": [
+          {
+            "k": 1969,
+            "image_auroc": 0.954908792785407
+          },
+          {
+            "k": 3938,
+            "image_auroc": 0.9809387169501946
+          },
+          {
+            "k": 7876,
+            "image_auroc": 0.9813486370157819
+          }
+        ]
+      },
+      "same_k_ff_raw": {
+        "population": "all raw training embeddings",
+        "k": 1969,
+        "image_auroc": 0.9663865546218486
+      }
+    },
+    "screw_features": {
+      "gb_normal_patch_median": 0.5243864059448242,
+      "ff_normal_patch_median": 1.3181877136230469,
+      "gb_normal_patch_p999": 2.6603642120361326,
+      "ff_normal_patch_p999": 2.1938894443511963,
+      "defect_core_center_smaller_fraction": 0.819078947368421,
+      "gb_max_in_defect_core_rate": 0.4957983193277311,
+      "ff_max_in_defect_core_rate": 0.7394957983193278
+    },
+    "hybrid": {
+      "mean_image_auroc": {
+        "hybrid": 0.9796138296444065,
+        "gb_center": 0.9628226989612975,
+        "ff_real": 0.9887645509289942
+      },
+      "screw_image_auroc": 0.894650543144087
+    },
+    "spade": {
+      "mean_image_auroc": {
+        "full_normal_gallery": 0.8450961634508425,
+        "gb_centers": 0.8208000392495696,
+        "same_k_ff_real_images": 0.8372319611070984
+      },
+      "mean_compression": 6.96510637015354
+    }
+  },
+  "manifest": {
+    "checked": false
+  }
+}

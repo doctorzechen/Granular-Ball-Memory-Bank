@@ -1,0 +1,152 @@
+{
+  "category": "grid",
+  "config": {
+    "category": "grid",
+    "device": "cuda:0",
+    "faiss_workers": 8,
+    "ff_projection_dimension": 1024,
+    "ff_selection_space": "exact_raw",
+    "format_version": 1,
+    "gb_threshold": 1.3,
+    "min_ball_size": 64,
+    "partition_source": "stage5b_frozen_global_gb_partition (banks) / fresh seed-0 rebuild (timing, stress)",
+    "seed": 0,
+    "stage": "8C",
+    "stress_category": "hazelnut",
+    "stress_scales": [
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "timing_repeats": 5,
+    "timing_warmup": 1
+  },
+  "config_hash": "3fa09769043d8e0bda0569cd47ba9c738222a5c8426a3487b6820f27c629d51e",
+  "k_gb": 1621,
+  "method": "ff_raw",
+  "peak_gpu_allocated_bytes_max": 1704894976,
+  "peak_rss_bytes_max": 2264170496,
+  "raw_patch_count": 206976,
+  "repeats": [
+    {
+      "audit": {
+        "bank_rows": 1621,
+        "selected_count": 1621
+      },
+      "peak_gpu_allocated_bytes": 1704894976,
+      "peak_rss_bytes": 2264170496,
+      "stages": {
+        "assembly_seconds": 0.0036979999999857682,
+        "partition_seconds": 0.0,
+        "selection_seconds": 4.5958875000000035
+      },
+      "total_seconds": 4.599585499999989
+    },
+    {
+      "audit": {
+        "bank_rows": 1621,
+        "selected_count": 1621
+      },
+      "peak_gpu_allocated_bytes": 1704894976,
+      "peak_rss_bytes": 2264170496,
+      "stages": {
+        "assembly_seconds": 0.0038093000000003485,
+        "partition_seconds": 0.0,
+        "selection_seconds": 4.629684400000002
+      },
+      "total_seconds": 4.6334937000000025
+    },
+    {
+      "audit": {
+        "bank_rows": 1621,
+        "selected_count": 1621
+      },
+      "peak_gpu_allocated_bytes": 1704894976,
+      "peak_rss_bytes": 2264170496,
+      "stages": {
+        "assembly_seconds": 0.0035777000000223325,
+        "partition_seconds": 0.0,
+        "selection_seconds": 4.554214300000012
+      },
+      "total_seconds": 4.557792000000035
+    },
+    {
+      "audit": {
+        "bank_rows": 1621,
+        "selected_count": 1621
+      },
+      "peak_gpu_allocated_bytes": 1704894976,
+      "peak_rss_bytes": 2264170496,
+      "stages": {
+        "assembly_seconds": 0.003415999999987207,
+        "partition_seconds": 0.0,
+        "selection_seconds": 4.618407999999988
+      },
+      "total_seconds": 4.621823999999975
+    },
+    {
+      "audit": {
+        "bank_rows": 1621,
+        "selected_count": 1621
+      },
+      "peak_gpu_allocated_bytes": 1704894976,
+      "peak_rss_bytes": 2264170496,
+      "stages": {
+        "assembly_seconds": 0.0025145000000179607,
+        "partition_seconds": 0.0,
+        "selection_seconds": 4.580607799999996
+      },
+      "total_seconds": 4.583122300000014
+    }
+  ],
+  "stage_summaries": {
+    "assembly_seconds": {
+      "max": 0.0038093000000003485,
+      "mean": 0.0034031000000027236,
+      "median": 0.0035777000000223325,
+      "min": 0.0025145000000179607,
+      "n_repeats": 5,
+      "std": 0.00046308227777954055
+    },
+    "partition_seconds": {
+      "max": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "n_repeats": 5,
+      "std": 0.0
+    },
+    "selection_seconds": {
+      "max": 4.629684400000002,
+      "mean": 4.5957604000000005,
+      "median": 4.5958875000000035,
+      "min": 4.554214300000012,
+      "n_repeats": 5,
+      "std": 0.026905194398623877
+    }
+  },
+  "status": "complete",
+  "summary": {
+    "max": 4.6334937000000025,
+    "mean": 4.599163500000003,
+    "median": 4.599585499999989,
+    "min": 4.557792000000035,
+    "n_repeats": 5,
+    "std": 0.027059785978369204
+  },
+  "warmup": {
+    "audit": {
+      "bank_rows": 1621,
+      "selected_count": 1621
+    },
+    "peak_gpu_allocated_bytes": 1704894976,
+    "peak_rss_bytes": 2257526784,
+    "stages": {
+      "assembly_seconds": 0.002647000000024491,
+      "partition_seconds": 0.0,
+      "selection_seconds": 5.257272900000004
+    },
+    "total_seconds": 5.259919900000028
+  }
+}

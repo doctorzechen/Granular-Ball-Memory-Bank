@@ -1,0 +1,162 @@
+{
+  "audit_final_ball_counts": [
+    1335,
+    1335,
+    1335,
+    1335,
+    1335,
+    1335
+  ],
+  "audit_k_gb_matches_cache": true,
+  "audit_k_gb_spread_percent": 0.0,
+  "category": "zipper",
+  "config": {
+    "category": "zipper",
+    "device": "cuda:0",
+    "faiss_workers": 8,
+    "ff_projection_dimension": 1024,
+    "ff_selection_space": "exact_raw",
+    "format_version": 1,
+    "gb_threshold": 1.3,
+    "min_ball_size": 64,
+    "partition_source": "stage5b_frozen_global_gb_partition (banks) / fresh seed-0 rebuild (timing, stress)",
+    "seed": 0,
+    "stage": "8C",
+    "stress_category": "hazelnut",
+    "stress_scales": [
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "timing_repeats": 5,
+    "timing_warmup": 1
+  },
+  "config_hash": "93fbd63cb006aeb78f8bfef5bd5c6af78db21bd115d5fd75d3412ed52461b858",
+  "k_gb": 1335,
+  "method": "gb_center",
+  "peak_gpu_allocated_bytes_max": 172440064,
+  "peak_rss_bytes_max": 2181046272,
+  "raw_patch_count": 188160,
+  "repeats": [
+    {
+      "audit": {
+        "bank_rows": 1335,
+        "final_ball_count": 1335
+      },
+      "peak_gpu_allocated_bytes": 172440064,
+      "peak_rss_bytes": 2181046272,
+      "stages": {
+        "assembly_seconds": 0.001473299999986466,
+        "partition_seconds": 11.178874799999988,
+        "representative_seconds": 0.0
+      },
+      "total_seconds": 11.180348099999975
+    },
+    {
+      "audit": {
+        "bank_rows": 1335,
+        "final_ball_count": 1335
+      },
+      "peak_gpu_allocated_bytes": 172440064,
+      "peak_rss_bytes": 2181046272,
+      "stages": {
+        "assembly_seconds": 0.0015003999999976259,
+        "partition_seconds": 11.067768899999976,
+        "representative_seconds": 0.0
+      },
+      "total_seconds": 11.069269299999974
+    },
+    {
+      "audit": {
+        "bank_rows": 1335,
+        "final_ball_count": 1335
+      },
+      "peak_gpu_allocated_bytes": 172440064,
+      "peak_rss_bytes": 2181046272,
+      "stages": {
+        "assembly_seconds": 0.001499599999988277,
+        "partition_seconds": 11.066083200000037,
+        "representative_seconds": 0.0
+      },
+      "total_seconds": 11.067582800000025
+    },
+    {
+      "audit": {
+        "bank_rows": 1335,
+        "final_ball_count": 1335
+      },
+      "peak_gpu_allocated_bytes": 172440064,
+      "peak_rss_bytes": 2181046272,
+      "stages": {
+        "assembly_seconds": 0.0014558999999962907,
+        "partition_seconds": 11.189748000000009,
+        "representative_seconds": 0.0
+      },
+      "total_seconds": 11.191203900000005
+    },
+    {
+      "audit": {
+        "bank_rows": 1335,
+        "final_ball_count": 1335
+      },
+      "peak_gpu_allocated_bytes": 172440064,
+      "peak_rss_bytes": 2181046272,
+      "stages": {
+        "assembly_seconds": 0.0024040000000127293,
+        "partition_seconds": 11.096154600000034,
+        "representative_seconds": 0.0
+      },
+      "total_seconds": 11.098558600000047
+    }
+  ],
+  "stage_summaries": {
+    "assembly_seconds": {
+      "max": 0.0024040000000127293,
+      "mean": 0.0016666399999962778,
+      "median": 0.001499599999988277,
+      "min": 0.0014558999999962907,
+      "n_repeats": 5,
+      "std": 0.0003690608546108012
+    },
+    "partition_seconds": {
+      "max": 11.189748000000009,
+      "mean": 11.11972590000001,
+      "median": 11.096154600000034,
+      "min": 11.066083200000037,
+      "n_repeats": 5,
+      "std": 0.05391541923345639
+    },
+    "representative_seconds": {
+      "max": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "n_repeats": 5,
+      "std": 0.0
+    }
+  },
+  "status": "complete",
+  "summary": {
+    "max": 11.191203900000005,
+    "mean": 11.121392540000006,
+    "median": 11.098558600000047,
+    "min": 11.067582800000025,
+    "n_repeats": 5,
+    "std": 0.05382024363164414
+  },
+  "warmup": {
+    "audit": {
+      "bank_rows": 1335,
+      "final_ball_count": 1335
+    },
+    "peak_gpu_allocated_bytes": 172440064,
+    "peak_rss_bytes": 2175574016,
+    "stages": {
+      "assembly_seconds": 0.0017526999999972759,
+      "partition_seconds": 14.7127026,
+      "representative_seconds": 0.0
+    },
+    "total_seconds": 14.714455299999997
+  }
+}

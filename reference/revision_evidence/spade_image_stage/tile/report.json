@@ -1,0 +1,38 @@
+{
+  "category": "tile",
+  "scope": "SPADE paper Section 3.2 / DN2 image-level retrieval only; no pyramid correspondence or segmentation",
+  "backbone": "ImageNet Wide-ResNet50-2, global average-pooled 2048-D feature",
+  "preprocessing": "Resize 256, center crop 224, ImageNet normalization",
+  "scorer": "mean of five exact Euclidean nearest-neighbor distances",
+  "training_only_partition": "GB seed 0, consistency threshold 1.3, min_ball_size 4 (image-level adaptation)",
+  "n_train_images": 230,
+  "n_test_images": 117,
+  "k_gb": 32,
+  "compression_ratio": 7.1875,
+  "ball_build_seconds": 0.33875980000000006,
+  "gb_split_statistics": {
+    "accepted_strong_splits": 8,
+    "accepted_regular_splits": 9,
+    "reason_counts": {
+      "strong_accepted": 8,
+      "strong_minimum_size": 2,
+      "strong_minimum_child_size": 5,
+      "regular_accepted": 9,
+      "regular_minimum_child_size": 9,
+      "regular_minimum_size": 23
+    },
+    "finite_log_consistency_min": 136.96097665988532,
+    "finite_log_consistency_median": 524.2713338607477,
+    "finite_log_consistency_max": 842.8132955169021,
+    "initial_nonempty_ball_count": 15,
+    "final_ball_count": 32,
+    "missing_assignments": 0,
+    "duplicate_assignments": 0
+  },
+  "image_auroc": {
+    "full_normal_gallery": 0.9624819624819624,
+    "gb_centers": 0.952020202020202,
+    "same_k_ff_real_images": 0.9466089466089467
+  },
+  "caution": "Only the image-retrieval stage of SPADE is tested. These numbers must not be called full-SPADE accuracy or transfer of its segmentation stage."
+}

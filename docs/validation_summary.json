@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-12",
+  "unit_and_portability_tests": {"passed": 68, "failed": 0, "command": "python scripts/run_tests.py -q"},
+  "refactoring_and_sampled_15_category_checks": {"passed": 731, "failed": 0, "source_ast_checks": 41, "checkpoint_integrity_calls_explicitly_excluded_in_two_runner_ast_comparisons": true, "largest_saved_score_difference": 0.000011444091796875, "largest_internal_map_difference": 0.000013768672943115234, "relative_tolerance": 0.00001, "absolute_tolerance": 0.00001},
+  "curated_reference_numeric_checks": {"passed": 686, "failed": 0},
+  "previous_actual_15_category_run_read_only_comparison": {"passed": 412, "failed": 0, "is_a_new_experiment_rerun": false},
+  "fresh_toothbrush_accuracy_and_report": {"reference_checks_passed": 34, "reference_checks_failed": 0, "training_images": 60, "test_images": 42, "dataset_png_hashes_checked": 132, "actual_image_feature_extraction_performed": true, "completed_stages": ["prepare", "banks", "detect", "construction", "hybrid", "spade", "report"], "query_stage_claimed_complete": false},
+  "query_timing": {"repeats_per_method": 32, "warmup_rounds": 10, "warmup_batches": 4, "faiss_threads": 8, "distance_and_neighbour_checksums_stable": true, "same_k_size_contract_passed": true, "timing_quality_passed": false, "speedup_claim_accepted": false, "threshold_relaxed": false},
+  "full_new_15_category_image_and_timing_rerun_claimed": false,
+  "original_full_package_modified": false,
+  "external_data_weights_and_frozen_features_included_in_public_source": false
+}

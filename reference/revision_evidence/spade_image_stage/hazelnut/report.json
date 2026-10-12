@@ -1,0 +1,38 @@
+{
+  "category": "hazelnut",
+  "scope": "SPADE paper Section 3.2 / DN2 image-level retrieval only; no pyramid correspondence or segmentation",
+  "backbone": "ImageNet Wide-ResNet50-2, global average-pooled 2048-D feature",
+  "preprocessing": "Resize 256, center crop 224, ImageNet normalization",
+  "scorer": "mean of five exact Euclidean nearest-neighbor distances",
+  "training_only_partition": "GB seed 0, consistency threshold 1.3, min_ball_size 4 (image-level adaptation)",
+  "n_train_images": 391,
+  "n_test_images": 110,
+  "k_gb": 53,
+  "compression_ratio": 7.377358490566038,
+  "ball_build_seconds": 0.356862,
+  "gb_split_statistics": {
+    "accepted_strong_splits": 13,
+    "accepted_regular_splits": 20,
+    "reason_counts": {
+      "strong_accepted": 13,
+      "strong_minimum_size": 4,
+      "strong_minimum_child_size": 3,
+      "regular_accepted": 20,
+      "regular_minimum_child_size": 14,
+      "regular_minimum_size": 39
+    },
+    "finite_log_consistency_min": 169.82383824796503,
+    "finite_log_consistency_median": 445.5706172493914,
+    "finite_log_consistency_max": 1079.3765088025439,
+    "initial_nonempty_ball_count": 20,
+    "final_ball_count": 53,
+    "missing_assignments": 0,
+    "duplicate_assignments": 0
+  },
+  "image_auroc": {
+    "full_normal_gallery": 0.8764285714285714,
+    "gb_centers": 0.8689285714285715,
+    "same_k_ff_real_images": 0.8960714285714285
+  },
+  "caution": "Only the image-retrieval stage of SPADE is tested. These numbers must not be called full-SPADE accuracy or transfer of its segmentation stage."
+}

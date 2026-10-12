@@ -1,0 +1,68 @@
+{
+  "audits": {
+    "bank_equals_source_rows": true,
+    "bank_finite": true,
+    "bank_rows_equals_k_gb": true,
+    "indices_range_valid": true,
+    "indices_unique": true
+  },
+  "config_hash": "4f8506d87f83fb1a8c5e10bb13dc7710a34c13e6e314546b031459b66f56c09c",
+  "faiss_validation": {
+    "max_absolute_difference": 0.0,
+    "ntotal": 1522,
+    "ntotal_matches_memory_bank": true,
+    "pass": true,
+    "reconstructed_shape": [
+      1522,
+      1024
+    ],
+    "vectors_equal_memory_bank": true
+  },
+  "k": 1522,
+  "memory_bank_size": 1522,
+  "method": "ff_raw",
+  "metrics": {
+    "anomaly_pixel_auroc": 0.9699248995249994,
+    "aupro": null,
+    "aupro_available": false,
+    "full_pixel_auroc": 0.9792599155965196,
+    "instance_auroc": 0.9973763118440779
+  },
+  "resources": {
+    "peak_gpu_allocated_bytes_scoring": 281796608,
+    "peak_gpu_reserved_bytes_scoring": 329252864,
+    "peak_working_set_bytes": 2670845952,
+    "rss_bytes": 2164924416,
+    "vms_bytes": 7389732864
+  },
+  "score_analysis": {
+    "anomaly": {
+      "count": 92,
+      "max": 11.312402725219727,
+      "mean": 7.1758646965026855,
+      "median": 6.978376388549805,
+      "p5": 5.03834342956543
+    },
+    "median_margin": 2.569011688232422,
+    "normal": {
+      "count": 58,
+      "max": 5.020368576049805,
+      "mean": 4.434328079223633,
+      "median": 4.409364700317383,
+      "p95": 4.860262393951416
+    }
+  },
+  "status": "complete",
+  "timing": {
+    "end_to_end_component_sum_seconds": 6.799391500000148,
+    "end_to_end_ms_per_image": 45.32927666666765,
+    "faiss_build_seconds": 0.0035223000000002003,
+    "feature_extraction_ms_per_image": 39.57368000000088,
+    "feature_extraction_seconds": 5.936052000000132,
+    "nearest_neighbor_query_seconds": 0.6963301000000222,
+    "query_ms_per_image": 4.642200666666815,
+    "segmentation_postprocess_ms_per_image": 1.1133959999999614,
+    "segmentation_postprocess_seconds": 0.1670093999999942,
+    "timing_method": "common measured feature extraction plus method-specific measured FAISS query and official segmentation/postprocess; one warm-up batch"
+  }
+}

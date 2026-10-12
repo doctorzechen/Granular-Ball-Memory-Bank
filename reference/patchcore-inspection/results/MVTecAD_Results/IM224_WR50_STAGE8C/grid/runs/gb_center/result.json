@@ -1,0 +1,66 @@
+{
+  "audits": {
+    "bank_equals_cached_centers": true,
+    "bank_finite": true,
+    "bank_rows_equals_k_gb": true
+  },
+  "config_hash": "05d31bf5ceaf3b6313d77c56a9031db931e9c7b2d5a13cbbe4b343dd4a15bc8e",
+  "faiss_validation": {
+    "max_absolute_difference": 0.0,
+    "ntotal": 1621,
+    "ntotal_matches_memory_bank": true,
+    "pass": true,
+    "reconstructed_shape": [
+      1621,
+      1024
+    ],
+    "vectors_equal_memory_bank": true
+  },
+  "k": 1621,
+  "memory_bank_size": 1621,
+  "method": "gb_center",
+  "metrics": {
+    "anomaly_pixel_auroc": 0.9802349009654064,
+    "aupro": null,
+    "aupro_available": false,
+    "full_pixel_auroc": 0.9846601509637398,
+    "instance_auroc": 0.9573934837092732
+  },
+  "resources": {
+    "peak_gpu_allocated_bytes_scoring": 281796608,
+    "peak_gpu_reserved_bytes_scoring": 329252864,
+    "peak_working_set_bytes": 2670845952,
+    "rss_bytes": 1825259520,
+    "vms_bytes": 7307313152
+  },
+  "score_analysis": {
+    "anomaly": {
+      "count": 57,
+      "max": 6.391744613647461,
+      "mean": 3.61686635017395,
+      "median": 3.6579627990722656,
+      "p5": 2.1548683643341064
+    },
+    "median_margin": 1.7291088104248047,
+    "normal": {
+      "count": 21,
+      "max": 2.9323654174804688,
+      "mean": 1.983060598373413,
+      "median": 1.928853988647461,
+      "p95": 2.4222793579101562
+    }
+  },
+  "status": "complete",
+  "timing": {
+    "end_to_end_component_sum_seconds": 3.887002099999833,
+    "end_to_end_ms_per_image": 49.83336025640812,
+    "faiss_build_seconds": 0.003649399999986258,
+    "feature_extraction_ms_per_image": 40.78251538461385,
+    "feature_extraction_seconds": 3.1810361999998804,
+    "nearest_neighbor_query_seconds": 0.6174048999999968,
+    "query_ms_per_image": 7.915447435897395,
+    "segmentation_postprocess_ms_per_image": 1.1353974358968708,
+    "segmentation_postprocess_seconds": 0.08856099999995592,
+    "timing_method": "common measured feature extraction plus method-specific measured FAISS query and official segmentation/postprocess; one warm-up batch"
+  }
+}

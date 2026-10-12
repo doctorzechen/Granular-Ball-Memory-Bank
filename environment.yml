@@ -1,0 +1,9 @@
+name: gb-patchcore-reproduction
+channels:
+  - defaults
+dependencies:
+  - python=3.9.25
+  - pip
+  - pip:
+      - -r requirements.txt
+# Install torch==2.8.0 and torchvision==0.23.0 separately; see README.md.

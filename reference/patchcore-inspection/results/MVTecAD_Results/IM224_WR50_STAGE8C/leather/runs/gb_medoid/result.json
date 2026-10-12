@@ -1,0 +1,68 @@
+{
+  "audits": {
+    "bank_equals_source_rows": true,
+    "bank_finite": true,
+    "bank_rows_equals_k_gb": true,
+    "indices_range_valid": true,
+    "indices_unique": true
+  },
+  "config_hash": "a643104c8a0870628492542fd3b7ae9e2f01516539f5265e25d8dc6cd6245d22",
+  "faiss_validation": {
+    "max_absolute_difference": 0.0,
+    "ntotal": 1457,
+    "ntotal_matches_memory_bank": true,
+    "pass": true,
+    "reconstructed_shape": [
+      1457,
+      1024
+    ],
+    "vectors_equal_memory_bank": true
+  },
+  "k": 1457,
+  "memory_bank_size": 1457,
+  "method": "gb_medoid",
+  "metrics": {
+    "anomaly_pixel_auroc": 0.9903443129044764,
+    "aupro": null,
+    "aupro_available": false,
+    "full_pixel_auroc": 0.9928526212237679,
+    "instance_auroc": 1.0
+  },
+  "resources": {
+    "peak_gpu_allocated_bytes_scoring": 281796608,
+    "peak_gpu_reserved_bytes_scoring": 329252864,
+    "peak_working_set_bytes": 2670845952,
+    "rss_bytes": 2001031168,
+    "vms_bytes": 7318142976
+  },
+  "score_analysis": {
+    "anomaly": {
+      "count": 92,
+      "max": 10.988201141357422,
+      "mean": 5.358725070953369,
+      "median": 5.217159748077393,
+      "p5": 3.1344363689422607
+    },
+    "median_margin": 3.666642189025879,
+    "normal": {
+      "count": 32,
+      "max": 2.0576295852661133,
+      "mean": 1.5629302263259888,
+      "median": 1.5505175590515137,
+      "p95": 1.912149429321289
+    }
+  },
+  "status": "complete",
+  "timing": {
+    "end_to_end_component_sum_seconds": 5.848179999999871,
+    "end_to_end_ms_per_image": 47.162741935482835,
+    "faiss_build_seconds": 0.0030895999999955848,
+    "feature_extraction_ms_per_image": 41.25674999999862,
+    "feature_extraction_seconds": 5.1158369999998285,
+    "nearest_neighbor_query_seconds": 0.6009576000000436,
+    "query_ms_per_image": 4.846432258064868,
+    "segmentation_postprocess_ms_per_image": 1.0595596774193485,
+    "segmentation_postprocess_seconds": 0.1313853999999992,
+    "timing_method": "common measured feature extraction plus method-specific measured FAISS query and official segmentation/postprocess; one warm-up batch"
+  }
+}

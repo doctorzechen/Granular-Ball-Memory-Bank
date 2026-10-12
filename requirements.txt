@@ -1,0 +1,14 @@
+# Tested non-Torch dependencies; Python 3.9.25.
+# Install Torch and TorchVision first with the commands in README.md.
+click==8.1.8
+faiss-cpu==1.13.0
+matplotlib==3.9.4
+numpy==2.0.2
+Pillow==11.3.0
+psutil==7.2.2
+scikit-image==0.24.0
+scikit-learn==1.6.1
+scipy==1.13.1
+timm==1.0.27
+tqdm==4.67.3
+pytest==8.4.2

@@ -1,0 +1,152 @@
+{
+  "category": "transistor",
+  "config": {
+    "category": "transistor",
+    "device": "cuda:0",
+    "faiss_workers": 8,
+    "ff_projection_dimension": 1024,
+    "ff_selection_space": "exact_raw",
+    "format_version": 1,
+    "gb_threshold": 1.3,
+    "min_ball_size": 64,
+    "partition_source": "stage5b_frozen_global_gb_partition (banks) / fresh seed-0 rebuild (timing, stress)",
+    "seed": 0,
+    "stage": "8C",
+    "stress_category": "hazelnut",
+    "stress_scales": [
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "timing_repeats": 5,
+    "timing_warmup": 1
+  },
+  "config_hash": "13c7d9882763e72f20ce02dabd900244a256f952bd29b81bed48516e881eabc9",
+  "k_gb": 1206,
+  "method": "ff_raw",
+  "peak_gpu_allocated_bytes_max": 1377186304,
+  "peak_rss_bytes_max": 1883897856,
+  "raw_patch_count": 166992,
+  "repeats": [
+    {
+      "audit": {
+        "bank_rows": 1206,
+        "selected_count": 1206
+      },
+      "peak_gpu_allocated_bytes": 1377186304,
+      "peak_rss_bytes": 1883897856,
+      "stages": {
+        "assembly_seconds": 0.0025979000000120323,
+        "partition_seconds": 0.0,
+        "selection_seconds": 2.9292995000000133
+      },
+      "total_seconds": 2.9318974000000253
+    },
+    {
+      "audit": {
+        "bank_rows": 1206,
+        "selected_count": 1206
+      },
+      "peak_gpu_allocated_bytes": 1377186304,
+      "peak_rss_bytes": 1883897856,
+      "stages": {
+        "assembly_seconds": 0.0026754000000153155,
+        "partition_seconds": 0.0,
+        "selection_seconds": 2.900699099999997
+      },
+      "total_seconds": 2.9033745000000124
+    },
+    {
+      "audit": {
+        "bank_rows": 1206,
+        "selected_count": 1206
+      },
+      "peak_gpu_allocated_bytes": 1377186304,
+      "peak_rss_bytes": 1883897856,
+      "stages": {
+        "assembly_seconds": 0.0027127999999834174,
+        "partition_seconds": 0.0,
+        "selection_seconds": 2.8217143999999905
+      },
+      "total_seconds": 2.824427199999974
+    },
+    {
+      "audit": {
+        "bank_rows": 1206,
+        "selected_count": 1206
+      },
+      "peak_gpu_allocated_bytes": 1377186304,
+      "peak_rss_bytes": 1883897856,
+      "stages": {
+        "assembly_seconds": 0.002789799999987963,
+        "partition_seconds": 0.0,
+        "selection_seconds": 2.8331593999999996
+      },
+      "total_seconds": 2.8359491999999875
+    },
+    {
+      "audit": {
+        "bank_rows": 1206,
+        "selected_count": 1206
+      },
+      "peak_gpu_allocated_bytes": 1377186304,
+      "peak_rss_bytes": 1883897856,
+      "stages": {
+        "assembly_seconds": 0.0028633000000013453,
+        "partition_seconds": 0.0,
+        "selection_seconds": 2.883898700000003
+      },
+      "total_seconds": 2.8867620000000045
+    }
+  ],
+  "stage_summaries": {
+    "assembly_seconds": {
+      "max": 0.0028633000000013453,
+      "mean": 0.002727840000000015,
+      "median": 0.0027127999999834174,
+      "min": 0.0025979000000120323,
+      "n_repeats": 5,
+      "std": 9.170497477742242E-05
+    },
+    "partition_seconds": {
+      "max": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "n_repeats": 5,
+      "std": 0.0
+    },
+    "selection_seconds": {
+      "max": 2.9292995000000133,
+      "mean": 2.873754220000001,
+      "median": 2.883898700000003,
+      "min": 2.8217143999999905,
+      "n_repeats": 5,
+      "std": 0.040670130168049386
+    }
+  },
+  "status": "complete",
+  "summary": {
+    "max": 2.9318974000000253,
+    "mean": 2.8764820600000007,
+    "median": 2.8867620000000045,
+    "min": 2.824427199999974,
+    "n_repeats": 5,
+    "std": 0.04062600544547615
+  },
+  "warmup": {
+    "audit": {
+      "bank_rows": 1206,
+      "selected_count": 1206
+    },
+    "peak_gpu_allocated_bytes": 1377186304,
+    "peak_rss_bytes": 1878953984,
+    "stages": {
+      "assembly_seconds": 0.0026956999999754316,
+      "partition_seconds": 0.0,
+      "selection_seconds": 3.3556376000000228
+    },
+    "total_seconds": 3.358333299999998
+  }
+}

@@ -1,0 +1,5363 @@
+{
+  "schema_version": 1,
+  "passed": true,
+  "scope": "AST preservation plus sampled frozen-input bank/query/score contracts; no full feature, construction, AUROC or timing rerun",
+  "source_only": false,
+  "assets_root": "External complete reproduction archive (not distributed)",
+  "source_checks_count": 41,
+  "checks_count": 731,
+  "failed_checks_count": 0,
+  "source_checks": [
+    {
+      "name": "partition_entire_module",
+      "original_ast_sha256": "75a3f4a42ab419ee5b39e23c03edee524063819b51b3825e932d616aaddfc07e",
+      "release_ast_sha256": "75a3f4a42ab419ee5b39e23c03edee524063819b51b3825e932d616aaddfc07e",
+      "passed": true
+    },
+    {
+      "name": "intra_ball_redundancy_analysis.py:global_farthest_first_order",
+      "release_file": "src/baselines/farthest_first.py",
+      "original_ast_sha256": "e81a49ab1484a5d0b0563a7dadcc22c2e0fad36a503bb0824f668acb58240f6a",
+      "release_ast_sha256": "e81a49ab1484a5d0b0563a7dadcc22c2e0fad36a503bb0824f668acb58240f6a",
+      "full_release_ast_sha256": "e81a49ab1484a5d0b0563a7dadcc22c2e0fad36a503bb0824f668acb58240f6a",
+      "comparison": "Exact AST",
+      "passed": true
+    },
+    {
+      "name": "stage8c_construction.py:medoid_indices",
+      "release_file": "src/baselines/medoid.py",
+      "original_ast_sha256": "522535396553ee6e1d0a879ab1b187d291beed94e72db49bc41020a3305cfe38",
+      "release_ast_sha256": "522535396553ee6e1d0a879ab1b187d291beed94e72db49bc41020a3305cfe38",
+      "full_release_ast_sha256": "522535396553ee6e1d0a879ab1b187d291beed94e72db49bc41020a3305cfe38",
+      "comparison": "Exact AST",
+      "passed": true
+    },
+    {
+      "name": "stage5a_detection_validation.py:_synchronize",
+      "release_file": "src/adapters/patchcore.py",
+      "original_ast_sha256": "ca81d465b74cd89bccad29842883f29612e2887a33c8d4d450d44c481152c8e7",
+      "release_ast_sha256": "ca81d465b74cd89bccad29842883f29612e2887a33c8d4d450d44c481152c8e7",
+      "full_release_ast_sha256": "ca81d465b74cd89bccad29842883f29612e2887a33c8d4d450d44c481152c8e7",
+      "comparison": "Exact AST",
+      "passed": true
+    },
+    {
+      "name": "stage5a_detection_validation.py:_array_sha256",
+      "release_file": "src/adapters/patchcore.py",
+      "original_ast_sha256": "4dc0b048b47e43174f1fe418305c1684bff7e8c05e5336c728c56769eb37b092",
+      "release_ast_sha256": "4dc0b048b47e43174f1fe418305c1684bff7e8c05e5336c728c56769eb37b092",
+      "full_release_ast_sha256": "4dc0b048b47e43174f1fe418305c1684bff7e8c05e5336c728c56769eb37b092",
+      "comparison": "Exact AST",
+      "passed": true
+    },
+    {
+      "name": "stage5a_detection_validation.py:_process_memory",
+      "release_file": "src/adapters/patchcore.py",
+      "original_ast_sha256": "820dfd278d7e3839688a2a2148e065932e393ea77fd30263d92d340fbf094743",
+      "release_ast_sha256": "820dfd278d7e3839688a2a2148e065932e393ea77fd30263d92d340fbf094743",
+      "full_release_ast_sha256": "820dfd278d7e3839688a2a2148e065932e393ea77fd30263d92d340fbf094743",
+      "comparison": "Exact AST",
+      "passed": true
+    },
+    {
+      "name": "stage5a_detection_validation.py:_build_original_model",
+      "release_file": "src/adapters/patchcore.py",
+      "original_ast_sha256": "a3d3dd266a415c0cd99d3d76e1298e5e612fa1d1761661317cd332a2068e2d34",
+      "release_ast_sha256": "a3d3dd266a415c0cd99d3d76e1298e5e612fa1d1761661317cd332a2068e2d34",
+      "full_release_ast_sha256": "a3d3dd266a415c0cd99d3d76e1298e5e612fa1d1761661317cd332a2068e2d34",
+      "comparison": "Exact AST",
+      "passed": true
+    },
+    {
+      "name": "stage5a_detection_validation.py:_extract_test_cache",
+      "release_file": "src/adapters/patchcore.py",
+      "original_ast_sha256": "e329311a8ad624eec5eab1455d20eb25c3bc7a7b9b630cf077592902a9c7d890",
+      "release_ast_sha256": "e329311a8ad624eec5eab1455d20eb25c3bc7a7b9b630cf077592902a9c7d890",
+      "full_release_ast_sha256": "e329311a8ad624eec5eab1455d20eb25c3bc7a7b9b630cf077592902a9c7d890",
+      "comparison": "Exact AST",
+      "passed": true
+    },
+    {
+      "name": "stage5a_detection_validation.py:_index_vectors",
+      "release_file": "src/adapters/patchcore.py",
+      "original_ast_sha256": "3d59a95ef55f2348b897a78246cc7da62e1e43a7a73cb415e83358a6c69ce45c",
+      "release_ast_sha256": "3d59a95ef55f2348b897a78246cc7da62e1e43a7a73cb415e83358a6c69ce45c",
+      "full_release_ast_sha256": "3d59a95ef55f2348b897a78246cc7da62e1e43a7a73cb415e83358a6c69ce45c",
+      "comparison": "Exact AST",
+      "passed": true
+    },
+    {
+      "name": "stage5a_detection_validation.py:_score_cache",
+      "release_file": "src/adapters/patchcore.py",
+      "original_ast_sha256": "cea9c23119b2e6e3f40faa78b2934a21d06e52d674937d9f1984bc35c71079cc",
+      "release_ast_sha256": "cea9c23119b2e6e3f40faa78b2934a21d06e52d674937d9f1984bc35c71079cc",
+      "full_release_ast_sha256": "cea9c23119b2e6e3f40faa78b2934a21d06e52d674937d9f1984bc35c71079cc",
+      "comparison": "Exact AST",
+      "passed": true
+    },
+    {
+      "name": "stage5b_multicategory_validation.py:_TrainingCapture",
+      "release_file": "src/adapters/patchcore.py",
+      "original_ast_sha256": "e05a63e3b9d2eeabadab7a0b190156fc5f2ba696659751b1328af5ca57003da7",
+      "release_ast_sha256": "e05a63e3b9d2eeabadab7a0b190156fc5f2ba696659751b1328af5ca57003da7",
+      "full_release_ast_sha256": "e05a63e3b9d2eeabadab7a0b190156fc5f2ba696659751b1328af5ca57003da7",
+      "comparison": "Exact AST",
+      "passed": true
+    },
+    {
+      "name": "stage5b_multicategory_validation.py:_loaders",
+      "release_file": "src/adapters/patchcore.py",
+      "original_ast_sha256": "e33cf8629f3fcc4a142c058a321f02941438e3fc3c9ab6cc7dd0573533f322fd",
+      "release_ast_sha256": "e33cf8629f3fcc4a142c058a321f02941438e3fc3c9ab6cc7dd0573533f322fd",
+      "full_release_ast_sha256": "e33cf8629f3fcc4a142c058a321f02941438e3fc3c9ab6cc7dd0573533f322fd",
+      "comparison": "Exact AST",
+      "passed": true
+    },
+    {
+      "name": "stage5b_multicategory_validation.py:canonical_config",
+      "release_file": "experiments/cache_io.py",
+      "original_ast_sha256": "f0b141b65a75aa12c5b6f494937bf56ff0f7296e5bafd4622e85a583fb668318",
+      "release_ast_sha256": "f0b141b65a75aa12c5b6f494937bf56ff0f7296e5bafd4622e85a583fb668318",
+      "full_release_ast_sha256": "f0b141b65a75aa12c5b6f494937bf56ff0f7296e5bafd4622e85a583fb668318",
+      "comparison": "Exact AST",
+      "passed": true
+    },
+    {
+      "name": "stage5b_multicategory_validation.py:config_hash",
+      "release_file": "experiments/cache_io.py",
+      "original_ast_sha256": "a5c238a6dc40a6e530a495a4afc83334baa07c7b75568861dde7d2647739c45e",
+      "release_ast_sha256": "a5c238a6dc40a6e530a495a4afc83334baa07c7b75568861dde7d2647739c45e",
+      "full_release_ast_sha256": "a5c238a6dc40a6e530a495a4afc83334baa07c7b75568861dde7d2647739c45e",
+      "comparison": "Exact AST",
+      "passed": true
+    },
+    {
+      "name": "stage5b_multicategory_validation.py:_save_json",
+      "release_file": "experiments/cache_io.py",
+      "original_ast_sha256": "213537efb40448aad3a3990a470b960c55ef2447be525dd9a88c94c5ab3f09db",
+      "release_ast_sha256": "213537efb40448aad3a3990a470b960c55ef2447be525dd9a88c94c5ab3f09db",
+      "full_release_ast_sha256": "213537efb40448aad3a3990a470b960c55ef2447be525dd9a88c94c5ab3f09db",
+      "comparison": "Exact AST",
+      "passed": true
+    },
+    {
+      "name": "stage5b_multicategory_validation.py:_cache_test",
+      "release_file": "experiments/cache_io.py",
+      "original_ast_sha256": "96013ab714eb3ed2b5df0ae7076c2b9fb93ad46760cdff246e1b9a8e18a6b1fa",
+      "release_ast_sha256": "96013ab714eb3ed2b5df0ae7076c2b9fb93ad46760cdff246e1b9a8e18a6b1fa",
+      "full_release_ast_sha256": "96013ab714eb3ed2b5df0ae7076c2b9fb93ad46760cdff246e1b9a8e18a6b1fa",
+      "comparison": "Exact AST",
+      "passed": true
+    },
+    {
+      "name": "stage5b_multicategory_validation.py:_load_test_cache",
+      "release_file": "experiments/cache_io.py",
+      "original_ast_sha256": "6ff222cafd1776ad6f135ca5ca7ad7f10e1bcb94a87d2a8c7da69ac2de0eae79",
+      "release_ast_sha256": "6ff222cafd1776ad6f135ca5ca7ad7f10e1bcb94a87d2a8c7da69ac2de0eae79",
+      "full_release_ast_sha256": "6ff222cafd1776ad6f135ca5ca7ad7f10e1bcb94a87d2a8c7da69ac2de0eae79",
+      "comparison": "Exact AST",
+      "passed": true
+    },
+    {
+      "name": "stage8a_validation.py:_stage5b_category_root",
+      "release_file": "experiments/cache_io.py",
+      "original_ast_sha256": "2336747434ff540d0ed29fdcfd4389f4d0d9cba7b64dbe78a85612d90eea5988",
+      "release_ast_sha256": "2336747434ff540d0ed29fdcfd4389f4d0d9cba7b64dbe78a85612d90eea5988",
+      "full_release_ast_sha256": "2336747434ff540d0ed29fdcfd4389f4d0d9cba7b64dbe78a85612d90eea5988",
+      "comparison": "Exact AST",
+      "passed": true
+    },
+    {
+      "name": "stage8a_validation.py:load_train_assets",
+      "release_file": "experiments/cache_io.py",
+      "original_ast_sha256": "7eba9d587bed38892dd153c85803cccfbe1cfad5a9606c790d887b5bd331ced2",
+      "release_ast_sha256": "7eba9d587bed38892dd153c85803cccfbe1cfad5a9606c790d887b5bd331ced2",
+      "full_release_ast_sha256": "7eba9d587bed38892dd153c85803cccfbe1cfad5a9606c790d887b5bd331ced2",
+      "comparison": "Exact AST",
+      "passed": true
+    },
+    {
+      "name": "stage8a_validation.py:_load_raw",
+      "release_file": "experiments/cache_io.py",
+      "original_ast_sha256": "7084a7e97768b6f2f08cc7af36daa151ecac8631577d9af02b6eca4637aba538",
+      "release_ast_sha256": "7084a7e97768b6f2f08cc7af36daa151ecac8631577d9af02b6eca4637aba538",
+      "full_release_ast_sha256": "7084a7e97768b6f2f08cc7af36daa151ecac8631577d9af02b6eca4637aba538",
+      "comparison": "Exact AST",
+      "passed": true
+    },
+    {
+      "name": "stage8c_construction.py:summarize_repeats",
+      "release_file": "experiments/construction_time.py",
+      "original_ast_sha256": "281609f53acf39bb1c19b15732975f3da5b49eb33176334f78ce834773dcb6fb",
+      "release_ast_sha256": "281609f53acf39bb1c19b15732975f3da5b49eb33176334f78ce834773dcb6fb",
+      "full_release_ast_sha256": "281609f53acf39bb1c19b15732975f3da5b49eb33176334f78ce834773dcb6fb",
+      "comparison": "Exact AST",
+      "passed": true
+    },
+    {
+      "name": "stage8c_construction.py:ConstructionTimer",
+      "release_file": "experiments/construction_time.py",
+      "original_ast_sha256": "c284e76d766dc5767426a3d085ec0721ea5b01046e74f005aa0d82e730ab7a04",
+      "release_ast_sha256": "c284e76d766dc5767426a3d085ec0721ea5b01046e74f005aa0d82e730ab7a04",
+      "full_release_ast_sha256": "c284e76d766dc5767426a3d085ec0721ea5b01046e74f005aa0d82e730ab7a04",
+      "comparison": "Exact AST",
+      "passed": true
+    },
+    {
+      "name": "stage8c_validation.py:stage8c_config",
+      "release_file": "experiments/main_comparison.py",
+      "original_ast_sha256": "21e45132045bead562d9c976f9d250a41917aafc0db611b88908beb0725165b0",
+      "release_ast_sha256": "21e45132045bead562d9c976f9d250a41917aafc0db611b88908beb0725165b0",
+      "full_release_ast_sha256": "21e45132045bead562d9c976f9d250a41917aafc0db611b88908beb0725165b0",
+      "comparison": "Exact AST",
+      "passed": true
+    },
+    {
+      "name": "stage8c_validation.py:_rss_bytes",
+      "release_file": "experiments/main_comparison.py",
+      "original_ast_sha256": "5c99133d1cda9e54c1cbfe3ae9f99ee79e887bf94ce984962686aa1a7cd3cdf7",
+      "release_ast_sha256": "5c99133d1cda9e54c1cbfe3ae9f99ee79e887bf94ce984962686aa1a7cd3cdf7",
+      "full_release_ast_sha256": "5c99133d1cda9e54c1cbfe3ae9f99ee79e887bf94ce984962686aa1a7cd3cdf7",
+      "comparison": "Exact AST",
+      "passed": true
+    },
+    {
+      "name": "stage8c_validation.py:run_banks",
+      "release_file": "experiments/main_comparison.py",
+      "original_ast_sha256": "8689a35e0fcc390ae91dde196b2bcffeb876bf12f7f19029e1bc20bcc2058de9",
+      "release_ast_sha256": "8689a35e0fcc390ae91dde196b2bcffeb876bf12f7f19029e1bc20bcc2058de9",
+      "full_release_ast_sha256": "6a6c910a2eaf1b0934ab7f3fe77b5b640c6826c3d019df9be173dd3fe9b587e9",
+      "comparison": "AST with only added checkpoint-integrity calls excluded",
+      "passed": true
+    },
+    {
+      "name": "stage8c_validation.py:_construct_once",
+      "release_file": "experiments/main_comparison.py",
+      "original_ast_sha256": "28b6bf3f0458f39eeffb05666ff741491842051502559bc7a4ff04aee1b2979d",
+      "release_ast_sha256": "28b6bf3f0458f39eeffb05666ff741491842051502559bc7a4ff04aee1b2979d",
+      "full_release_ast_sha256": "28b6bf3f0458f39eeffb05666ff741491842051502559bc7a4ff04aee1b2979d",
+      "comparison": "Exact AST",
+      "passed": true
+    },
+    {
+      "name": "stage8c_validation.py:_timing_path",
+      "release_file": "experiments/main_comparison.py",
+      "original_ast_sha256": "d6300e1fbcdd06e771efb0b946311a860c6ce477ed4e7ef835c4f6d2fa755847",
+      "release_ast_sha256": "d6300e1fbcdd06e771efb0b946311a860c6ce477ed4e7ef835c4f6d2fa755847",
+      "full_release_ast_sha256": "d6300e1fbcdd06e771efb0b946311a860c6ce477ed4e7ef835c4f6d2fa755847",
+      "comparison": "Exact AST",
+      "passed": true
+    },
+    {
+      "name": "stage8c_validation.py:_timing_done",
+      "release_file": "experiments/main_comparison.py",
+      "original_ast_sha256": "cf47c01399027476d8e4e12d4a6051060ead5adc013dbed1cc5895bcbbb73de5",
+      "release_ast_sha256": "cf47c01399027476d8e4e12d4a6051060ead5adc013dbed1cc5895bcbbb73de5",
+      "full_release_ast_sha256": "cf47c01399027476d8e4e12d4a6051060ead5adc013dbed1cc5895bcbbb73de5",
+      "comparison": "Exact AST",
+      "passed": true
+    },
+    {
+      "name": "stage8c_validation.py:run_time",
+      "release_file": "experiments/main_comparison.py",
+      "original_ast_sha256": "48a34901c8d8164e42b647fa9e84572216e44f999cd0c199b9d2059414c453d1",
+      "release_ast_sha256": "48a34901c8d8164e42b647fa9e84572216e44f999cd0c199b9d2059414c453d1",
+      "full_release_ast_sha256": "48a34901c8d8164e42b647fa9e84572216e44f999cd0c199b9d2059414c453d1",
+      "comparison": "Exact AST",
+      "passed": true
+    },
+    {
+      "name": "stage8c_validation.py:run_detect",
+      "release_file": "experiments/main_comparison.py",
+      "original_ast_sha256": "0e850ecb1760da66fa7de1b96858e9507ec2afde4e8c0ae723b458584badcc65",
+      "release_ast_sha256": "0e850ecb1760da66fa7de1b96858e9507ec2afde4e8c0ae723b458584badcc65",
+      "full_release_ast_sha256": "8f8902c5564c7684fae1d3eae2b5409041338038f31ba7999a218b052e799a07",
+      "comparison": "AST with only added checkpoint-integrity calls excluded",
+      "passed": true
+    },
+    {
+      "name": "common.py:FaissNN",
+      "release_file": "third_party/patchcore/src/patchcore/common.py",
+      "original_ast_sha256": "7b15a8debc12c97a971b6122275955a30bd7c70c6bb80edae6c87420d6a90742",
+      "release_ast_sha256": "7b15a8debc12c97a971b6122275955a30bd7c70c6bb80edae6c87420d6a90742",
+      "full_release_ast_sha256": "7b15a8debc12c97a971b6122275955a30bd7c70c6bb80edae6c87420d6a90742",
+      "comparison": "Exact AST",
+      "passed": true
+    },
+    {
+      "name": "common.py:_BaseMerger",
+      "release_file": "third_party/patchcore/src/patchcore/common.py",
+      "original_ast_sha256": "087f8fb63c6e8932a4232afad6bed9a03814249112ea5f7aba5d8b5319b09205",
+      "release_ast_sha256": "087f8fb63c6e8932a4232afad6bed9a03814249112ea5f7aba5d8b5319b09205",
+      "full_release_ast_sha256": "087f8fb63c6e8932a4232afad6bed9a03814249112ea5f7aba5d8b5319b09205",
+      "comparison": "Exact AST",
+      "passed": true
+    },
+    {
+      "name": "common.py:AverageMerger",
+      "release_file": "third_party/patchcore/src/patchcore/common.py",
+      "original_ast_sha256": "ae7f18232251168ce230fdccee7c489952b4c94d1eb7b8de2da51981c2391702",
+      "release_ast_sha256": "ae7f18232251168ce230fdccee7c489952b4c94d1eb7b8de2da51981c2391702",
+      "full_release_ast_sha256": "ae7f18232251168ce230fdccee7c489952b4c94d1eb7b8de2da51981c2391702",
+      "comparison": "Exact AST",
+      "passed": true
+    },
+    {
+      "name": "common.py:ConcatMerger",
+      "release_file": "third_party/patchcore/src/patchcore/common.py",
+      "original_ast_sha256": "69d44bf30dc50787930534d26112c87cd4f565f4e2e5fa8f02abb7f6134fff77",
+      "release_ast_sha256": "69d44bf30dc50787930534d26112c87cd4f565f4e2e5fa8f02abb7f6134fff77",
+      "full_release_ast_sha256": "69d44bf30dc50787930534d26112c87cd4f565f4e2e5fa8f02abb7f6134fff77",
+      "comparison": "Exact AST",
+      "passed": true
+    },
+    {
+      "name": "common.py:Preprocessing",
+      "release_file": "third_party/patchcore/src/patchcore/common.py",
+      "original_ast_sha256": "97746feb042d781085b5ff28aa17334efa11ec411c710ee7fb65fface91ef638",
+      "release_ast_sha256": "97746feb042d781085b5ff28aa17334efa11ec411c710ee7fb65fface91ef638",
+      "full_release_ast_sha256": "97746feb042d781085b5ff28aa17334efa11ec411c710ee7fb65fface91ef638",
+      "comparison": "Exact AST",
+      "passed": true
+    },
+    {
+      "name": "common.py:MeanMapper",
+      "release_file": "third_party/patchcore/src/patchcore/common.py",
+      "original_ast_sha256": "e70bc2077b5b44ed27ff35d46d21d6e38d0b37239e0f0110a43728b846530de4",
+      "release_ast_sha256": "e70bc2077b5b44ed27ff35d46d21d6e38d0b37239e0f0110a43728b846530de4",
+      "full_release_ast_sha256": "e70bc2077b5b44ed27ff35d46d21d6e38d0b37239e0f0110a43728b846530de4",
+      "comparison": "Exact AST",
+      "passed": true
+    },
+    {
+      "name": "common.py:Aggregator",
+      "release_file": "third_party/patchcore/src/patchcore/common.py",
+      "original_ast_sha256": "2627a4f3d016badecefa90b6cc41c084e64c6aa8acf06b0a6057685046b70ad5",
+      "release_ast_sha256": "2627a4f3d016badecefa90b6cc41c084e64c6aa8acf06b0a6057685046b70ad5",
+      "full_release_ast_sha256": "2627a4f3d016badecefa90b6cc41c084e64c6aa8acf06b0a6057685046b70ad5",
+      "comparison": "Exact AST",
+      "passed": true
+    },
+    {
+      "name": "common.py:RescaleSegmentor",
+      "release_file": "third_party/patchcore/src/patchcore/common.py",
+      "original_ast_sha256": "006f00f3df49ea6b561142b2aedded973846c8231a9006d2dfb1b0fad4b4c7c2",
+      "release_ast_sha256": "006f00f3df49ea6b561142b2aedded973846c8231a9006d2dfb1b0fad4b4c7c2",
+      "full_release_ast_sha256": "006f00f3df49ea6b561142b2aedded973846c8231a9006d2dfb1b0fad4b4c7c2",
+      "comparison": "Exact AST",
+      "passed": true
+    },
+    {
+      "name": "common.py:NearestNeighbourScorer",
+      "release_file": "third_party/patchcore/src/patchcore/common.py",
+      "original_ast_sha256": "fc04402ae9870251118dc5f3ec4c8bee20d1c111f9ed5d33af331ba47a2e0e5b",
+      "release_ast_sha256": "fc04402ae9870251118dc5f3ec4c8bee20d1c111f9ed5d33af331ba47a2e0e5b",
+      "full_release_ast_sha256": "fc04402ae9870251118dc5f3ec4c8bee20d1c111f9ed5d33af331ba47a2e0e5b",
+      "comparison": "Exact AST",
+      "passed": true
+    },
+    {
+      "name": "metrics.py:compute_imagewise_retrieval_metrics",
+      "release_file": "third_party/patchcore/src/patchcore/metrics.py",
+      "original_ast_sha256": "9967400aa696e357e8389c344e3f4460c62e9695996df021458fbd0f5e68396e",
+      "release_ast_sha256": "9967400aa696e357e8389c344e3f4460c62e9695996df021458fbd0f5e68396e",
+      "full_release_ast_sha256": "9967400aa696e357e8389c344e3f4460c62e9695996df021458fbd0f5e68396e",
+      "comparison": "Exact AST",
+      "passed": true
+    },
+    {
+      "name": "metrics.py:compute_pixelwise_retrieval_metrics",
+      "release_file": "third_party/patchcore/src/patchcore/metrics.py",
+      "original_ast_sha256": "5528e866e3eb1293226b6cb7bab4ed5278431ae79adac73117a519779ab5c896",
+      "release_ast_sha256": "5528e866e3eb1293226b6cb7bab4ed5278431ae79adac73117a519779ab5c896",
+      "full_release_ast_sha256": "5528e866e3eb1293226b6cb7bab4ed5278431ae79adac73117a519779ab5c896",
+      "comparison": "Exact AST",
+      "passed": true
+    }
+  ],
+  "sampled_validation": {
+    "checks": [
+      {
+        "name": "bottle:test_shape",
+        "passed": true
+      },
+      {
+        "name": "bottle:mask_shape",
+        "passed": true
+      },
+      {
+        "name": "bottle:metadata_coverage",
+        "passed": true
+      },
+      {
+        "name": "bottle:labels_order",
+        "passed": true
+      },
+      {
+        "name": "bottle:baseline_indices",
+        "passed": true
+      },
+      {
+        "name": "bottle:baseline_source_rows",
+        "passed": true
+      },
+      {
+        "name": "bottle:original:float32",
+        "passed": true
+      },
+      {
+        "name": "bottle:original:finite",
+        "passed": true
+      },
+      {
+        "name": "bottle:original:dimension",
+        "passed": true
+      },
+      {
+        "name": "bottle:original:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "bottle:original:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 3.814697265625e-06,
+        "image_indices": [
+          0,
+          1,
+          62,
+          63,
+          81,
+          82
+        ]
+      },
+      {
+        "name": "bottle:original:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 3.814697265625e-06
+      },
+      {
+        "name": "bottle:original:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 1.3768672943115234e-05,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "bottle:original:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "bottle:gb_center:float32",
+        "passed": true
+      },
+      {
+        "name": "bottle:gb_center:finite",
+        "passed": true
+      },
+      {
+        "name": "bottle:gb_center:dimension",
+        "passed": true
+      },
+      {
+        "name": "bottle:gb_center:same_k",
+        "passed": true
+      },
+      {
+        "name": "bottle:center_frozen_partition",
+        "passed": true
+      },
+      {
+        "name": "bottle:gb_center:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "bottle:gb_center:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0,
+        "image_indices": [
+          0,
+          1,
+          62,
+          63,
+          81,
+          82
+        ]
+      },
+      {
+        "name": "bottle:gb_center:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0
+      },
+      {
+        "name": "bottle:gb_center:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 8.404254913330078e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "bottle:gb_center:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "bottle:gb_medoid:float32",
+        "passed": true
+      },
+      {
+        "name": "bottle:gb_medoid:finite",
+        "passed": true
+      },
+      {
+        "name": "bottle:gb_medoid:dimension",
+        "passed": true
+      },
+      {
+        "name": "bottle:gb_medoid:same_k",
+        "passed": true
+      },
+      {
+        "name": "bottle:gb_medoid:indices",
+        "passed": true
+      },
+      {
+        "name": "bottle:gb_medoid:source_rows",
+        "passed": true
+      },
+      {
+        "name": "bottle:gb_medoid:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "bottle:gb_medoid:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 3.814697265625e-06,
+        "image_indices": [
+          0,
+          1,
+          62,
+          63,
+          81,
+          82
+        ]
+      },
+      {
+        "name": "bottle:gb_medoid:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0
+      },
+      {
+        "name": "bottle:gb_medoid:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 1.0967254638671875e-05,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "bottle:gb_medoid:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "bottle:ff_raw:float32",
+        "passed": true
+      },
+      {
+        "name": "bottle:ff_raw:finite",
+        "passed": true
+      },
+      {
+        "name": "bottle:ff_raw:dimension",
+        "passed": true
+      },
+      {
+        "name": "bottle:ff_raw:same_k",
+        "passed": true
+      },
+      {
+        "name": "bottle:ff_raw:indices",
+        "passed": true
+      },
+      {
+        "name": "bottle:ff_raw:source_rows",
+        "passed": true
+      },
+      {
+        "name": "bottle:ff_raw:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "bottle:ff_raw:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0,
+        "image_indices": [
+          0,
+          1,
+          62,
+          63,
+          81,
+          82
+        ]
+      },
+      {
+        "name": "bottle:ff_raw:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0
+      },
+      {
+        "name": "bottle:ff_raw:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 8.940696716308594e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "bottle:ff_raw:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "cable:test_shape",
+        "passed": true
+      },
+      {
+        "name": "cable:mask_shape",
+        "passed": true
+      },
+      {
+        "name": "cable:metadata_coverage",
+        "passed": true
+      },
+      {
+        "name": "cable:labels_order",
+        "passed": true
+      },
+      {
+        "name": "cable:baseline_indices",
+        "passed": true
+      },
+      {
+        "name": "cable:baseline_source_rows",
+        "passed": true
+      },
+      {
+        "name": "cable:original:float32",
+        "passed": true
+      },
+      {
+        "name": "cable:original:finite",
+        "passed": true
+      },
+      {
+        "name": "cable:original:dimension",
+        "passed": true
+      },
+      {
+        "name": "cable:original:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "cable:original:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 1.9073486328125e-06,
+        "image_indices": [
+          0,
+          1,
+          60,
+          117,
+          148,
+          149
+        ]
+      },
+      {
+        "name": "cable:original:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 1.9073486328125e-06
+      },
+      {
+        "name": "cable:original:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 7.3909759521484375e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "cable:original:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "cable:gb_center:float32",
+        "passed": true
+      },
+      {
+        "name": "cable:gb_center:finite",
+        "passed": true
+      },
+      {
+        "name": "cable:gb_center:dimension",
+        "passed": true
+      },
+      {
+        "name": "cable:gb_center:same_k",
+        "passed": true
+      },
+      {
+        "name": "cable:center_frozen_partition",
+        "passed": true
+      },
+      {
+        "name": "cable:gb_center:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "cable:gb_center:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0,
+        "image_indices": [
+          0,
+          1,
+          60,
+          117,
+          148,
+          149
+        ]
+      },
+      {
+        "name": "cable:gb_center:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0
+      },
+      {
+        "name": "cable:gb_center:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 9.179115295410156e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "cable:gb_center:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "cable:gb_medoid:float32",
+        "passed": true
+      },
+      {
+        "name": "cable:gb_medoid:finite",
+        "passed": true
+      },
+      {
+        "name": "cable:gb_medoid:dimension",
+        "passed": true
+      },
+      {
+        "name": "cable:gb_medoid:same_k",
+        "passed": true
+      },
+      {
+        "name": "cable:gb_medoid:indices",
+        "passed": true
+      },
+      {
+        "name": "cable:gb_medoid:source_rows",
+        "passed": true
+      },
+      {
+        "name": "cable:gb_medoid:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "cable:gb_medoid:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 3.814697265625e-06,
+        "image_indices": [
+          0,
+          1,
+          60,
+          117,
+          148,
+          149
+        ]
+      },
+      {
+        "name": "cable:gb_medoid:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 3.814697265625e-06
+      },
+      {
+        "name": "cable:gb_medoid:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 8.463859558105469e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "cable:gb_medoid:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "cable:ff_raw:float32",
+        "passed": true
+      },
+      {
+        "name": "cable:ff_raw:finite",
+        "passed": true
+      },
+      {
+        "name": "cable:ff_raw:dimension",
+        "passed": true
+      },
+      {
+        "name": "cable:ff_raw:same_k",
+        "passed": true
+      },
+      {
+        "name": "cable:ff_raw:indices",
+        "passed": true
+      },
+      {
+        "name": "cable:ff_raw:source_rows",
+        "passed": true
+      },
+      {
+        "name": "cable:ff_raw:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "cable:ff_raw:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 7.62939453125e-06,
+        "image_indices": [
+          0,
+          1,
+          60,
+          117,
+          148,
+          149
+        ]
+      },
+      {
+        "name": "cable:ff_raw:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 7.62939453125e-06
+      },
+      {
+        "name": "cable:ff_raw:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 8.58306884765625e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "cable:ff_raw:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "capsule:test_shape",
+        "passed": true
+      },
+      {
+        "name": "capsule:mask_shape",
+        "passed": true
+      },
+      {
+        "name": "capsule:metadata_coverage",
+        "passed": true
+      },
+      {
+        "name": "capsule:labels_order",
+        "passed": true
+      },
+      {
+        "name": "capsule:baseline_indices",
+        "passed": true
+      },
+      {
+        "name": "capsule:baseline_source_rows",
+        "passed": true
+      },
+      {
+        "name": "capsule:original:float32",
+        "passed": true
+      },
+      {
+        "name": "capsule:original:finite",
+        "passed": true
+      },
+      {
+        "name": "capsule:original:dimension",
+        "passed": true
+      },
+      {
+        "name": "capsule:original:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "capsule:original:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0,
+        "image_indices": [
+          0,
+          1,
+          45,
+          67,
+          130,
+          131
+        ]
+      },
+      {
+        "name": "capsule:original:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0
+      },
+      {
+        "name": "capsule:original:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 5.5730342864990234e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "capsule:original:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "capsule:gb_center:float32",
+        "passed": true
+      },
+      {
+        "name": "capsule:gb_center:finite",
+        "passed": true
+      },
+      {
+        "name": "capsule:gb_center:dimension",
+        "passed": true
+      },
+      {
+        "name": "capsule:gb_center:same_k",
+        "passed": true
+      },
+      {
+        "name": "capsule:center_frozen_partition",
+        "passed": true
+      },
+      {
+        "name": "capsule:gb_center:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "capsule:gb_center:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 1.9073486328125e-06,
+        "image_indices": [
+          0,
+          1,
+          45,
+          67,
+          130,
+          131
+        ]
+      },
+      {
+        "name": "capsule:gb_center:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0
+      },
+      {
+        "name": "capsule:gb_center:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 8.404254913330078e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "capsule:gb_center:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "capsule:gb_medoid:float32",
+        "passed": true
+      },
+      {
+        "name": "capsule:gb_medoid:finite",
+        "passed": true
+      },
+      {
+        "name": "capsule:gb_medoid:dimension",
+        "passed": true
+      },
+      {
+        "name": "capsule:gb_medoid:same_k",
+        "passed": true
+      },
+      {
+        "name": "capsule:gb_medoid:indices",
+        "passed": true
+      },
+      {
+        "name": "capsule:gb_medoid:source_rows",
+        "passed": true
+      },
+      {
+        "name": "capsule:gb_medoid:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "capsule:gb_medoid:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 3.814697265625e-06,
+        "image_indices": [
+          0,
+          1,
+          45,
+          67,
+          130,
+          131
+        ]
+      },
+      {
+        "name": "capsule:gb_medoid:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 3.814697265625e-06
+      },
+      {
+        "name": "capsule:gb_medoid:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 5.900859832763672e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "capsule:gb_medoid:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "capsule:ff_raw:float32",
+        "passed": true
+      },
+      {
+        "name": "capsule:ff_raw:finite",
+        "passed": true
+      },
+      {
+        "name": "capsule:ff_raw:dimension",
+        "passed": true
+      },
+      {
+        "name": "capsule:ff_raw:same_k",
+        "passed": true
+      },
+      {
+        "name": "capsule:ff_raw:indices",
+        "passed": true
+      },
+      {
+        "name": "capsule:ff_raw:source_rows",
+        "passed": true
+      },
+      {
+        "name": "capsule:ff_raw:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "capsule:ff_raw:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0,
+        "image_indices": [
+          0,
+          1,
+          45,
+          67,
+          130,
+          131
+        ]
+      },
+      {
+        "name": "capsule:ff_raw:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0
+      },
+      {
+        "name": "capsule:ff_raw:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 7.748603820800781e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "capsule:ff_raw:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "carpet:test_shape",
+        "passed": true
+      },
+      {
+        "name": "carpet:mask_shape",
+        "passed": true
+      },
+      {
+        "name": "carpet:metadata_coverage",
+        "passed": true
+      },
+      {
+        "name": "carpet:labels_order",
+        "passed": true
+      },
+      {
+        "name": "carpet:baseline_indices",
+        "passed": true
+      },
+      {
+        "name": "carpet:baseline_source_rows",
+        "passed": true
+      },
+      {
+        "name": "carpet:original:float32",
+        "passed": true
+      },
+      {
+        "name": "carpet:original:finite",
+        "passed": true
+      },
+      {
+        "name": "carpet:original:dimension",
+        "passed": true
+      },
+      {
+        "name": "carpet:original:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "carpet:original:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 1.9073486328125e-06,
+        "image_indices": [
+          0,
+          1,
+          36,
+          63,
+          115,
+          116
+        ]
+      },
+      {
+        "name": "carpet:original:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0
+      },
+      {
+        "name": "carpet:original:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 6.377696990966797e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "carpet:original:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "carpet:gb_center:float32",
+        "passed": true
+      },
+      {
+        "name": "carpet:gb_center:finite",
+        "passed": true
+      },
+      {
+        "name": "carpet:gb_center:dimension",
+        "passed": true
+      },
+      {
+        "name": "carpet:gb_center:same_k",
+        "passed": true
+      },
+      {
+        "name": "carpet:center_frozen_partition",
+        "passed": true
+      },
+      {
+        "name": "carpet:gb_center:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "carpet:gb_center:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0,
+        "image_indices": [
+          0,
+          1,
+          36,
+          63,
+          115,
+          116
+        ]
+      },
+      {
+        "name": "carpet:gb_center:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0
+      },
+      {
+        "name": "carpet:gb_center:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 5.0067901611328125e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "carpet:gb_center:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "carpet:gb_medoid:float32",
+        "passed": true
+      },
+      {
+        "name": "carpet:gb_medoid:finite",
+        "passed": true
+      },
+      {
+        "name": "carpet:gb_medoid:dimension",
+        "passed": true
+      },
+      {
+        "name": "carpet:gb_medoid:same_k",
+        "passed": true
+      },
+      {
+        "name": "carpet:gb_medoid:indices",
+        "passed": true
+      },
+      {
+        "name": "carpet:gb_medoid:source_rows",
+        "passed": true
+      },
+      {
+        "name": "carpet:gb_medoid:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "carpet:gb_medoid:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0,
+        "image_indices": [
+          0,
+          1,
+          36,
+          63,
+          115,
+          116
+        ]
+      },
+      {
+        "name": "carpet:gb_medoid:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0
+      },
+      {
+        "name": "carpet:gb_medoid:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 4.947185516357422e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "carpet:gb_medoid:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "carpet:ff_raw:float32",
+        "passed": true
+      },
+      {
+        "name": "carpet:ff_raw:finite",
+        "passed": true
+      },
+      {
+        "name": "carpet:ff_raw:dimension",
+        "passed": true
+      },
+      {
+        "name": "carpet:ff_raw:same_k",
+        "passed": true
+      },
+      {
+        "name": "carpet:ff_raw:indices",
+        "passed": true
+      },
+      {
+        "name": "carpet:ff_raw:source_rows",
+        "passed": true
+      },
+      {
+        "name": "carpet:ff_raw:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "carpet:ff_raw:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0,
+        "image_indices": [
+          0,
+          1,
+          36,
+          63,
+          115,
+          116
+        ]
+      },
+      {
+        "name": "carpet:ff_raw:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0
+      },
+      {
+        "name": "carpet:ff_raw:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 5.9604644775390625e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "carpet:ff_raw:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "grid:test_shape",
+        "passed": true
+      },
+      {
+        "name": "grid:mask_shape",
+        "passed": true
+      },
+      {
+        "name": "grid:metadata_coverage",
+        "passed": true
+      },
+      {
+        "name": "grid:labels_order",
+        "passed": true
+      },
+      {
+        "name": "grid:baseline_indices",
+        "passed": true
+      },
+      {
+        "name": "grid:baseline_source_rows",
+        "passed": true
+      },
+      {
+        "name": "grid:original:float32",
+        "passed": true
+      },
+      {
+        "name": "grid:original:finite",
+        "passed": true
+      },
+      {
+        "name": "grid:original:dimension",
+        "passed": true
+      },
+      {
+        "name": "grid:original:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "grid:original:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0,
+        "image_indices": [
+          0,
+          1,
+          35,
+          55,
+          76,
+          77
+        ]
+      },
+      {
+        "name": "grid:original:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0
+      },
+      {
+        "name": "grid:original:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 1.0013580322265625e-05,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "grid:original:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "grid:gb_center:float32",
+        "passed": true
+      },
+      {
+        "name": "grid:gb_center:finite",
+        "passed": true
+      },
+      {
+        "name": "grid:gb_center:dimension",
+        "passed": true
+      },
+      {
+        "name": "grid:gb_center:same_k",
+        "passed": true
+      },
+      {
+        "name": "grid:center_frozen_partition",
+        "passed": true
+      },
+      {
+        "name": "grid:gb_center:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "grid:gb_center:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0,
+        "image_indices": [
+          0,
+          1,
+          35,
+          55,
+          76,
+          77
+        ]
+      },
+      {
+        "name": "grid:gb_center:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0
+      },
+      {
+        "name": "grid:gb_center:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 8.58306884765625e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "grid:gb_center:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "grid:gb_medoid:float32",
+        "passed": true
+      },
+      {
+        "name": "grid:gb_medoid:finite",
+        "passed": true
+      },
+      {
+        "name": "grid:gb_medoid:dimension",
+        "passed": true
+      },
+      {
+        "name": "grid:gb_medoid:same_k",
+        "passed": true
+      },
+      {
+        "name": "grid:gb_medoid:indices",
+        "passed": true
+      },
+      {
+        "name": "grid:gb_medoid:source_rows",
+        "passed": true
+      },
+      {
+        "name": "grid:gb_medoid:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "grid:gb_medoid:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 3.814697265625e-06,
+        "image_indices": [
+          0,
+          1,
+          35,
+          55,
+          76,
+          77
+        ]
+      },
+      {
+        "name": "grid:gb_medoid:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 3.814697265625e-06
+      },
+      {
+        "name": "grid:gb_medoid:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 7.68899917602539e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "grid:gb_medoid:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "grid:ff_raw:float32",
+        "passed": true
+      },
+      {
+        "name": "grid:ff_raw:finite",
+        "passed": true
+      },
+      {
+        "name": "grid:ff_raw:dimension",
+        "passed": true
+      },
+      {
+        "name": "grid:ff_raw:same_k",
+        "passed": true
+      },
+      {
+        "name": "grid:ff_raw:indices",
+        "passed": true
+      },
+      {
+        "name": "grid:ff_raw:source_rows",
+        "passed": true
+      },
+      {
+        "name": "grid:ff_raw:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "grid:ff_raw:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 1.1444091796875e-05,
+        "image_indices": [
+          0,
+          1,
+          35,
+          55,
+          76,
+          77
+        ]
+      },
+      {
+        "name": "grid:ff_raw:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 1.1444091796875e-05
+      },
+      {
+        "name": "grid:ff_raw:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 7.62939453125e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "grid:ff_raw:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "hazelnut:test_shape",
+        "passed": true
+      },
+      {
+        "name": "hazelnut:mask_shape",
+        "passed": true
+      },
+      {
+        "name": "hazelnut:metadata_coverage",
+        "passed": true
+      },
+      {
+        "name": "hazelnut:labels_order",
+        "passed": true
+      },
+      {
+        "name": "hazelnut:baseline_indices",
+        "passed": true
+      },
+      {
+        "name": "hazelnut:baseline_source_rows",
+        "passed": true
+      },
+      {
+        "name": "hazelnut:original:float32",
+        "passed": true
+      },
+      {
+        "name": "hazelnut:original:finite",
+        "passed": true
+      },
+      {
+        "name": "hazelnut:original:dimension",
+        "passed": true
+      },
+      {
+        "name": "hazelnut:original:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "hazelnut:original:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0,
+        "image_indices": [
+          0,
+          1,
+          35,
+          74,
+          108,
+          109
+        ]
+      },
+      {
+        "name": "hazelnut:original:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0
+      },
+      {
+        "name": "hazelnut:original:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 5.7220458984375e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "hazelnut:original:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "hazelnut:gb_center:float32",
+        "passed": true
+      },
+      {
+        "name": "hazelnut:gb_center:finite",
+        "passed": true
+      },
+      {
+        "name": "hazelnut:gb_center:dimension",
+        "passed": true
+      },
+      {
+        "name": "hazelnut:gb_center:same_k",
+        "passed": true
+      },
+      {
+        "name": "hazelnut:center_frozen_partition",
+        "passed": true
+      },
+      {
+        "name": "hazelnut:gb_center:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "hazelnut:gb_center:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 1.9073486328125e-06,
+        "image_indices": [
+          0,
+          1,
+          35,
+          74,
+          108,
+          109
+        ]
+      },
+      {
+        "name": "hazelnut:gb_center:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 1.9073486328125e-06
+      },
+      {
+        "name": "hazelnut:gb_center:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 5.841255187988281e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "hazelnut:gb_center:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "hazelnut:gb_medoid:float32",
+        "passed": true
+      },
+      {
+        "name": "hazelnut:gb_medoid:finite",
+        "passed": true
+      },
+      {
+        "name": "hazelnut:gb_medoid:dimension",
+        "passed": true
+      },
+      {
+        "name": "hazelnut:gb_medoid:same_k",
+        "passed": true
+      },
+      {
+        "name": "hazelnut:gb_medoid:indices",
+        "passed": true
+      },
+      {
+        "name": "hazelnut:gb_medoid:source_rows",
+        "passed": true
+      },
+      {
+        "name": "hazelnut:gb_medoid:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "hazelnut:gb_medoid:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0,
+        "image_indices": [
+          0,
+          1,
+          35,
+          74,
+          108,
+          109
+        ]
+      },
+      {
+        "name": "hazelnut:gb_medoid:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0
+      },
+      {
+        "name": "hazelnut:gb_medoid:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 5.841255187988281e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "hazelnut:gb_medoid:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "hazelnut:ff_raw:float32",
+        "passed": true
+      },
+      {
+        "name": "hazelnut:ff_raw:finite",
+        "passed": true
+      },
+      {
+        "name": "hazelnut:ff_raw:dimension",
+        "passed": true
+      },
+      {
+        "name": "hazelnut:ff_raw:same_k",
+        "passed": true
+      },
+      {
+        "name": "hazelnut:ff_raw:indices",
+        "passed": true
+      },
+      {
+        "name": "hazelnut:ff_raw:source_rows",
+        "passed": true
+      },
+      {
+        "name": "hazelnut:ff_raw:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "hazelnut:ff_raw:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0,
+        "image_indices": [
+          0,
+          1,
+          35,
+          74,
+          108,
+          109
+        ]
+      },
+      {
+        "name": "hazelnut:ff_raw:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0
+      },
+      {
+        "name": "hazelnut:ff_raw:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 7.62939453125e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "hazelnut:ff_raw:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "leather:test_shape",
+        "passed": true
+      },
+      {
+        "name": "leather:mask_shape",
+        "passed": true
+      },
+      {
+        "name": "leather:metadata_coverage",
+        "passed": true
+      },
+      {
+        "name": "leather:labels_order",
+        "passed": true
+      },
+      {
+        "name": "leather:baseline_indices",
+        "passed": true
+      },
+      {
+        "name": "leather:baseline_source_rows",
+        "passed": true
+      },
+      {
+        "name": "leather:original:float32",
+        "passed": true
+      },
+      {
+        "name": "leather:original:finite",
+        "passed": true
+      },
+      {
+        "name": "leather:original:dimension",
+        "passed": true
+      },
+      {
+        "name": "leather:original:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "leather:original:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0,
+        "image_indices": [
+          0,
+          1,
+          74,
+          105,
+          122,
+          123
+        ]
+      },
+      {
+        "name": "leather:original:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0
+      },
+      {
+        "name": "leather:original:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 5.662441253662109e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "leather:original:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "leather:gb_center:float32",
+        "passed": true
+      },
+      {
+        "name": "leather:gb_center:finite",
+        "passed": true
+      },
+      {
+        "name": "leather:gb_center:dimension",
+        "passed": true
+      },
+      {
+        "name": "leather:gb_center:same_k",
+        "passed": true
+      },
+      {
+        "name": "leather:center_frozen_partition",
+        "passed": true
+      },
+      {
+        "name": "leather:gb_center:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "leather:gb_center:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 7.62939453125e-06,
+        "image_indices": [
+          0,
+          1,
+          74,
+          105,
+          122,
+          123
+        ]
+      },
+      {
+        "name": "leather:gb_center:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 7.62939453125e-06
+      },
+      {
+        "name": "leather:gb_center:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 5.9604644775390625e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "leather:gb_center:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "leather:gb_medoid:float32",
+        "passed": true
+      },
+      {
+        "name": "leather:gb_medoid:finite",
+        "passed": true
+      },
+      {
+        "name": "leather:gb_medoid:dimension",
+        "passed": true
+      },
+      {
+        "name": "leather:gb_medoid:same_k",
+        "passed": true
+      },
+      {
+        "name": "leather:gb_medoid:indices",
+        "passed": true
+      },
+      {
+        "name": "leather:gb_medoid:source_rows",
+        "passed": true
+      },
+      {
+        "name": "leather:gb_medoid:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "leather:gb_medoid:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 1.9073486328125e-06,
+        "image_indices": [
+          0,
+          1,
+          74,
+          105,
+          122,
+          123
+        ]
+      },
+      {
+        "name": "leather:gb_medoid:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 1.9073486328125e-06
+      },
+      {
+        "name": "leather:gb_medoid:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 5.245208740234375e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "leather:gb_medoid:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "leather:ff_raw:float32",
+        "passed": true
+      },
+      {
+        "name": "leather:ff_raw:finite",
+        "passed": true
+      },
+      {
+        "name": "leather:ff_raw:dimension",
+        "passed": true
+      },
+      {
+        "name": "leather:ff_raw:same_k",
+        "passed": true
+      },
+      {
+        "name": "leather:ff_raw:indices",
+        "passed": true
+      },
+      {
+        "name": "leather:ff_raw:source_rows",
+        "passed": true
+      },
+      {
+        "name": "leather:ff_raw:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "leather:ff_raw:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 3.814697265625e-06,
+        "image_indices": [
+          0,
+          1,
+          74,
+          105,
+          122,
+          123
+        ]
+      },
+      {
+        "name": "leather:ff_raw:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 3.814697265625e-06
+      },
+      {
+        "name": "leather:ff_raw:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 5.4836273193359375e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "leather:ff_raw:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "metal_nut:test_shape",
+        "passed": true
+      },
+      {
+        "name": "metal_nut:mask_shape",
+        "passed": true
+      },
+      {
+        "name": "metal_nut:metadata_coverage",
+        "passed": true
+      },
+      {
+        "name": "metal_nut:labels_order",
+        "passed": true
+      },
+      {
+        "name": "metal_nut:baseline_indices",
+        "passed": true
+      },
+      {
+        "name": "metal_nut:baseline_source_rows",
+        "passed": true
+      },
+      {
+        "name": "metal_nut:original:float32",
+        "passed": true
+      },
+      {
+        "name": "metal_nut:original:finite",
+        "passed": true
+      },
+      {
+        "name": "metal_nut:original:dimension",
+        "passed": true
+      },
+      {
+        "name": "metal_nut:original:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "metal_nut:original:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 3.814697265625e-06,
+        "image_indices": [
+          0,
+          1,
+          70,
+          91,
+          113,
+          114
+        ]
+      },
+      {
+        "name": "metal_nut:original:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 3.814697265625e-06
+      },
+      {
+        "name": "metal_nut:original:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 7.748603820800781e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "metal_nut:original:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "metal_nut:gb_center:float32",
+        "passed": true
+      },
+      {
+        "name": "metal_nut:gb_center:finite",
+        "passed": true
+      },
+      {
+        "name": "metal_nut:gb_center:dimension",
+        "passed": true
+      },
+      {
+        "name": "metal_nut:gb_center:same_k",
+        "passed": true
+      },
+      {
+        "name": "metal_nut:center_frozen_partition",
+        "passed": true
+      },
+      {
+        "name": "metal_nut:gb_center:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "metal_nut:gb_center:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 1.1444091796875e-05,
+        "image_indices": [
+          0,
+          1,
+          70,
+          91,
+          113,
+          114
+        ]
+      },
+      {
+        "name": "metal_nut:gb_center:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 1.9073486328125e-06
+      },
+      {
+        "name": "metal_nut:gb_center:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 8.225440979003906e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "metal_nut:gb_center:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "metal_nut:gb_medoid:float32",
+        "passed": true
+      },
+      {
+        "name": "metal_nut:gb_medoid:finite",
+        "passed": true
+      },
+      {
+        "name": "metal_nut:gb_medoid:dimension",
+        "passed": true
+      },
+      {
+        "name": "metal_nut:gb_medoid:same_k",
+        "passed": true
+      },
+      {
+        "name": "metal_nut:gb_medoid:indices",
+        "passed": true
+      },
+      {
+        "name": "metal_nut:gb_medoid:source_rows",
+        "passed": true
+      },
+      {
+        "name": "metal_nut:gb_medoid:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "metal_nut:gb_medoid:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 3.814697265625e-06,
+        "image_indices": [
+          0,
+          1,
+          70,
+          91,
+          113,
+          114
+        ]
+      },
+      {
+        "name": "metal_nut:gb_medoid:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 3.814697265625e-06
+      },
+      {
+        "name": "metal_nut:gb_medoid:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 9.864568710327148e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "metal_nut:gb_medoid:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "metal_nut:ff_raw:float32",
+        "passed": true
+      },
+      {
+        "name": "metal_nut:ff_raw:finite",
+        "passed": true
+      },
+      {
+        "name": "metal_nut:ff_raw:dimension",
+        "passed": true
+      },
+      {
+        "name": "metal_nut:ff_raw:same_k",
+        "passed": true
+      },
+      {
+        "name": "metal_nut:ff_raw:indices",
+        "passed": true
+      },
+      {
+        "name": "metal_nut:ff_raw:source_rows",
+        "passed": true
+      },
+      {
+        "name": "metal_nut:ff_raw:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "metal_nut:ff_raw:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 3.814697265625e-06,
+        "image_indices": [
+          0,
+          1,
+          70,
+          91,
+          113,
+          114
+        ]
+      },
+      {
+        "name": "metal_nut:ff_raw:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 3.814697265625e-06
+      },
+      {
+        "name": "metal_nut:ff_raw:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 7.62939453125e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "metal_nut:ff_raw:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "pill:test_shape",
+        "passed": true
+      },
+      {
+        "name": "pill:mask_shape",
+        "passed": true
+      },
+      {
+        "name": "pill:metadata_coverage",
+        "passed": true
+      },
+      {
+        "name": "pill:labels_order",
+        "passed": true
+      },
+      {
+        "name": "pill:baseline_indices",
+        "passed": true
+      },
+      {
+        "name": "pill:baseline_source_rows",
+        "passed": true
+      },
+      {
+        "name": "pill:original:float32",
+        "passed": true
+      },
+      {
+        "name": "pill:original:finite",
+        "passed": true
+      },
+      {
+        "name": "pill:original:dimension",
+        "passed": true
+      },
+      {
+        "name": "pill:original:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "pill:original:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 3.814697265625e-06,
+        "image_indices": [
+          0,
+          1,
+          108,
+          133,
+          165,
+          166
+        ]
+      },
+      {
+        "name": "pill:original:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 3.814697265625e-06
+      },
+      {
+        "name": "pill:original:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 5.4836273193359375e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "pill:original:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "pill:gb_center:float32",
+        "passed": true
+      },
+      {
+        "name": "pill:gb_center:finite",
+        "passed": true
+      },
+      {
+        "name": "pill:gb_center:dimension",
+        "passed": true
+      },
+      {
+        "name": "pill:gb_center:same_k",
+        "passed": true
+      },
+      {
+        "name": "pill:center_frozen_partition",
+        "passed": true
+      },
+      {
+        "name": "pill:gb_center:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "pill:gb_center:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 5.7220458984375e-06,
+        "image_indices": [
+          0,
+          1,
+          108,
+          133,
+          165,
+          166
+        ]
+      },
+      {
+        "name": "pill:gb_center:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 5.7220458984375e-06
+      },
+      {
+        "name": "pill:gb_center:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 6.079673767089844e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "pill:gb_center:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "pill:gb_medoid:float32",
+        "passed": true
+      },
+      {
+        "name": "pill:gb_medoid:finite",
+        "passed": true
+      },
+      {
+        "name": "pill:gb_medoid:dimension",
+        "passed": true
+      },
+      {
+        "name": "pill:gb_medoid:same_k",
+        "passed": true
+      },
+      {
+        "name": "pill:gb_medoid:indices",
+        "passed": true
+      },
+      {
+        "name": "pill:gb_medoid:source_rows",
+        "passed": true
+      },
+      {
+        "name": "pill:gb_medoid:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "pill:gb_medoid:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0,
+        "image_indices": [
+          0,
+          1,
+          108,
+          133,
+          165,
+          166
+        ]
+      },
+      {
+        "name": "pill:gb_medoid:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0
+      },
+      {
+        "name": "pill:gb_medoid:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 7.808208465576172e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "pill:gb_medoid:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "pill:ff_raw:float32",
+        "passed": true
+      },
+      {
+        "name": "pill:ff_raw:finite",
+        "passed": true
+      },
+      {
+        "name": "pill:ff_raw:dimension",
+        "passed": true
+      },
+      {
+        "name": "pill:ff_raw:same_k",
+        "passed": true
+      },
+      {
+        "name": "pill:ff_raw:indices",
+        "passed": true
+      },
+      {
+        "name": "pill:ff_raw:source_rows",
+        "passed": true
+      },
+      {
+        "name": "pill:ff_raw:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "pill:ff_raw:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 5.7220458984375e-06,
+        "image_indices": [
+          0,
+          1,
+          108,
+          133,
+          165,
+          166
+        ]
+      },
+      {
+        "name": "pill:ff_raw:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 5.7220458984375e-06
+      },
+      {
+        "name": "pill:ff_raw:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 5.7220458984375e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "pill:ff_raw:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "screw:test_shape",
+        "passed": true
+      },
+      {
+        "name": "screw:mask_shape",
+        "passed": true
+      },
+      {
+        "name": "screw:metadata_coverage",
+        "passed": true
+      },
+      {
+        "name": "screw:labels_order",
+        "passed": true
+      },
+      {
+        "name": "screw:baseline_indices",
+        "passed": true
+      },
+      {
+        "name": "screw:baseline_source_rows",
+        "passed": true
+      },
+      {
+        "name": "screw:original:float32",
+        "passed": true
+      },
+      {
+        "name": "screw:original:finite",
+        "passed": true
+      },
+      {
+        "name": "screw:original:dimension",
+        "passed": true
+      },
+      {
+        "name": "screw:original:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "screw:original:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0,
+        "image_indices": [
+          0,
+          1,
+          40,
+          41,
+          158,
+          159
+        ]
+      },
+      {
+        "name": "screw:original:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0
+      },
+      {
+        "name": "screw:original:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 4.351139068603516e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "screw:original:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "screw:gb_center:float32",
+        "passed": true
+      },
+      {
+        "name": "screw:gb_center:finite",
+        "passed": true
+      },
+      {
+        "name": "screw:gb_center:dimension",
+        "passed": true
+      },
+      {
+        "name": "screw:gb_center:same_k",
+        "passed": true
+      },
+      {
+        "name": "screw:center_frozen_partition",
+        "passed": true
+      },
+      {
+        "name": "screw:gb_center:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "screw:gb_center:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0,
+        "image_indices": [
+          0,
+          1,
+          40,
+          41,
+          158,
+          159
+        ]
+      },
+      {
+        "name": "screw:gb_center:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0
+      },
+      {
+        "name": "screw:gb_center:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 5.125999450683594e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "screw:gb_center:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "screw:gb_medoid:float32",
+        "passed": true
+      },
+      {
+        "name": "screw:gb_medoid:finite",
+        "passed": true
+      },
+      {
+        "name": "screw:gb_medoid:dimension",
+        "passed": true
+      },
+      {
+        "name": "screw:gb_medoid:same_k",
+        "passed": true
+      },
+      {
+        "name": "screw:gb_medoid:indices",
+        "passed": true
+      },
+      {
+        "name": "screw:gb_medoid:source_rows",
+        "passed": true
+      },
+      {
+        "name": "screw:gb_medoid:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "screw:gb_medoid:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0,
+        "image_indices": [
+          0,
+          1,
+          40,
+          41,
+          158,
+          159
+        ]
+      },
+      {
+        "name": "screw:gb_medoid:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0
+      },
+      {
+        "name": "screw:gb_medoid:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 5.245208740234375e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "screw:gb_medoid:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "screw:ff_raw:float32",
+        "passed": true
+      },
+      {
+        "name": "screw:ff_raw:finite",
+        "passed": true
+      },
+      {
+        "name": "screw:ff_raw:dimension",
+        "passed": true
+      },
+      {
+        "name": "screw:ff_raw:same_k",
+        "passed": true
+      },
+      {
+        "name": "screw:ff_raw:indices",
+        "passed": true
+      },
+      {
+        "name": "screw:ff_raw:source_rows",
+        "passed": true
+      },
+      {
+        "name": "screw:ff_raw:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "screw:ff_raw:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0,
+        "image_indices": [
+          0,
+          1,
+          40,
+          41,
+          158,
+          159
+        ]
+      },
+      {
+        "name": "screw:ff_raw:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0
+      },
+      {
+        "name": "screw:ff_raw:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 5.7220458984375e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "screw:ff_raw:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "tile:test_shape",
+        "passed": true
+      },
+      {
+        "name": "tile:mask_shape",
+        "passed": true
+      },
+      {
+        "name": "tile:metadata_coverage",
+        "passed": true
+      },
+      {
+        "name": "tile:labels_order",
+        "passed": true
+      },
+      {
+        "name": "tile:baseline_indices",
+        "passed": true
+      },
+      {
+        "name": "tile:baseline_source_rows",
+        "passed": true
+      },
+      {
+        "name": "tile:original:float32",
+        "passed": true
+      },
+      {
+        "name": "tile:original:finite",
+        "passed": true
+      },
+      {
+        "name": "tile:original:dimension",
+        "passed": true
+      },
+      {
+        "name": "tile:original:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "tile:original:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 5.7220458984375e-06,
+        "image_indices": [
+          0,
+          1,
+          35,
+          67,
+          115,
+          116
+        ]
+      },
+      {
+        "name": "tile:original:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 5.7220458984375e-06
+      },
+      {
+        "name": "tile:original:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 5.7220458984375e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "tile:original:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "tile:gb_center:float32",
+        "passed": true
+      },
+      {
+        "name": "tile:gb_center:finite",
+        "passed": true
+      },
+      {
+        "name": "tile:gb_center:dimension",
+        "passed": true
+      },
+      {
+        "name": "tile:gb_center:same_k",
+        "passed": true
+      },
+      {
+        "name": "tile:center_frozen_partition",
+        "passed": true
+      },
+      {
+        "name": "tile:gb_center:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "tile:gb_center:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 9.5367431640625e-06,
+        "image_indices": [
+          0,
+          1,
+          35,
+          67,
+          115,
+          116
+        ]
+      },
+      {
+        "name": "tile:gb_center:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 9.5367431640625e-06
+      },
+      {
+        "name": "tile:gb_center:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 6.9141387939453125e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "tile:gb_center:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "tile:gb_medoid:float32",
+        "passed": true
+      },
+      {
+        "name": "tile:gb_medoid:finite",
+        "passed": true
+      },
+      {
+        "name": "tile:gb_medoid:dimension",
+        "passed": true
+      },
+      {
+        "name": "tile:gb_medoid:same_k",
+        "passed": true
+      },
+      {
+        "name": "tile:gb_medoid:indices",
+        "passed": true
+      },
+      {
+        "name": "tile:gb_medoid:source_rows",
+        "passed": true
+      },
+      {
+        "name": "tile:gb_medoid:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "tile:gb_medoid:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 5.7220458984375e-06,
+        "image_indices": [
+          0,
+          1,
+          35,
+          67,
+          115,
+          116
+        ]
+      },
+      {
+        "name": "tile:gb_medoid:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 5.7220458984375e-06
+      },
+      {
+        "name": "tile:gb_medoid:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 4.410743713378906e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "tile:gb_medoid:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "tile:ff_raw:float32",
+        "passed": true
+      },
+      {
+        "name": "tile:ff_raw:finite",
+        "passed": true
+      },
+      {
+        "name": "tile:ff_raw:dimension",
+        "passed": true
+      },
+      {
+        "name": "tile:ff_raw:same_k",
+        "passed": true
+      },
+      {
+        "name": "tile:ff_raw:indices",
+        "passed": true
+      },
+      {
+        "name": "tile:ff_raw:source_rows",
+        "passed": true
+      },
+      {
+        "name": "tile:ff_raw:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "tile:ff_raw:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 1.9073486328125e-06,
+        "image_indices": [
+          0,
+          1,
+          35,
+          67,
+          115,
+          116
+        ]
+      },
+      {
+        "name": "tile:ff_raw:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 1.9073486328125e-06
+      },
+      {
+        "name": "tile:ff_raw:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 6.4373016357421875e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "tile:ff_raw:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "toothbrush:test_shape",
+        "passed": true
+      },
+      {
+        "name": "toothbrush:mask_shape",
+        "passed": true
+      },
+      {
+        "name": "toothbrush:metadata_coverage",
+        "passed": true
+      },
+      {
+        "name": "toothbrush:labels_order",
+        "passed": true
+      },
+      {
+        "name": "toothbrush:baseline_indices",
+        "passed": true
+      },
+      {
+        "name": "toothbrush:baseline_source_rows",
+        "passed": true
+      },
+      {
+        "name": "toothbrush:original:float32",
+        "passed": true
+      },
+      {
+        "name": "toothbrush:original:finite",
+        "passed": true
+      },
+      {
+        "name": "toothbrush:original:dimension",
+        "passed": true
+      },
+      {
+        "name": "toothbrush:original:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "toothbrush:original:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0,
+        "image_indices": [
+          0,
+          1,
+          29,
+          30,
+          40,
+          41
+        ]
+      },
+      {
+        "name": "toothbrush:original:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0
+      },
+      {
+        "name": "toothbrush:original:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 8.225440979003906e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "toothbrush:original:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "toothbrush:gb_center:float32",
+        "passed": true
+      },
+      {
+        "name": "toothbrush:gb_center:finite",
+        "passed": true
+      },
+      {
+        "name": "toothbrush:gb_center:dimension",
+        "passed": true
+      },
+      {
+        "name": "toothbrush:gb_center:same_k",
+        "passed": true
+      },
+      {
+        "name": "toothbrush:center_frozen_partition",
+        "passed": true
+      },
+      {
+        "name": "toothbrush:gb_center:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "toothbrush:gb_center:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0,
+        "image_indices": [
+          0,
+          1,
+          29,
+          30,
+          40,
+          41
+        ]
+      },
+      {
+        "name": "toothbrush:gb_center:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0
+      },
+      {
+        "name": "toothbrush:gb_center:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 7.68899917602539e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "toothbrush:gb_center:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "toothbrush:gb_medoid:float32",
+        "passed": true
+      },
+      {
+        "name": "toothbrush:gb_medoid:finite",
+        "passed": true
+      },
+      {
+        "name": "toothbrush:gb_medoid:dimension",
+        "passed": true
+      },
+      {
+        "name": "toothbrush:gb_medoid:same_k",
+        "passed": true
+      },
+      {
+        "name": "toothbrush:gb_medoid:indices",
+        "passed": true
+      },
+      {
+        "name": "toothbrush:gb_medoid:source_rows",
+        "passed": true
+      },
+      {
+        "name": "toothbrush:gb_medoid:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "toothbrush:gb_medoid:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 1.9073486328125e-06,
+        "image_indices": [
+          0,
+          1,
+          29,
+          30,
+          40,
+          41
+        ]
+      },
+      {
+        "name": "toothbrush:gb_medoid:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 1.9073486328125e-06
+      },
+      {
+        "name": "toothbrush:gb_medoid:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 7.987022399902344e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "toothbrush:gb_medoid:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "toothbrush:ff_raw:float32",
+        "passed": true
+      },
+      {
+        "name": "toothbrush:ff_raw:finite",
+        "passed": true
+      },
+      {
+        "name": "toothbrush:ff_raw:dimension",
+        "passed": true
+      },
+      {
+        "name": "toothbrush:ff_raw:same_k",
+        "passed": true
+      },
+      {
+        "name": "toothbrush:ff_raw:indices",
+        "passed": true
+      },
+      {
+        "name": "toothbrush:ff_raw:source_rows",
+        "passed": true
+      },
+      {
+        "name": "toothbrush:ff_raw:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "toothbrush:ff_raw:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 3.814697265625e-06,
+        "image_indices": [
+          0,
+          1,
+          29,
+          30,
+          40,
+          41
+        ]
+      },
+      {
+        "name": "toothbrush:ff_raw:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 3.814697265625e-06
+      },
+      {
+        "name": "toothbrush:ff_raw:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 8.106231689453125e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "toothbrush:ff_raw:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "transistor:test_shape",
+        "passed": true
+      },
+      {
+        "name": "transistor:mask_shape",
+        "passed": true
+      },
+      {
+        "name": "transistor:metadata_coverage",
+        "passed": true
+      },
+      {
+        "name": "transistor:labels_order",
+        "passed": true
+      },
+      {
+        "name": "transistor:baseline_indices",
+        "passed": true
+      },
+      {
+        "name": "transistor:baseline_source_rows",
+        "passed": true
+      },
+      {
+        "name": "transistor:original:float32",
+        "passed": true
+      },
+      {
+        "name": "transistor:original:finite",
+        "passed": true
+      },
+      {
+        "name": "transistor:original:dimension",
+        "passed": true
+      },
+      {
+        "name": "transistor:original:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "transistor:original:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0,
+        "image_indices": [
+          0,
+          1,
+          30,
+          89,
+          98,
+          99
+        ]
+      },
+      {
+        "name": "transistor:original:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0
+      },
+      {
+        "name": "transistor:original:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 7.3909759521484375e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "transistor:original:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "transistor:gb_center:float32",
+        "passed": true
+      },
+      {
+        "name": "transistor:gb_center:finite",
+        "passed": true
+      },
+      {
+        "name": "transistor:gb_center:dimension",
+        "passed": true
+      },
+      {
+        "name": "transistor:gb_center:same_k",
+        "passed": true
+      },
+      {
+        "name": "transistor:center_frozen_partition",
+        "passed": true
+      },
+      {
+        "name": "transistor:gb_center:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "transistor:gb_center:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 1.9073486328125e-06,
+        "image_indices": [
+          0,
+          1,
+          30,
+          89,
+          98,
+          99
+        ]
+      },
+      {
+        "name": "transistor:gb_center:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 1.9073486328125e-06
+      },
+      {
+        "name": "transistor:gb_center:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 7.62939453125e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "transistor:gb_center:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "transistor:gb_medoid:float32",
+        "passed": true
+      },
+      {
+        "name": "transistor:gb_medoid:finite",
+        "passed": true
+      },
+      {
+        "name": "transistor:gb_medoid:dimension",
+        "passed": true
+      },
+      {
+        "name": "transistor:gb_medoid:same_k",
+        "passed": true
+      },
+      {
+        "name": "transistor:gb_medoid:indices",
+        "passed": true
+      },
+      {
+        "name": "transistor:gb_medoid:source_rows",
+        "passed": true
+      },
+      {
+        "name": "transistor:gb_medoid:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "transistor:gb_medoid:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0,
+        "image_indices": [
+          0,
+          1,
+          30,
+          89,
+          98,
+          99
+        ]
+      },
+      {
+        "name": "transistor:gb_medoid:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0
+      },
+      {
+        "name": "transistor:gb_medoid:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 8.702278137207031e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "transistor:gb_medoid:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "transistor:ff_raw:float32",
+        "passed": true
+      },
+      {
+        "name": "transistor:ff_raw:finite",
+        "passed": true
+      },
+      {
+        "name": "transistor:ff_raw:dimension",
+        "passed": true
+      },
+      {
+        "name": "transistor:ff_raw:same_k",
+        "passed": true
+      },
+      {
+        "name": "transistor:ff_raw:indices",
+        "passed": true
+      },
+      {
+        "name": "transistor:ff_raw:source_rows",
+        "passed": true
+      },
+      {
+        "name": "transistor:ff_raw:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "transistor:ff_raw:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0,
+        "image_indices": [
+          0,
+          1,
+          30,
+          89,
+          98,
+          99
+        ]
+      },
+      {
+        "name": "transistor:ff_raw:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0
+      },
+      {
+        "name": "transistor:ff_raw:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 6.4373016357421875e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "transistor:ff_raw:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "wood:test_shape",
+        "passed": true
+      },
+      {
+        "name": "wood:mask_shape",
+        "passed": true
+      },
+      {
+        "name": "wood:metadata_coverage",
+        "passed": true
+      },
+      {
+        "name": "wood:labels_order",
+        "passed": true
+      },
+      {
+        "name": "wood:baseline_indices",
+        "passed": true
+      },
+      {
+        "name": "wood:baseline_source_rows",
+        "passed": true
+      },
+      {
+        "name": "wood:original:float32",
+        "passed": true
+      },
+      {
+        "name": "wood:original:finite",
+        "passed": true
+      },
+      {
+        "name": "wood:original:dimension",
+        "passed": true
+      },
+      {
+        "name": "wood:original:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "wood:original:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0,
+        "image_indices": [
+          0,
+          1,
+          19,
+          37,
+          77,
+          78
+        ]
+      },
+      {
+        "name": "wood:original:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0
+      },
+      {
+        "name": "wood:original:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 5.0067901611328125e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "wood:original:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "wood:gb_center:float32",
+        "passed": true
+      },
+      {
+        "name": "wood:gb_center:finite",
+        "passed": true
+      },
+      {
+        "name": "wood:gb_center:dimension",
+        "passed": true
+      },
+      {
+        "name": "wood:gb_center:same_k",
+        "passed": true
+      },
+      {
+        "name": "wood:center_frozen_partition",
+        "passed": true
+      },
+      {
+        "name": "wood:gb_center:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "wood:gb_center:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0,
+        "image_indices": [
+          0,
+          1,
+          19,
+          37,
+          77,
+          78
+        ]
+      },
+      {
+        "name": "wood:gb_center:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0
+      },
+      {
+        "name": "wood:gb_center:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 4.649162292480469e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "wood:gb_center:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "wood:gb_medoid:float32",
+        "passed": true
+      },
+      {
+        "name": "wood:gb_medoid:finite",
+        "passed": true
+      },
+      {
+        "name": "wood:gb_medoid:dimension",
+        "passed": true
+      },
+      {
+        "name": "wood:gb_medoid:same_k",
+        "passed": true
+      },
+      {
+        "name": "wood:gb_medoid:indices",
+        "passed": true
+      },
+      {
+        "name": "wood:gb_medoid:source_rows",
+        "passed": true
+      },
+      {
+        "name": "wood:gb_medoid:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "wood:gb_medoid:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0,
+        "image_indices": [
+          0,
+          1,
+          19,
+          37,
+          77,
+          78
+        ]
+      },
+      {
+        "name": "wood:gb_medoid:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0
+      },
+      {
+        "name": "wood:gb_medoid:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 4.291534423828125e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "wood:gb_medoid:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "wood:ff_raw:float32",
+        "passed": true
+      },
+      {
+        "name": "wood:ff_raw:finite",
+        "passed": true
+      },
+      {
+        "name": "wood:ff_raw:dimension",
+        "passed": true
+      },
+      {
+        "name": "wood:ff_raw:same_k",
+        "passed": true
+      },
+      {
+        "name": "wood:ff_raw:indices",
+        "passed": true
+      },
+      {
+        "name": "wood:ff_raw:source_rows",
+        "passed": true
+      },
+      {
+        "name": "wood:ff_raw:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "wood:ff_raw:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 5.7220458984375e-06,
+        "image_indices": [
+          0,
+          1,
+          19,
+          37,
+          77,
+          78
+        ]
+      },
+      {
+        "name": "wood:ff_raw:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 5.7220458984375e-06
+      },
+      {
+        "name": "wood:ff_raw:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 5.245208740234375e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "wood:ff_raw:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "zipper:test_shape",
+        "passed": true
+      },
+      {
+        "name": "zipper:mask_shape",
+        "passed": true
+      },
+      {
+        "name": "zipper:metadata_coverage",
+        "passed": true
+      },
+      {
+        "name": "zipper:labels_order",
+        "passed": true
+      },
+      {
+        "name": "zipper:baseline_indices",
+        "passed": true
+      },
+      {
+        "name": "zipper:baseline_source_rows",
+        "passed": true
+      },
+      {
+        "name": "zipper:original:float32",
+        "passed": true
+      },
+      {
+        "name": "zipper:original:finite",
+        "passed": true
+      },
+      {
+        "name": "zipper:original:dimension",
+        "passed": true
+      },
+      {
+        "name": "zipper:original:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "zipper:original:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 1.9073486328125e-06,
+        "image_indices": [
+          0,
+          1,
+          68,
+          99,
+          149,
+          150
+        ]
+      },
+      {
+        "name": "zipper:original:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0
+      },
+      {
+        "name": "zipper:original:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 5.543231964111328e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "zipper:original:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "zipper:gb_center:float32",
+        "passed": true
+      },
+      {
+        "name": "zipper:gb_center:finite",
+        "passed": true
+      },
+      {
+        "name": "zipper:gb_center:dimension",
+        "passed": true
+      },
+      {
+        "name": "zipper:gb_center:same_k",
+        "passed": true
+      },
+      {
+        "name": "zipper:center_frozen_partition",
+        "passed": true
+      },
+      {
+        "name": "zipper:gb_center:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "zipper:gb_center:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 5.7220458984375e-06,
+        "image_indices": [
+          0,
+          1,
+          68,
+          99,
+          149,
+          150
+        ]
+      },
+      {
+        "name": "zipper:gb_center:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 0.0
+      },
+      {
+        "name": "zipper:gb_center:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 6.318092346191406e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "zipper:gb_center:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "zipper:gb_medoid:float32",
+        "passed": true
+      },
+      {
+        "name": "zipper:gb_medoid:finite",
+        "passed": true
+      },
+      {
+        "name": "zipper:gb_medoid:dimension",
+        "passed": true
+      },
+      {
+        "name": "zipper:gb_medoid:same_k",
+        "passed": true
+      },
+      {
+        "name": "zipper:gb_medoid:indices",
+        "passed": true
+      },
+      {
+        "name": "zipper:gb_medoid:source_rows",
+        "passed": true
+      },
+      {
+        "name": "zipper:gb_medoid:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "zipper:gb_medoid:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 7.62939453125e-06,
+        "image_indices": [
+          0,
+          1,
+          68,
+          99,
+          149,
+          150
+        ]
+      },
+      {
+        "name": "zipper:gb_medoid:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 7.62939453125e-06
+      },
+      {
+        "name": "zipper:gb_medoid:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 5.602836608886719e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "zipper:gb_medoid:adapter_faiss_vectors",
+        "passed": true
+      },
+      {
+        "name": "zipper:ff_raw:float32",
+        "passed": true
+      },
+      {
+        "name": "zipper:ff_raw:finite",
+        "passed": true
+      },
+      {
+        "name": "zipper:ff_raw:dimension",
+        "passed": true
+      },
+      {
+        "name": "zipper:ff_raw:same_k",
+        "passed": true
+      },
+      {
+        "name": "zipper:ff_raw:indices",
+        "passed": true
+      },
+      {
+        "name": "zipper:ff_raw:source_rows",
+        "passed": true
+      },
+      {
+        "name": "zipper:ff_raw:saved_score_count",
+        "passed": true
+      },
+      {
+        "name": "zipper:ff_raw:sampled_archived_scores",
+        "passed": true,
+        "max_absolute_difference": 1.9073486328125e-06,
+        "image_indices": [
+          0,
+          1,
+          68,
+          99,
+          149,
+          150
+        ]
+      },
+      {
+        "name": "zipper:ff_raw:adapter_scores",
+        "passed": true,
+        "max_absolute_difference": 1.9073486328125e-06
+      },
+      {
+        "name": "zipper:ff_raw:adapter_map_consistency",
+        "passed": true,
+        "max_absolute_difference": 8.106231689453125e-06,
+        "scope": "direct sampled queries plus unchanged official RescaleSegmentor; archived maps are unavailable"
+      },
+      {
+        "name": "zipper:ff_raw:adapter_faiss_vectors",
+        "passed": true
+      }
+    ],
+    "categories": [
+      {
+        "category": "bottle",
+        "normal_images_in_sample": 3,
+        "anomalous_images_in_sample": 3,
+        "methods": [
+          {
+            "method": "original",
+            "bank_rows": 16385,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              62,
+              63,
+              81,
+              82
+            ],
+            "max_saved_image_score_difference": 3.814697265625e-06,
+            "max_adapter_score_difference": 3.814697265625e-06,
+            "max_map_consistency_difference": 1.3768672943115234e-05,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.9838332722382308,
+              "anomaly_pixel_auroc": 0.9649381141808702,
+              "aupro_available": false,
+              "aupro": null
+            }
+          },
+          {
+            "method": "gb_center",
+            "bank_rows": 1072,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              62,
+              63,
+              81,
+              82
+            ],
+            "max_saved_image_score_difference": 0.0,
+            "max_adapter_score_difference": 0.0,
+            "max_map_consistency_difference": 8.404254913330078e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.9827054332183565,
+              "anomaly_pixel_auroc": 0.9625022312455804,
+              "aupro_available": false,
+              "aupro": null
+            }
+          },
+          {
+            "method": "gb_medoid",
+            "bank_rows": 1072,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              62,
+              63,
+              81,
+              82
+            ],
+            "max_saved_image_score_difference": 3.814697265625e-06,
+            "max_adapter_score_difference": 0.0,
+            "max_map_consistency_difference": 1.0967254638671875e-05,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.9823893614294951,
+              "anomaly_pixel_auroc": 0.9621052251357726,
+              "aupro_available": false,
+              "aupro": null
+            }
+          },
+          {
+            "method": "ff_raw",
+            "bank_rows": 1072,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              62,
+              63,
+              81,
+              82
+            ],
+            "max_saved_image_score_difference": 0.0,
+            "max_adapter_score_difference": 0.0,
+            "max_map_consistency_difference": 8.940696716308594e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.9830049748558609,
+              "anomaly_pixel_auroc": 0.9631417291193478,
+              "aupro_available": false,
+              "aupro": null
+            }
+          }
+        ]
+      },
+      {
+        "category": "cable",
+        "normal_images_in_sample": 2,
+        "anomalous_images_in_sample": 4,
+        "methods": [
+          {
+            "method": "original",
+            "bank_rows": 17561,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              60,
+              117,
+              148,
+              149
+            ],
+            "max_saved_image_score_difference": 1.9073486328125e-06,
+            "max_adapter_score_difference": 1.9073486328125e-06,
+            "max_map_consistency_difference": 7.3909759521484375e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.9838698765867527,
+              "anomaly_pixel_auroc": 0.9773239494455459,
+              "aupro_available": false,
+              "aupro": null
+            }
+          },
+          {
+            "method": "gb_center",
+            "bank_rows": 1522,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              60,
+              117,
+              148,
+              149
+            ],
+            "max_saved_image_score_difference": 0.0,
+            "max_adapter_score_difference": 0.0,
+            "max_map_consistency_difference": 9.179115295410156e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.975965008384153,
+              "anomaly_pixel_auroc": 0.9702273298617663,
+              "aupro_available": false,
+              "aupro": null
+            }
+          },
+          {
+            "method": "gb_medoid",
+            "bank_rows": 1522,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              60,
+              117,
+              148,
+              149
+            ],
+            "max_saved_image_score_difference": 3.814697265625e-06,
+            "max_adapter_score_difference": 3.814697265625e-06,
+            "max_map_consistency_difference": 8.463859558105469e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 0.875,
+              "full_pixel_auroc": 0.9717632618037421,
+              "anomaly_pixel_auroc": 0.9660585704998583,
+              "aupro_available": false,
+              "aupro": null
+            }
+          },
+          {
+            "method": "ff_raw",
+            "bank_rows": 1522,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              60,
+              117,
+              148,
+              149
+            ],
+            "max_saved_image_score_difference": 7.62939453125e-06,
+            "max_adapter_score_difference": 7.62939453125e-06,
+            "max_map_consistency_difference": 8.58306884765625e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.9798290062600878,
+              "anomaly_pixel_auroc": 0.9728191825482679,
+              "aupro_available": false,
+              "aupro": null
+            }
+          }
+        ]
+      },
+      {
+        "category": "capsule",
+        "normal_images_in_sample": 2,
+        "anomalous_images_in_sample": 4,
+        "methods": [
+          {
+            "method": "original",
+            "bank_rows": 17169,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              45,
+              67,
+              130,
+              131
+            ],
+            "max_saved_image_score_difference": 0.0,
+            "max_adapter_score_difference": 0.0,
+            "max_map_consistency_difference": 5.5730342864990234e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.9900870372696393,
+              "anomaly_pixel_auroc": 0.9850762602383705,
+              "aupro_available": false,
+              "aupro": null
+            }
+          },
+          {
+            "method": "gb_center",
+            "bank_rows": 945,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              45,
+              67,
+              130,
+              131
+            ],
+            "max_saved_image_score_difference": 1.9073486328125e-06,
+            "max_adapter_score_difference": 0.0,
+            "max_map_consistency_difference": 8.404254913330078e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.9892714698364602,
+              "anomaly_pixel_auroc": 0.9840064302434417,
+              "aupro_available": false,
+              "aupro": null
+            }
+          },
+          {
+            "method": "gb_medoid",
+            "bank_rows": 945,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              45,
+              67,
+              130,
+              131
+            ],
+            "max_saved_image_score_difference": 3.814697265625e-06,
+            "max_adapter_score_difference": 3.814697265625e-06,
+            "max_map_consistency_difference": 5.900859832763672e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.9887184520256806,
+              "anomaly_pixel_auroc": 0.983376417376429,
+              "aupro_available": false,
+              "aupro": null
+            }
+          },
+          {
+            "method": "ff_raw",
+            "bank_rows": 945,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              45,
+              67,
+              130,
+              131
+            ],
+            "max_saved_image_score_difference": 0.0,
+            "max_adapter_score_difference": 0.0,
+            "max_map_consistency_difference": 7.748603820800781e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.9898763052823594,
+              "anomaly_pixel_auroc": 0.9848474249414915,
+              "aupro_available": false,
+              "aupro": null
+            }
+          }
+        ]
+      },
+      {
+        "category": "carpet",
+        "normal_images_in_sample": 2,
+        "anomalous_images_in_sample": 4,
+        "methods": [
+          {
+            "method": "original",
+            "bank_rows": 21952,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              36,
+              63,
+              115,
+              116
+            ],
+            "max_saved_image_score_difference": 1.9073486328125e-06,
+            "max_adapter_score_difference": 0.0,
+            "max_map_consistency_difference": 6.377696990966797e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.9955748187165961,
+              "anomaly_pixel_auroc": 0.9933044706505435,
+              "aupro_available": false,
+              "aupro": null
+            }
+          },
+          {
+            "method": "gb_center",
+            "bank_rows": 1718,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              36,
+              63,
+              115,
+              116
+            ],
+            "max_saved_image_score_difference": 0.0,
+            "max_adapter_score_difference": 0.0,
+            "max_map_consistency_difference": 5.0067901611328125e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.9960523547800676,
+              "anomaly_pixel_auroc": 0.994036922042723,
+              "aupro_available": false,
+              "aupro": null
+            }
+          },
+          {
+            "method": "gb_medoid",
+            "bank_rows": 1718,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              36,
+              63,
+              115,
+              116
+            ],
+            "max_saved_image_score_difference": 0.0,
+            "max_adapter_score_difference": 0.0,
+            "max_map_consistency_difference": 4.947185516357422e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.9957717583192287,
+              "anomaly_pixel_auroc": 0.9936178475173337,
+              "aupro_available": false,
+              "aupro": null
+            }
+          },
+          {
+            "method": "ff_raw",
+            "bank_rows": 1718,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              36,
+              63,
+              115,
+              116
+            ],
+            "max_saved_image_score_difference": 0.0,
+            "max_adapter_score_difference": 0.0,
+            "max_map_consistency_difference": 5.9604644775390625e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.9958433725439774,
+              "anomaly_pixel_auroc": 0.9937154001455334,
+              "aupro_available": false,
+              "aupro": null
+            }
+          }
+        ]
+      },
+      {
+        "category": "grid",
+        "normal_images_in_sample": 2,
+        "anomalous_images_in_sample": 4,
+        "methods": [
+          {
+            "method": "original",
+            "bank_rows": 20697,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              35,
+              55,
+              76,
+              77
+            ],
+            "max_saved_image_score_difference": 0.0,
+            "max_adapter_score_difference": 0.0,
+            "max_map_consistency_difference": 1.0013580322265625e-05,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.9852996382207371,
+              "anomaly_pixel_auroc": 0.977883537751842,
+              "aupro_available": false,
+              "aupro": null
+            }
+          },
+          {
+            "method": "gb_center",
+            "bank_rows": 1621,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              35,
+              55,
+              76,
+              77
+            ],
+            "max_saved_image_score_difference": 0.0,
+            "max_adapter_score_difference": 0.0,
+            "max_map_consistency_difference": 8.58306884765625e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.9856277335392181,
+              "anomaly_pixel_auroc": 0.9784216664607716,
+              "aupro_available": false,
+              "aupro": null
+            }
+          },
+          {
+            "method": "gb_medoid",
+            "bank_rows": 1621,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              35,
+              55,
+              76,
+              77
+            ],
+            "max_saved_image_score_difference": 3.814697265625e-06,
+            "max_adapter_score_difference": 3.814697265625e-06,
+            "max_map_consistency_difference": 7.68899917602539e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.9835446957037268,
+              "anomaly_pixel_auroc": 0.9757097702594008,
+              "aupro_available": false,
+              "aupro": null
+            }
+          },
+          {
+            "method": "ff_raw",
+            "bank_rows": 1621,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              35,
+              55,
+              76,
+              77
+            ],
+            "max_saved_image_score_difference": 1.1444091796875e-05,
+            "max_adapter_score_difference": 1.1444091796875e-05,
+            "max_map_consistency_difference": 7.62939453125e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.9858343485273141,
+              "anomaly_pixel_auroc": 0.978698945719441,
+              "aupro_available": false,
+              "aupro": null
+            }
+          }
+        ]
+      },
+      {
+        "category": "hazelnut",
+        "normal_images_in_sample": 2,
+        "anomalous_images_in_sample": 4,
+        "methods": [
+          {
+            "method": "original",
+            "bank_rows": 30654,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              35,
+              74,
+              108,
+              109
+            ],
+            "max_saved_image_score_difference": 0.0,
+            "max_adapter_score_difference": 0.0,
+            "max_map_consistency_difference": 5.7220458984375e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.9934327982622879,
+              "anomaly_pixel_auroc": 0.9900459062091156,
+              "aupro_available": false,
+              "aupro": null
+            }
+          },
+          {
+            "method": "gb_center",
+            "bank_rows": 2201,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              35,
+              74,
+              108,
+              109
+            ],
+            "max_saved_image_score_difference": 1.9073486328125e-06,
+            "max_adapter_score_difference": 1.9073486328125e-06,
+            "max_map_consistency_difference": 5.841255187988281e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.9929735789370984,
+              "anomaly_pixel_auroc": 0.9894479701253007,
+              "aupro_available": false,
+              "aupro": null
+            }
+          },
+          {
+            "method": "gb_medoid",
+            "bank_rows": 2201,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              35,
+              74,
+              108,
+              109
+            ],
+            "max_saved_image_score_difference": 0.0,
+            "max_adapter_score_difference": 0.0,
+            "max_map_consistency_difference": 5.841255187988281e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.9922859026178081,
+              "anomaly_pixel_auroc": 0.9886366308058966,
+              "aupro_available": false,
+              "aupro": null
+            }
+          },
+          {
+            "method": "ff_raw",
+            "bank_rows": 2201,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              35,
+              74,
+              108,
+              109
+            ],
+            "max_saved_image_score_difference": 0.0,
+            "max_adapter_score_difference": 0.0,
+            "max_map_consistency_difference": 7.62939453125e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.9926915239187082,
+              "anomaly_pixel_auroc": 0.9888642301564002,
+              "aupro_available": false,
+              "aupro": null
+            }
+          }
+        ]
+      },
+      {
+        "category": "leather",
+        "normal_images_in_sample": 2,
+        "anomalous_images_in_sample": 4,
+        "methods": [
+          {
+            "method": "original",
+            "bank_rows": 19208,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              74,
+              105,
+              122,
+              123
+            ],
+            "max_saved_image_score_difference": 0.0,
+            "max_adapter_score_difference": 0.0,
+            "max_map_consistency_difference": 5.662441253662109e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.9989573702205791,
+              "anomaly_pixel_auroc": 0.9984347846948247,
+              "aupro_available": false,
+              "aupro": null
+            }
+          },
+          {
+            "method": "gb_center",
+            "bank_rows": 1457,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              74,
+              105,
+              122,
+              123
+            ],
+            "max_saved_image_score_difference": 7.62939453125e-06,
+            "max_adapter_score_difference": 7.62939453125e-06,
+            "max_map_consistency_difference": 5.9604644775390625e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.9992277974193996,
+              "anomaly_pixel_auroc": 0.9988407550583075,
+              "aupro_available": false,
+              "aupro": null
+            }
+          },
+          {
+            "method": "gb_medoid",
+            "bank_rows": 1457,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              74,
+              105,
+              122,
+              123
+            ],
+            "max_saved_image_score_difference": 1.9073486328125e-06,
+            "max_adapter_score_difference": 1.9073486328125e-06,
+            "max_map_consistency_difference": 5.245208740234375e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.9992513491396181,
+              "anomaly_pixel_auroc": 0.9988761113407356,
+              "aupro_available": false,
+              "aupro": null
+            }
+          },
+          {
+            "method": "ff_raw",
+            "bank_rows": 1457,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              74,
+              105,
+              122,
+              123
+            ],
+            "max_saved_image_score_difference": 3.814697265625e-06,
+            "max_adapter_score_difference": 3.814697265625e-06,
+            "max_map_consistency_difference": 5.4836273193359375e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.9988144645591233,
+              "anomaly_pixel_auroc": 0.9982202520458233,
+              "aupro_available": false,
+              "aupro": null
+            }
+          }
+        ]
+      },
+      {
+        "category": "metal_nut",
+        "normal_images_in_sample": 2,
+        "anomalous_images_in_sample": 4,
+        "methods": [
+          {
+            "method": "original",
+            "bank_rows": 17248,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              70,
+              91,
+              113,
+              114
+            ],
+            "max_saved_image_score_difference": 3.814697265625e-06,
+            "max_adapter_score_difference": 3.814697265625e-06,
+            "max_map_consistency_difference": 7.748603820800781e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.9772733698801016,
+              "anomaly_pixel_auroc": 0.9689397170317787,
+              "aupro_available": false,
+              "aupro": null
+            }
+          },
+          {
+            "method": "gb_center",
+            "bank_rows": 1473,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              70,
+              91,
+              113,
+              114
+            ],
+            "max_saved_image_score_difference": 1.1444091796875e-05,
+            "max_adapter_score_difference": 1.9073486328125e-06,
+            "max_map_consistency_difference": 8.225440979003906e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.9583682436397276,
+              "anomaly_pixel_auroc": 0.9495566611357695,
+              "aupro_available": false,
+              "aupro": null
+            }
+          },
+          {
+            "method": "gb_medoid",
+            "bank_rows": 1473,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              70,
+              91,
+              113,
+              114
+            ],
+            "max_saved_image_score_difference": 3.814697265625e-06,
+            "max_adapter_score_difference": 3.814697265625e-06,
+            "max_map_consistency_difference": 9.864568710327148e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.9452847204361132,
+              "anomaly_pixel_auroc": 0.937818288835833,
+              "aupro_available": false,
+              "aupro": null
+            }
+          },
+          {
+            "method": "ff_raw",
+            "bank_rows": 1473,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              70,
+              91,
+              113,
+              114
+            ],
+            "max_saved_image_score_difference": 3.814697265625e-06,
+            "max_adapter_score_difference": 3.814697265625e-06,
+            "max_map_consistency_difference": 7.62939453125e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 0.875,
+              "full_pixel_auroc": 0.9671041972304267,
+              "anomaly_pixel_auroc": 0.9593679166351357,
+              "aupro_available": false,
+              "aupro": null
+            }
+          }
+        ]
+      },
+      {
+        "category": "pill",
+        "normal_images_in_sample": 2,
+        "anomalous_images_in_sample": 4,
+        "methods": [
+          {
+            "method": "original",
+            "bank_rows": 20932,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              108,
+              133,
+              165,
+              166
+            ],
+            "max_saved_image_score_difference": 3.814697265625e-06,
+            "max_adapter_score_difference": 3.814697265625e-06,
+            "max_map_consistency_difference": 5.4836273193359375e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.9863119752719844,
+              "anomaly_pixel_auroc": 0.9814151374687505,
+              "aupro_available": false,
+              "aupro": null
+            }
+          },
+          {
+            "method": "gb_center",
+            "bank_rows": 1542,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              108,
+              133,
+              165,
+              166
+            ],
+            "max_saved_image_score_difference": 5.7220458984375e-06,
+            "max_adapter_score_difference": 5.7220458984375e-06,
+            "max_map_consistency_difference": 6.079673767089844e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 0.75,
+              "full_pixel_auroc": 0.9848784448092639,
+              "anomaly_pixel_auroc": 0.9803742547809109,
+              "aupro_available": false,
+              "aupro": null
+            }
+          },
+          {
+            "method": "gb_medoid",
+            "bank_rows": 1542,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              108,
+              133,
+              165,
+              166
+            ],
+            "max_saved_image_score_difference": 0.0,
+            "max_adapter_score_difference": 0.0,
+            "max_map_consistency_difference": 7.808208465576172e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.9795557919219223,
+              "anomaly_pixel_auroc": 0.9749903261525438,
+              "aupro_available": false,
+              "aupro": null
+            }
+          },
+          {
+            "method": "ff_raw",
+            "bank_rows": 1542,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              108,
+              133,
+              165,
+              166
+            ],
+            "max_saved_image_score_difference": 5.7220458984375e-06,
+            "max_adapter_score_difference": 5.7220458984375e-06,
+            "max_map_consistency_difference": 5.7220458984375e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.9856780339801571,
+              "anomaly_pixel_auroc": 0.9800665009530329,
+              "aupro_available": false,
+              "aupro": null
+            }
+          }
+        ]
+      },
+      {
+        "category": "screw",
+        "normal_images_in_sample": 3,
+        "anomalous_images_in_sample": 3,
+        "methods": [
+          {
+            "method": "original",
+            "bank_rows": 25088,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              40,
+              41,
+              158,
+              159
+            ],
+            "max_saved_image_score_difference": 0.0,
+            "max_adapter_score_difference": 0.0,
+            "max_map_consistency_difference": 4.351139068603516e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.9971610582781045,
+              "anomaly_pixel_auroc": 0.9951521293191128,
+              "aupro_available": false,
+              "aupro": null
+            }
+          },
+          {
+            "method": "gb_center",
+            "bank_rows": 1969,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              40,
+              41,
+              158,
+              159
+            ],
+            "max_saved_image_score_difference": 0.0,
+            "max_adapter_score_difference": 0.0,
+            "max_map_consistency_difference": 5.125999450683594e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 0.7777777777777779,
+              "full_pixel_auroc": 0.989566801773637,
+              "anomaly_pixel_auroc": 0.9879498368924351,
+              "aupro_available": false,
+              "aupro": null
+            }
+          },
+          {
+            "method": "gb_medoid",
+            "bank_rows": 1969,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              40,
+              41,
+              158,
+              159
+            ],
+            "max_saved_image_score_difference": 0.0,
+            "max_adapter_score_difference": 0.0,
+            "max_map_consistency_difference": 5.245208740234375e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 0.33333333333333337,
+              "full_pixel_auroc": 0.9821960632917431,
+              "anomaly_pixel_auroc": 0.9839301042658319,
+              "aupro_available": false,
+              "aupro": null
+            }
+          },
+          {
+            "method": "ff_raw",
+            "bank_rows": 1969,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              40,
+              41,
+              158,
+              159
+            ],
+            "max_saved_image_score_difference": 0.0,
+            "max_adapter_score_difference": 0.0,
+            "max_map_consistency_difference": 5.7220458984375e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.9879687181722986,
+              "anomaly_pixel_auroc": 0.9850282024548245,
+              "aupro_available": false,
+              "aupro": null
+            }
+          }
+        ]
+      },
+      {
+        "category": "tile",
+        "normal_images_in_sample": 2,
+        "anomalous_images_in_sample": 4,
+        "methods": [
+          {
+            "method": "original",
+            "bank_rows": 18032,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              35,
+              67,
+              115,
+              116
+            ],
+            "max_saved_image_score_difference": 5.7220458984375e-06,
+            "max_adapter_score_difference": 5.7220458984375e-06,
+            "max_map_consistency_difference": 5.7220458984375e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.8875826028773318,
+              "anomaly_pixel_auroc": 0.8267997522289624,
+              "aupro_available": false,
+              "aupro": null
+            }
+          },
+          {
+            "method": "gb_center",
+            "bank_rows": 1300,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              35,
+              67,
+              115,
+              116
+            ],
+            "max_saved_image_score_difference": 9.5367431640625e-06,
+            "max_adapter_score_difference": 9.5367431640625e-06,
+            "max_map_consistency_difference": 6.9141387939453125e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.8905239641442434,
+              "anomaly_pixel_auroc": 0.8305132297441686,
+              "aupro_available": false,
+              "aupro": null
+            }
+          },
+          {
+            "method": "gb_medoid",
+            "bank_rows": 1300,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              35,
+              67,
+              115,
+              116
+            ],
+            "max_saved_image_score_difference": 5.7220458984375e-06,
+            "max_adapter_score_difference": 5.7220458984375e-06,
+            "max_map_consistency_difference": 4.410743713378906e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.8850468323961436,
+              "anomaly_pixel_auroc": 0.8232606612035345,
+              "aupro_available": false,
+              "aupro": null
+            }
+          },
+          {
+            "method": "ff_raw",
+            "bank_rows": 1300,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              35,
+              67,
+              115,
+              116
+            ],
+            "max_saved_image_score_difference": 1.9073486328125e-06,
+            "max_adapter_score_difference": 1.9073486328125e-06,
+            "max_map_consistency_difference": 6.4373016357421875e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.8868045858632962,
+              "anomaly_pixel_auroc": 0.8252940537410212,
+              "aupro_available": false,
+              "aupro": null
+            }
+          }
+        ]
+      },
+      {
+        "category": "toothbrush",
+        "normal_images_in_sample": 3,
+        "anomalous_images_in_sample": 3,
+        "methods": [
+          {
+            "method": "original",
+            "bank_rows": 4704,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              29,
+              30,
+              40,
+              41
+            ],
+            "max_saved_image_score_difference": 0.0,
+            "max_adapter_score_difference": 0.0,
+            "max_map_consistency_difference": 8.225440979003906e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.9869584671323943,
+              "anomaly_pixel_auroc": 0.973494300692095,
+              "aupro_available": false,
+              "aupro": null
+            }
+          },
+          {
+            "method": "gb_center",
+            "bank_rows": 398,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              29,
+              30,
+              40,
+              41
+            ],
+            "max_saved_image_score_difference": 0.0,
+            "max_adapter_score_difference": 0.0,
+            "max_map_consistency_difference": 7.68899917602539e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.986838928990442,
+              "anomaly_pixel_auroc": 0.9732514507235193,
+              "aupro_available": false,
+              "aupro": null
+            }
+          },
+          {
+            "method": "gb_medoid",
+            "bank_rows": 398,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              29,
+              30,
+              40,
+              41
+            ],
+            "max_saved_image_score_difference": 1.9073486328125e-06,
+            "max_adapter_score_difference": 1.9073486328125e-06,
+            "max_map_consistency_difference": 7.987022399902344e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 0.7777777777777778,
+              "full_pixel_auroc": 0.9878624855349531,
+              "anomaly_pixel_auroc": 0.9756633454134876,
+              "aupro_available": false,
+              "aupro": null
+            }
+          },
+          {
+            "method": "ff_raw",
+            "bank_rows": 398,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              29,
+              30,
+              40,
+              41
+            ],
+            "max_saved_image_score_difference": 3.814697265625e-06,
+            "max_adapter_score_difference": 3.814697265625e-06,
+            "max_map_consistency_difference": 8.106231689453125e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.9874450547836727,
+              "anomaly_pixel_auroc": 0.9744903718204679,
+              "aupro_available": false,
+              "aupro": null
+            }
+          }
+        ]
+      },
+      {
+        "category": "transistor",
+        "normal_images_in_sample": 2,
+        "anomalous_images_in_sample": 4,
+        "methods": [
+          {
+            "method": "original",
+            "bank_rows": 16699,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              30,
+              89,
+              98,
+              99
+            ],
+            "max_saved_image_score_difference": 0.0,
+            "max_adapter_score_difference": 0.0,
+            "max_map_consistency_difference": 7.3909759521484375e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.9674130021327323,
+              "anomaly_pixel_auroc": 0.951160326723477,
+              "aupro_available": false,
+              "aupro": null
+            }
+          },
+          {
+            "method": "gb_center",
+            "bank_rows": 1206,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              30,
+              89,
+              98,
+              99
+            ],
+            "max_saved_image_score_difference": 1.9073486328125e-06,
+            "max_adapter_score_difference": 1.9073486328125e-06,
+            "max_map_consistency_difference": 7.62939453125e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.9670656665332876,
+              "anomaly_pixel_auroc": 0.95448143477649,
+              "aupro_available": false,
+              "aupro": null
+            }
+          },
+          {
+            "method": "gb_medoid",
+            "bank_rows": 1206,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              30,
+              89,
+              98,
+              99
+            ],
+            "max_saved_image_score_difference": 0.0,
+            "max_adapter_score_difference": 0.0,
+            "max_map_consistency_difference": 8.702278137207031e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.9623121161825272,
+              "anomaly_pixel_auroc": 0.9517766626966513,
+              "aupro_available": false,
+              "aupro": null
+            }
+          },
+          {
+            "method": "ff_raw",
+            "bank_rows": 1206,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              30,
+              89,
+              98,
+              99
+            ],
+            "max_saved_image_score_difference": 0.0,
+            "max_adapter_score_difference": 0.0,
+            "max_map_consistency_difference": 6.4373016357421875e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.9661947122004952,
+              "anomaly_pixel_auroc": 0.9498950417823359,
+              "aupro_available": false,
+              "aupro": null
+            }
+          }
+        ]
+      },
+      {
+        "category": "wood",
+        "normal_images_in_sample": 2,
+        "anomalous_images_in_sample": 4,
+        "methods": [
+          {
+            "method": "original",
+            "bank_rows": 19364,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              19,
+              37,
+              77,
+              78
+            ],
+            "max_saved_image_score_difference": 0.0,
+            "max_adapter_score_difference": 0.0,
+            "max_map_consistency_difference": 5.0067901611328125e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.9802761112882696,
+              "anomaly_pixel_auroc": 0.970351966836625,
+              "aupro_available": false,
+              "aupro": null
+            }
+          },
+          {
+            "method": "gb_center",
+            "bank_rows": 1413,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              19,
+              37,
+              77,
+              78
+            ],
+            "max_saved_image_score_difference": 0.0,
+            "max_adapter_score_difference": 0.0,
+            "max_map_consistency_difference": 4.649162292480469e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.9818316336484157,
+              "anomaly_pixel_auroc": 0.9726126012229034,
+              "aupro_available": false,
+              "aupro": null
+            }
+          },
+          {
+            "method": "gb_medoid",
+            "bank_rows": 1413,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              19,
+              37,
+              77,
+              78
+            ],
+            "max_saved_image_score_difference": 0.0,
+            "max_adapter_score_difference": 0.0,
+            "max_map_consistency_difference": 4.291534423828125e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.9818500631421854,
+              "anomaly_pixel_auroc": 0.9727297085976415,
+              "aupro_available": false,
+              "aupro": null
+            }
+          },
+          {
+            "method": "ff_raw",
+            "bank_rows": 1413,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              19,
+              37,
+              77,
+              78
+            ],
+            "max_saved_image_score_difference": 5.7220458984375e-06,
+            "max_adapter_score_difference": 5.7220458984375e-06,
+            "max_map_consistency_difference": 5.245208740234375e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.9808079788692348,
+              "anomaly_pixel_auroc": 0.9710016110896897,
+              "aupro_available": false,
+              "aupro": null
+            }
+          }
+        ]
+      },
+      {
+        "category": "zipper",
+        "normal_images_in_sample": 2,
+        "anomalous_images_in_sample": 4,
+        "methods": [
+          {
+            "method": "original",
+            "bank_rows": 18816,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              68,
+              99,
+              149,
+              150
+            ],
+            "max_saved_image_score_difference": 1.9073486328125e-06,
+            "max_adapter_score_difference": 0.0,
+            "max_map_consistency_difference": 5.543231964111328e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.9913640372004998,
+              "anomaly_pixel_auroc": 0.9869474924600489,
+              "aupro_available": false,
+              "aupro": null
+            }
+          },
+          {
+            "method": "gb_center",
+            "bank_rows": 1335,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              68,
+              99,
+              149,
+              150
+            ],
+            "max_saved_image_score_difference": 5.7220458984375e-06,
+            "max_adapter_score_difference": 0.0,
+            "max_map_consistency_difference": 6.318092346191406e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.9920164510008945,
+              "anomaly_pixel_auroc": 0.9879709091736384,
+              "aupro_available": false,
+              "aupro": null
+            }
+          },
+          {
+            "method": "gb_medoid",
+            "bank_rows": 1335,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              68,
+              99,
+              149,
+              150
+            ],
+            "max_saved_image_score_difference": 7.62939453125e-06,
+            "max_adapter_score_difference": 7.62939453125e-06,
+            "max_map_consistency_difference": 5.602836608886719e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.9920184890721175,
+              "anomaly_pixel_auroc": 0.9880386467781251,
+              "aupro_available": false,
+              "aupro": null
+            }
+          },
+          {
+            "method": "ff_raw",
+            "bank_rows": 1335,
+            "sampled_image_count": 6,
+            "sampled_image_indices": [
+              0,
+              1,
+              68,
+              99,
+              149,
+              150
+            ],
+            "max_saved_image_score_difference": 1.9073486328125e-06,
+            "max_adapter_score_difference": 1.9073486328125e-06,
+            "max_map_consistency_difference": 8.106231689453125e-06,
+            "sampled_metrics_only": {
+              "instance_auroc": 1.0,
+              "full_pixel_auroc": 0.990064107818144,
+              "anomaly_pixel_auroc": 0.9851101810196154,
+              "aupro_available": false,
+              "aupro": null
+            }
+          }
+        ]
+      }
+    ],
+    "faiss_workers": 8,
+    "faiss_device": "CPU IndexFlatL2",
+    "map_device": "cpu",
+    "relative_tolerance": 1e-05,
+    "absolute_tolerance": 1e-05,
+    "largest_saved_image_score_difference": 1.1444091796875e-05,
+    "largest_internal_map_difference": 1.3768672943115234e-05,
+    "runtime": {
+      "python": "3.9.25 (main, Nov  3 2025, 22:44:01) [MSC v.1929 64 bit (AMD64)]",
+      "platform": "Windows-10-10.0.26200-SP0",
+      "numpy": "2.0.2",
+      "torch": "2.8.0+cu128",
+      "faiss": "1.13.0"
+    }
+  }
+}

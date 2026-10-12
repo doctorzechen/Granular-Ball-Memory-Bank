@@ -1,0 +1,66 @@
+{
+  "audits": {
+    "bank_equals_cached_centers": true,
+    "bank_finite": true,
+    "bank_rows_equals_k_gb": true
+  },
+  "config_hash": "a8cbe1641fcb6fce19f9bc1ac53628ff10d32361cbaa8edd6824cb36bfb2ef6b",
+  "faiss_validation": {
+    "max_absolute_difference": 0.0,
+    "ntotal": 1072,
+    "ntotal_matches_memory_bank": true,
+    "pass": true,
+    "reconstructed_shape": [
+      1072,
+      1024
+    ],
+    "vectors_equal_memory_bank": true
+  },
+  "k": 1072,
+  "memory_bank_size": 1072,
+  "method": "gb_center",
+  "metrics": {
+    "anomaly_pixel_auroc": 0.978551560723708,
+    "aupro": null,
+    "aupro_available": false,
+    "full_pixel_auroc": 0.9840336989036511,
+    "instance_auroc": 1.0
+  },
+  "resources": {
+    "peak_gpu_allocated_bytes_scoring": 280748032,
+    "peak_gpu_reserved_bytes_scoring": 329252864,
+    "peak_working_set_bytes": 2055327744,
+    "rss_bytes": 1729601536,
+    "vms_bytes": 7246798848
+  },
+  "score_analysis": {
+    "anomaly": {
+      "count": 63,
+      "max": 12.912084579467773,
+      "mean": 7.659286022186279,
+      "median": 8.005751609802246,
+      "p5": 4.101705074310303
+    },
+    "median_margin": 6.138581275939941,
+    "normal": {
+      "count": 20,
+      "max": 2.5935440063476562,
+      "mean": 1.882960557937622,
+      "median": 1.8671703338623047,
+      "p95": 2.5361766815185547
+    }
+  },
+  "status": "complete",
+  "timing": {
+    "end_to_end_component_sum_seconds": 4.273831399999992,
+    "end_to_end_ms_per_image": 51.49194457831315,
+    "faiss_build_seconds": 0.0033316999999999375,
+    "feature_extraction_ms_per_image": 44.266189156626425,
+    "feature_extraction_seconds": 3.674093699999993,
+    "nearest_neighbor_query_seconds": 0.5077517999999976,
+    "query_ms_per_image": 6.1174915662650315,
+    "segmentation_postprocess_ms_per_image": 1.1082638554216928,
+    "segmentation_postprocess_seconds": 0.09198590000000051,
+    "timing_method": "common measured feature extraction plus method-specific measured FAISS query and official segmentation/postprocess; one warm-up batch"
+  }
+}

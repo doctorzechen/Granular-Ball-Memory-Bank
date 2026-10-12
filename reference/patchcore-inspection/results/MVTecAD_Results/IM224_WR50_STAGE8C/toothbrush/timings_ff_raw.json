@@ -1,0 +1,152 @@
+{
+  "category": "toothbrush",
+  "config": {
+    "category": "toothbrush",
+    "device": "cuda:0",
+    "faiss_workers": 8,
+    "ff_projection_dimension": 1024,
+    "ff_selection_space": "exact_raw",
+    "format_version": 1,
+    "gb_threshold": 1.3,
+    "min_ball_size": 64,
+    "partition_source": "stage5b_frozen_global_gb_partition (banks) / fresh seed-0 rebuild (timing, stress)",
+    "seed": 0,
+    "stage": "8C",
+    "stress_category": "hazelnut",
+    "stress_scales": [
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "timing_repeats": 5,
+    "timing_warmup": 1
+  },
+  "config_hash": "a69dc5b70d5e04501c6bcb5b526c83fc2f9950bc41f9329a4a61bd50df74e5d3",
+  "k_gb": 398,
+  "method": "ff_raw",
+  "peak_gpu_allocated_bytes_max": 394059776,
+  "peak_rss_bytes_max": 1382641664,
+  "raw_patch_count": 47040,
+  "repeats": [
+    {
+      "audit": {
+        "bank_rows": 398,
+        "selected_count": 398
+      },
+      "peak_gpu_allocated_bytes": 394059776,
+      "peak_rss_bytes": 1382641664,
+      "stages": {
+        "assembly_seconds": 0.0008778000000120301,
+        "partition_seconds": 0.0,
+        "selection_seconds": 0.36505900000000224
+      },
+      "total_seconds": 0.3659368000000143
+    },
+    {
+      "audit": {
+        "bank_rows": 398,
+        "selected_count": 398
+      },
+      "peak_gpu_allocated_bytes": 394059776,
+      "peak_rss_bytes": 1382641664,
+      "stages": {
+        "assembly_seconds": 0.0008904999999970187,
+        "partition_seconds": 0.0,
+        "selection_seconds": 0.3772950000000037
+      },
+      "total_seconds": 0.37818550000000073
+    },
+    {
+      "audit": {
+        "bank_rows": 398,
+        "selected_count": 398
+      },
+      "peak_gpu_allocated_bytes": 394059776,
+      "peak_rss_bytes": 1382641664,
+      "stages": {
+        "assembly_seconds": 0.0009278999999935422,
+        "partition_seconds": 0.0,
+        "selection_seconds": 0.39334270000000515
+      },
+      "total_seconds": 0.3942705999999987
+    },
+    {
+      "audit": {
+        "bank_rows": 398,
+        "selected_count": 398
+      },
+      "peak_gpu_allocated_bytes": 394059776,
+      "peak_rss_bytes": 1382641664,
+      "stages": {
+        "assembly_seconds": 0.000876900000008618,
+        "partition_seconds": 0.0,
+        "selection_seconds": 0.35906159999998977
+      },
+      "total_seconds": 0.3599384999999984
+    },
+    {
+      "audit": {
+        "bank_rows": 398,
+        "selected_count": 398
+      },
+      "peak_gpu_allocated_bytes": 394059776,
+      "peak_rss_bytes": 1382641664,
+      "stages": {
+        "assembly_seconds": 0.0009696999999846412,
+        "partition_seconds": 0.0,
+        "selection_seconds": 0.35999320000001944
+      },
+      "total_seconds": 0.3609629000000041
+    }
+  ],
+  "stage_summaries": {
+    "assembly_seconds": {
+      "max": 0.0009696999999846412,
+      "mean": 0.00090855999999917,
+      "median": 0.0008904999999970187,
+      "min": 0.000876900000008618,
+      "n_repeats": 5,
+      "std": 3.5740263000414646E-05
+    },
+    "partition_seconds": {
+      "max": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "n_repeats": 5,
+      "std": 0.0
+    },
+    "selection_seconds": {
+      "max": 0.39334270000000515,
+      "mean": 0.37095030000000406,
+      "median": 0.36505900000000224,
+      "min": 0.35906159999998977,
+      "n_repeats": 5,
+      "std": 0.012944353515259608
+    }
+  },
+  "status": "complete",
+  "summary": {
+    "max": 0.3942705999999987,
+    "mean": 0.37185886000000323,
+    "median": 0.3659368000000143,
+    "min": 0.3599384999999984,
+    "n_repeats": 5,
+    "std": 0.012947588076639845
+  },
+  "warmup": {
+    "audit": {
+      "bank_rows": 398,
+      "selected_count": 398
+    },
+    "peak_gpu_allocated_bytes": 394059776,
+    "peak_rss_bytes": 1381007360,
+    "stages": {
+      "assembly_seconds": 0.0008904000000029555,
+      "partition_seconds": 0.0,
+      "selection_seconds": 0.4959769999999821
+    },
+    "total_seconds": 0.4968673999999851
+  }
+}

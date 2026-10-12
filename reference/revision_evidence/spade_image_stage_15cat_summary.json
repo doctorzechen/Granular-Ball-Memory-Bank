@@ -1,0 +1,168 @@
+{
+  "scope": "SPADE paper Section 3.2 / DN2 image-level retrieval only; no pyramid correspondence or segmentation",
+  "scorer": "mean of five exact Euclidean nearest-neighbor distances",
+  "n_categories": 15,
+  "mean_image_auroc": {
+    "full_normal_gallery": 0.8450961634508426,
+    "gb_centers": 0.8208000392495696,
+    "same_k_ff_real_images": 0.8372319611070984
+  },
+  "mean_global_gallery_compression_ratio": 6.96510637015354,
+  "compression_ratio_range": [
+    5.933333333333334,
+    8.233333333333333
+  ],
+  "gb_wins_vs_same_k_ff": 4,
+  "categories": [
+    {
+      "category": "bottle",
+      "n_train_images": 209,
+      "k_gb": 28,
+      "image_auroc": {
+        "full_normal_gallery": 0.9626984126984126,
+        "gb_centers": 0.9587301587301588,
+        "same_k_ff_real_images": 0.9666666666666667
+      }
+    },
+    {
+      "category": "cable",
+      "n_train_images": 224,
+      "k_gb": 28,
+      "image_auroc": {
+        "full_normal_gallery": 0.8450149925037481,
+        "gb_centers": 0.8249625187406296,
+        "same_k_ff_real_images": 0.8461394302848575
+      }
+    },
+    {
+      "category": "capsule",
+      "n_train_images": 219,
+      "k_gb": 33,
+      "image_auroc": {
+        "full_normal_gallery": 0.879936178699641,
+        "gb_centers": 0.8348623853211009,
+        "same_k_ff_real_images": 0.840446749102513
+      }
+    },
+    {
+      "category": "carpet",
+      "n_train_images": 280,
+      "k_gb": 42,
+      "image_auroc": {
+        "full_normal_gallery": 0.9329855537720707,
+        "gb_centers": 0.9281701444622793,
+        "same_k_ff_real_images": 0.9225521669341894
+      }
+    },
+    {
+      "category": "grid",
+      "n_train_images": 264,
+      "k_gb": 40,
+      "image_auroc": {
+        "full_normal_gallery": 0.4536340852130326,
+        "gb_centers": 0.34168755221386804,
+        "same_k_ff_real_images": 0.3868003341687552
+      }
+    },
+    {
+      "category": "hazelnut",
+      "n_train_images": 391,
+      "k_gb": 53,
+      "image_auroc": {
+        "full_normal_gallery": 0.8764285714285714,
+        "gb_centers": 0.8689285714285715,
+        "same_k_ff_real_images": 0.8960714285714285
+      }
+    },
+    {
+      "category": "leather",
+      "n_train_images": 245,
+      "k_gb": 37,
+      "image_auroc": {
+        "full_normal_gallery": 0.9619565217391304,
+        "gb_centers": 0.9538043478260869,
+        "same_k_ff_real_images": 0.96875
+      }
+    },
+    {
+      "category": "metal_nut",
+      "n_train_images": 220,
+      "k_gb": 30,
+      "image_auroc": {
+        "full_normal_gallery": 0.7057673509286412,
+        "gb_centers": 0.6779081133919843,
+        "same_k_ff_real_images": 0.7404692082111436
+      }
+    },
+    {
+      "category": "pill",
+      "n_train_images": 267,
+      "k_gb": 45,
+      "image_auroc": {
+        "full_normal_gallery": 0.7733224222585925,
+        "gb_centers": 0.7673213311511182,
+        "same_k_ff_real_images": 0.773595199127114
+      }
+    },
+    {
+      "category": "screw",
+      "n_train_images": 320,
+      "k_gb": 45,
+      "image_auroc": {
+        "full_normal_gallery": 0.6355810616929698,
+        "gb_centers": 0.5517524082803853,
+        "same_k_ff_real_images": 0.6206189792990366
+      }
+    },
+    {
+      "category": "tile",
+      "n_train_images": 230,
+      "k_gb": 32,
+      "image_auroc": {
+        "full_normal_gallery": 0.9624819624819624,
+        "gb_centers": 0.952020202020202,
+        "same_k_ff_real_images": 0.9466089466089467
+      }
+    },
+    {
+      "category": "toothbrush",
+      "n_train_images": 60,
+      "k_gb": 10,
+      "image_auroc": {
+        "full_normal_gallery": 0.8583333333333334,
+        "gb_centers": 0.8194444444444445,
+        "same_k_ff_real_images": 0.8277777777777778
+      }
+    },
+    {
+      "category": "transistor",
+      "n_train_images": 213,
+      "k_gb": 33,
+      "image_auroc": {
+        "full_normal_gallery": 0.9033333333333333,
+        "gb_centers": 0.9004166666666666,
+        "same_k_ff_real_images": 0.88375
+      }
+    },
+    {
+      "category": "wood",
+      "n_train_images": 247,
+      "k_gb": 30,
+      "image_auroc": {
+        "full_normal_gallery": 0.9517543859649122,
+        "gb_centers": 0.9614035087719298,
+        "same_k_ff_real_images": 0.9736842105263158
+      }
+    },
+    {
+      "category": "zipper",
+      "n_train_images": 240,
+      "k_gb": 35,
+      "image_auroc": {
+        "full_normal_gallery": 0.9732142857142856,
+        "gb_centers": 0.9705882352941176,
+        "same_k_ff_real_images": 0.9645483193277311
+      }
+    }
+  ]
+}

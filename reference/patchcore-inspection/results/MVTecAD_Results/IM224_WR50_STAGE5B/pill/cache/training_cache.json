@@ -1,0 +1,48 @@
+{
+  "config_hash": "681a60c5816275c5e45f836b3fe033a89d6569c52bf0a6ac067b5fe259014b43",
+  "fit_seconds": 44.20550849999972,
+  "gb_build_seconds": 14.215852000000268,
+  "gb_configuration": {
+    "assignment_batch_size": 4096,
+    "center_consistency_threshold": 1.3,
+    "coarse_fit_sample_size": 20000,
+    "coarse_kmeans_iterations": 8,
+    "deterministic_given_seed": true,
+    "device": "cuda:0",
+    "full_n_by_n_matrix_created": false,
+    "initial_ball_count_requested": 458,
+    "min_ball_size": 64,
+    "seed": 0,
+    "two_means_iterations": 2
+  },
+  "gb_split_statistics": {
+    "accepted_regular_splits": 725,
+    "accepted_strong_splits": 359,
+    "duplicate_assignments": 0,
+    "final_ball_count": 1542,
+    "finite_log_consistency_max": 1416.6896038098864,
+    "finite_log_consistency_median": 394.99514216222786,
+    "finite_log_consistency_min": 186.96500248093614,
+    "initial_nonempty_ball_count": 458,
+    "missing_assignments": 0,
+    "reason_counts": {
+      "regular_accepted": 725,
+      "regular_minimum_child_size": 633,
+      "regular_minimum_size": 909,
+      "strong_accepted": 359,
+      "strong_minimum_child_size": 79,
+      "strong_minimum_size": 20
+    }
+  },
+  "number_of_balls": 1542,
+  "original_memory_bank_shape": [
+    20932,
+    1024
+  ],
+  "selected_mapping_exact": true,
+  "status": "complete",
+  "training_embedding_shape": [
+    209328,
+    1024
+  ]
+}

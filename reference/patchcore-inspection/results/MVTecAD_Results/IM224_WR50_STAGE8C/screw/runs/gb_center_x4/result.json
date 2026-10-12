@@ -1,0 +1,26 @@
+{
+  "auroc": 0.906538225046116,
+  "drop_pp": 7.993441278950608,
+  "k": 8104,
+  "metrics": {
+    "anomaly_pixel_auroc": 0.9891221943198851,
+    "aupro": null,
+    "aupro_available": false,
+    "full_pixel_auroc": 0.9908846301060631,
+    "instance_auroc": 0.906538225046116
+  },
+  "qspeed": 3.9091025562278428,
+  "query_ms": 18.27409750000009,
+  "timing": {
+    "end_to_end_component_sum_seconds": 9.022638900001127,
+    "end_to_end_ms_per_image": 56.39149312500704,
+    "faiss_build_seconds": 0.017870600000001957,
+    "feature_extraction_ms_per_image": 36.77187375000699,
+    "feature_extraction_seconds": 5.883499800001118,
+    "nearest_neighbor_query_seconds": 2.9238556000000138,
+    "query_ms_per_image": 18.27409750000009,
+    "segmentation_postprocess_ms_per_image": 1.3455218749999664,
+    "segmentation_postprocess_seconds": 0.21528349999999463,
+    "timing_method": "common measured feature extraction plus method-specific measured FAISS query and official segmentation/postprocess; one warm-up batch"
+  }
+}

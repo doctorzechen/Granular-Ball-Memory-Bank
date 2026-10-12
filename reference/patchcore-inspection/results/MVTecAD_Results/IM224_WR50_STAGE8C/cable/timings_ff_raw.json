@@ -1,0 +1,152 @@
+{
+  "category": "cable",
+  "config": {
+    "category": "cable",
+    "device": "cuda:0",
+    "faiss_workers": 8,
+    "ff_projection_dimension": 1024,
+    "ff_selection_space": "exact_raw",
+    "format_version": 1,
+    "gb_threshold": 1.3,
+    "min_ball_size": 64,
+    "partition_source": "stage5b_frozen_global_gb_partition (banks) / fresh seed-0 rebuild (timing, stress)",
+    "seed": 0,
+    "stage": "8C",
+    "stress_category": "hazelnut",
+    "stress_scales": [
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "timing_repeats": 5,
+    "timing_warmup": 1
+  },
+  "config_hash": "6806075e710c670c682c07933c186ac335b1dd7c05df676e4317382fb88468e9",
+  "k_gb": 1522,
+  "method": "ff_raw",
+  "peak_gpu_allocated_bytes_max": 1447868416,
+  "peak_rss_bytes_max": 2134368256,
+  "raw_patch_count": 175616,
+  "repeats": [
+    {
+      "audit": {
+        "bank_rows": 1522,
+        "selected_count": 1522
+      },
+      "peak_gpu_allocated_bytes": 1447868416,
+      "peak_rss_bytes": 2134368256,
+      "stages": {
+        "assembly_seconds": 0.003219799999996553,
+        "partition_seconds": 0.0,
+        "selection_seconds": 3.7785576000000134
+      },
+      "total_seconds": 3.78177740000001
+    },
+    {
+      "audit": {
+        "bank_rows": 1522,
+        "selected_count": 1522
+      },
+      "peak_gpu_allocated_bytes": 1447868416,
+      "peak_rss_bytes": 2134368256,
+      "stages": {
+        "assembly_seconds": 0.003608499999998571,
+        "partition_seconds": 0.0,
+        "selection_seconds": 3.7167023000000086
+      },
+      "total_seconds": 3.720310800000007
+    },
+    {
+      "audit": {
+        "bank_rows": 1522,
+        "selected_count": 1522
+      },
+      "peak_gpu_allocated_bytes": 1447868416,
+      "peak_rss_bytes": 2134368256,
+      "stages": {
+        "assembly_seconds": 0.003419199999996181,
+        "partition_seconds": 0.0,
+        "selection_seconds": 3.6884207999999887
+      },
+      "total_seconds": 3.691839999999985
+    },
+    {
+      "audit": {
+        "bank_rows": 1522,
+        "selected_count": 1522
+      },
+      "peak_gpu_allocated_bytes": 1447868416,
+      "peak_rss_bytes": 2134368256,
+      "stages": {
+        "assembly_seconds": 0.0034701000000012527,
+        "partition_seconds": 0.0,
+        "selection_seconds": 3.7270402999999988
+      },
+      "total_seconds": 3.7305104
+    },
+    {
+      "audit": {
+        "bank_rows": 1522,
+        "selected_count": 1522
+      },
+      "peak_gpu_allocated_bytes": 1447868416,
+      "peak_rss_bytes": 2134368256,
+      "stages": {
+        "assembly_seconds": 0.003824500000007447,
+        "partition_seconds": 0.0,
+        "selection_seconds": 3.7434245999999973
+      },
+      "total_seconds": 3.7472491000000048
+    }
+  ],
+  "stage_summaries": {
+    "assembly_seconds": {
+      "max": 0.003824500000007447,
+      "mean": 0.003508420000000001,
+      "median": 0.0034701000000012527,
+      "min": 0.003219799999996553,
+      "n_repeats": 5,
+      "std": 0.00020132198489335274
+    },
+    "partition_seconds": {
+      "max": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "n_repeats": 5,
+      "std": 0.0
+    },
+    "selection_seconds": {
+      "max": 3.7785576000000134,
+      "mean": 3.7308291200000014,
+      "median": 3.7270402999999988,
+      "min": 3.6884207999999887,
+      "n_repeats": 5,
+      "std": 0.02982965546254242
+    }
+  },
+  "status": "complete",
+  "summary": {
+    "max": 3.78177740000001,
+    "mean": 3.734337540000001,
+    "median": 3.7305104,
+    "min": 3.691839999999985,
+    "n_repeats": 5,
+    "std": 0.029781491030887456
+  },
+  "warmup": {
+    "audit": {
+      "bank_rows": 1522,
+      "selected_count": 1522
+    },
+    "peak_gpu_allocated_bytes": 1447868416,
+    "peak_rss_bytes": 2128130048,
+    "stages": {
+      "assembly_seconds": 0.0033655999999950836,
+      "partition_seconds": 0.0,
+      "selection_seconds": 4.908191099999996
+    },
+    "total_seconds": 4.911556699999991
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "category": "tile",
+  "config": {
+    "actual_memory_bank_size": 18032,
+    "anomaly_scorer_num_nn": 1,
+    "backbone": "wideresnet50",
+    "batch_size": 2,
+    "category": "tile",
+    "compression_kind": "original",
+    "device": "cuda:0",
+    "faiss_backend": "CPU IndexFlatL2",
+    "faiss_workers": 8,
+    "format_version": 1,
+    "gb_representation": "raw_1024d",
+    "gb_seed": 0,
+    "input_size": 224,
+    "layers": [
+      "layer2",
+      "layer3"
+    ],
+    "method": "original",
+    "min_ball_size": 64,
+    "original_coreset_percentage": 0.1,
+    "original_sampler": "ApproximateGreedyCoresetSampler",
+    "patch_size": 3,
+    "patch_stride": 1,
+    "patchcore_seed": 0,
+    "pretrain_embed_dimension": 1024,
+    "random_seed": null,
+    "random_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "resize": 256,
+    "retentions": [
+      0.75,
+      0.5,
+      0.25
+    ],
+    "selection": "within_ball_farthest_first",
+    "stage": "5B",
+    "target_embed_dimension": 1024
+  },
+  "config_hash": "249601450342dc8275e7e18e56054b6835215502b762eb7fa09906c86d63a913",
+  "construction_seconds": 0.0,
+  "delta_vs_original": {
+    "anomaly_pixel_auroc": 0.0,
+    "full_pixel_auroc": 0.0,
+    "instance_auroc": 0.0
+  },
+  "e2e_speedup": 0.0,
+  "faiss_validation": {
+    "max_absolute_difference": 0.0,
+    "ntotal": 18032,
+    "ntotal_matches_memory_bank": true,
+    "pass": true,
+    "reconstructed_shape": [
+      18032,
+      1024
+    ],
+    "vectors_equal_memory_bank": true
+  },
+  "index_semantics": {
+    "indices_original_memory_bank.npy": "row positions in Original MB",
+    "indices_training_embeddings.npy": "rows in all normal-training embeddings"
+  },
+  "kind": "original",
+  "memory_bank_mib": 70.4375,
+  "memory_bank_reduction": 0.0,
+  "memory_bank_retention": 1.0,
+  "memory_bank_size": 18032,
+  "method": "original",
+  "metrics": {
+    "anomaly_pixel_auroc": 0.9409890051625882,
+    "aupro": null,
+    "aupro_available": false,
+    "full_pixel_auroc": 0.9573667795776543,
+    "instance_auroc": 0.9891774891774893
+  },
+  "query_speedup": 0.0,
+  "random_seed": null,
+  "resources": {
+    "peak_gpu_allocated_bytes_scoring": 290250752,
+    "peak_gpu_reserved_bytes_scoring": 662700032,
+    "peak_working_set_bytes": 8008048640,
+    "rss_bytes": 4834156544,
+    "vms_bytes": 10621210624
+  },
+  "retention": null,
+  "score_analysis": {
+    "anomaly": {
+      "count": 84,
+      "max": 9.121549606323242,
+      "mean": 4.557623386383057,
+      "median": 4.385138511657715,
+      "p5": 2.9085826873779297
+    },
+    "median_margin": 2.3459110260009766,
+    "normal": {
+      "count": 33,
+      "max": 2.463136672973633,
+      "mean": 2.066741466522217,
+      "median": 2.0392274856567383,
+      "p95": 2.34555983543396
+    }
+  },
+  "status": "complete",
+  "subset_validation": {
+    "indices_match_recorded_size": true,
+    "original_selected_mapping_exact": true,
+    "pass": true,
+    "range_valid": true,
+    "training_indices_file_exact": true,
+    "training_mapping_valid": true,
+    "unique": true,
+    "vectors_exact": true
+  },
+  "timing": {
+    "end_to_end_component_sum_seconds": 10.040578900000583,
+    "end_to_end_ms_per_image": 85.81691367521866,
+    "faiss_build_seconds": 0.04119470000023284,
+    "feature_extraction_ms_per_image": 37.07090854700604,
+    "feature_extraction_seconds": 4.337296299999707,
+    "nearest_neighbor_query_seconds": 5.547013600000355,
+    "query_ms_per_image": 47.410372649575685,
+    "segmentation_postprocess_ms_per_image": 1.3356324786369271,
+    "segmentation_postprocess_seconds": 0.15626900000052046,
+    "timing_method": "common measured feature extraction plus method-specific measured FAISS query and official segmentation/postprocess; one warm-up batch"
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "audit_final_ball_counts": [
+    1969,
+    1969,
+    1969,
+    1969,
+    1969,
+    1969
+  ],
+  "audit_k_gb_matches_cache": true,
+  "audit_k_gb_spread_percent": 0.0,
+  "category": "screw",
+  "config": {
+    "category": "screw",
+    "device": "cuda:0",
+    "faiss_workers": 8,
+    "ff_projection_dimension": 1024,
+    "ff_selection_space": "exact_raw",
+    "format_version": 1,
+    "gb_threshold": 1.3,
+    "min_ball_size": 64,
+    "partition_source": "stage5b_frozen_global_gb_partition (banks) / fresh seed-0 rebuild (timing, stress)",
+    "seed": 0,
+    "stage": "8C",
+    "stress_category": "hazelnut",
+    "stress_scales": [
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "timing_repeats": 5,
+    "timing_warmup": 1
+  },
+  "config_hash": "9f17ad660f426c4769596744fa3bf28ea5b050734a16e645d6459f6f085b8355",
+  "k_gb": 1969,
+  "method": "gb_center",
+  "peak_gpu_allocated_bytes_max": 172440064,
+  "peak_rss_bytes_max": 2393280512,
+  "raw_patch_count": 250880,
+  "repeats": [
+    {
+      "audit": {
+        "bank_rows": 1969,
+        "final_ball_count": 1969
+      },
+      "peak_gpu_allocated_bytes": 172440064,
+      "peak_rss_bytes": 2393145344,
+      "stages": {
+        "assembly_seconds": 0.0021861999999828186,
+        "partition_seconds": 17.327152499999983,
+        "representative_seconds": 0.0
+      },
+      "total_seconds": 17.329338699999965
+    },
+    {
+      "audit": {
+        "bank_rows": 1969,
+        "final_ball_count": 1969
+      },
+      "peak_gpu_allocated_bytes": 172440064,
+      "peak_rss_bytes": 2393214976,
+      "stages": {
+        "assembly_seconds": 0.002143999999987045,
+        "partition_seconds": 17.210254600000013,
+        "representative_seconds": 0.0
+      },
+      "total_seconds": 17.2123986
+    },
+    {
+      "audit": {
+        "bank_rows": 1969,
+        "final_ball_count": 1969
+      },
+      "peak_gpu_allocated_bytes": 172440064,
+      "peak_rss_bytes": 2393280512,
+      "stages": {
+        "assembly_seconds": 0.002119400000026417,
+        "partition_seconds": 17.179341300000004,
+        "representative_seconds": 0.0
+      },
+      "total_seconds": 17.18146070000003
+    },
+    {
+      "audit": {
+        "bank_rows": 1969,
+        "final_ball_count": 1969
+      },
+      "peak_gpu_allocated_bytes": 172440064,
+      "peak_rss_bytes": 2393280512,
+      "stages": {
+        "assembly_seconds": 0.0021342999999944823,
+        "partition_seconds": 17.43562399999999,
+        "representative_seconds": 0.0
+      },
+      "total_seconds": 17.437758299999985
+    },
+    {
+      "audit": {
+        "bank_rows": 1969,
+        "final_ball_count": 1969
+      },
+      "peak_gpu_allocated_bytes": 172440064,
+      "peak_rss_bytes": 2393280512,
+      "stages": {
+        "assembly_seconds": 0.0021509000000037304,
+        "partition_seconds": 17.231129900000013,
+        "representative_seconds": 0.0
+      },
+      "total_seconds": 17.233280800000017
+    }
+  ],
+  "stage_summaries": {
+    "assembly_seconds": {
+      "max": 0.0021861999999828186,
+      "mean": 0.0021469599999988987,
+      "median": 0.002143999999987045,
+      "min": 0.002119400000026417,
+      "n_repeats": 5,
+      "std": 2.2288526184749415E-05
+    },
+    "partition_seconds": {
+      "max": 17.43562399999999,
+      "mean": 17.27670046,
+      "median": 17.231129900000013,
+      "min": 17.179341300000004,
+      "n_repeats": 5,
+      "std": 0.09356562850966509
+    },
+    "representative_seconds": {
+      "max": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "n_repeats": 5,
+      "std": 0.0
+    }
+  },
+  "status": "complete",
+  "summary": {
+    "max": 17.437758299999985,
+    "mean": 17.278847419999998,
+    "median": 17.233280800000017,
+    "min": 17.18146070000003,
+    "n_repeats": 5,
+    "std": 0.09357133418774365
+  },
+  "warmup": {
+    "audit": {
+      "bank_rows": 1969,
+      "final_ball_count": 1969
+    },
+    "peak_gpu_allocated_bytes": 172440064,
+    "peak_rss_bytes": 2384986112,
+    "stages": {
+      "assembly_seconds": 0.002138099999996257,
+      "partition_seconds": 20.86405959999999,
+      "representative_seconds": 0.0
+    },
+    "total_seconds": 20.866197699999987
+  }
+}

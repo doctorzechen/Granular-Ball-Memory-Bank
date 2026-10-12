@@ -1,0 +1,49 @@
+{
+  "method": "GB center plus coverage-rescue actual patches",
+  "design": "Drop 25% of GB centers with the smallest center-to-center 2-NN distances. From the frozen global FF order, add the same number of real training patches with the largest residual to retained centers. All selection uses training-normal features only.",
+  "capacity": 1969,
+  "retained_center_count": 1477,
+  "added_real_patch_count": 492,
+  "image_auroc": 0.894650543144087,
+  "good_patch_distance": {
+    "n": 32144,
+    "median": 0.5469188690185547,
+    "p05": 0.3120422840118408,
+    "p95": 1.4253677368164057,
+    "p99": 1.789167737960815,
+    "p999": 2.13780237865448
+  },
+  "good_image_max": {
+    "n": 41,
+    "median": 2.112356185913086,
+    "p05": 1.884659767150879,
+    "p95": 2.4177684783935547,
+    "p99": 2.608230018615723,
+    "p999": 2.7102686309814454
+  },
+  "anomaly_image_max": {
+    "n": 119,
+    "median": 2.7109289169311523,
+    "p05": 2.1030030250549316,
+    "p95": 4.334151840209961,
+    "p99": 4.751371231079101,
+    "p999": 4.9768279190063485
+  },
+  "defect_core_patch_distance": {
+    "n": 608,
+    "median": 2.157599925994873,
+    "p05": 1.171464443206787,
+    "p95": 3.8244350433349608,
+    "p99": 4.43381670951843,
+    "p999": 4.860187137603766
+  },
+  "max_patch_inside_defect_core_rate": 0.5798319327731093,
+  "selection_audit": {
+    "removed_centers_unique": true,
+    "added_raw_indices_unique": true,
+    "bank_rows": 1969,
+    "min_removed_center_redundancy_distance": 0.025678634643554688,
+    "max_removed_center_redundancy_distance": 0.09430885314941406
+  },
+  "caution": "Exploratory single-category fixed-rule pilot, not a validated general improvement. The test labels were used only to evaluate the frozen bank."
+}

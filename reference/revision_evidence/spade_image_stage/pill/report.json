@@ -1,0 +1,38 @@
+{
+  "category": "pill",
+  "scope": "SPADE paper Section 3.2 / DN2 image-level retrieval only; no pyramid correspondence or segmentation",
+  "backbone": "ImageNet Wide-ResNet50-2, global average-pooled 2048-D feature",
+  "preprocessing": "Resize 256, center crop 224, ImageNet normalization",
+  "scorer": "mean of five exact Euclidean nearest-neighbor distances",
+  "training_only_partition": "GB seed 0, consistency threshold 1.3, min_ball_size 4 (image-level adaptation)",
+  "n_train_images": 267,
+  "n_test_images": 167,
+  "k_gb": 45,
+  "compression_ratio": 5.933333333333334,
+  "ball_build_seconds": 0.3407292000000002,
+  "gb_split_statistics": {
+    "accepted_strong_splits": 10,
+    "accepted_regular_splits": 19,
+    "reason_counts": {
+      "strong_accepted": 10,
+      "strong_minimum_size": 4,
+      "strong_minimum_child_size": 2,
+      "regular_accepted": 19,
+      "regular_minimum_child_size": 10,
+      "regular_minimum_size": 35
+    },
+    "finite_log_consistency_min": 150.5221122929386,
+    "finite_log_consistency_median": 301.3001241861977,
+    "finite_log_consistency_max": 652.4127558388699,
+    "initial_nonempty_ball_count": 16,
+    "final_ball_count": 45,
+    "missing_assignments": 0,
+    "duplicate_assignments": 0
+  },
+  "image_auroc": {
+    "full_normal_gallery": 0.7733224222585925,
+    "gb_centers": 0.7673213311511182,
+    "same_k_ff_real_images": 0.773595199127114
+  },
+  "caution": "Only the image-retrieval stage of SPADE is tested. These numbers must not be called full-SPADE accuracy or transfer of its segmentation stage."
+}

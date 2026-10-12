@@ -1,0 +1,67 @@
+{
+  "upstream_repository": "amazon-science/patchcore-inspection",
+  "upstream_commit": null,
+  "scope": "Exact vendored source; optional SHA/AST comparison with the previously inspected upstream files",
+  "files": [
+    {
+      "path": "src/patchcore/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "inspected_upstream_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "same_ast_as_inspected_upstream": true
+    },
+    {
+      "path": "src/patchcore/backbones.py",
+      "sha256": "d02b4317f8a9e4cca17d6c0c4f4760d00bf9020cbd25d33f88f27198384d4472",
+      "inspected_upstream_sha256": "d02b4317f8a9e4cca17d6c0c4f4760d00bf9020cbd25d33f88f27198384d4472",
+      "same_ast_as_inspected_upstream": true
+    },
+    {
+      "path": "src/patchcore/common.py",
+      "sha256": "e18e05d976f029ecad1fe786c270fdb8d6f2f1bf69d466f22f90704154e7fe7d",
+      "inspected_upstream_sha256": "e18e05d976f029ecad1fe786c270fdb8d6f2f1bf69d466f22f90704154e7fe7d",
+      "same_ast_as_inspected_upstream": true
+    },
+    {
+      "path": "src/patchcore/datasets/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "inspected_upstream_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "same_ast_as_inspected_upstream": true
+    },
+    {
+      "path": "src/patchcore/datasets/mvtec.py",
+      "sha256": "ccc9afd84d8145ca1f3241fc2156988029742664f40f24dd04725c488fb3bf76",
+      "inspected_upstream_sha256": "ccc9afd84d8145ca1f3241fc2156988029742664f40f24dd04725c488fb3bf76",
+      "same_ast_as_inspected_upstream": true
+    },
+    {
+      "path": "src/patchcore/metrics.py",
+      "sha256": "5c0c1942643b2eda63fbbaacffaeeedb4fded35a628094fa9fa4a672805db7f5",
+      "inspected_upstream_sha256": "5c0c1942643b2eda63fbbaacffaeeedb4fded35a628094fa9fa4a672805db7f5",
+      "same_ast_as_inspected_upstream": true
+    },
+    {
+      "path": "src/patchcore/networks/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "inspected_upstream_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "same_ast_as_inspected_upstream": true
+    },
+    {
+      "path": "src/patchcore/patchcore.py",
+      "sha256": "6580a83da9fe3bdc9cef32b2da2e4b61d0fbde6d9d06700cfe1a22473d6fde3b",
+      "inspected_upstream_sha256": "70cb638cd78692159e4a210424b37763558e8af8969109ef3d83765c351f3027",
+      "same_ast_as_inspected_upstream": false
+    },
+    {
+      "path": "src/patchcore/sampler.py",
+      "sha256": "1d6344af77db5a34950e97bef216406df9c4b1f463789e58b3c7ed508ddb08da",
+      "inspected_upstream_sha256": "39612cd2b486865ece304348f740f4bc700a1c2e8684fbab3c2ed016c7801f2d",
+      "same_ast_as_inspected_upstream": false
+    },
+    {
+      "path": "src/patchcore/utils.py",
+      "sha256": "c0d0f2c78f228e5c73bc33a9985ab46bfc7e853bc5cc1e2302d209625d665af7",
+      "inspected_upstream_sha256": "c0d0f2c78f228e5c73bc33a9985ab46bfc7e853bc5cc1e2302d209625d665af7",
+      "same_ast_as_inspected_upstream": true
+    }
+  ]
+}

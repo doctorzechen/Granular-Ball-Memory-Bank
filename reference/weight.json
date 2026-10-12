@@ -1,0 +1,6 @@
+{
+  "path": "weights/hub/checkpoints/wide_resnet50_2-95faca4d.pth",
+  "bytes": 138223492,
+  "sha256": "95faca4d11227dddf8633dbb5ff6c8a9003c1aa5b8945c73834b8007b10950b8",
+  "weights_enum": "Wide_ResNet50_2_Weights.IMAGENET1K_V1"
+}

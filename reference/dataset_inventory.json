@@ -1,0 +1,92 @@
+[
+  {
+    "category": "bottle",
+    "train": 209,
+    "test": 83,
+    "masks": 63
+  },
+  {
+    "category": "cable",
+    "train": 224,
+    "test": 150,
+    "masks": 92
+  },
+  {
+    "category": "capsule",
+    "train": 219,
+    "test": 132,
+    "masks": 109
+  },
+  {
+    "category": "carpet",
+    "train": 280,
+    "test": 117,
+    "masks": 89
+  },
+  {
+    "category": "grid",
+    "train": 264,
+    "test": 78,
+    "masks": 57
+  },
+  {
+    "category": "hazelnut",
+    "train": 391,
+    "test": 110,
+    "masks": 70
+  },
+  {
+    "category": "leather",
+    "train": 245,
+    "test": 124,
+    "masks": 92
+  },
+  {
+    "category": "metal_nut",
+    "train": 220,
+    "test": 115,
+    "masks": 93
+  },
+  {
+    "category": "pill",
+    "train": 267,
+    "test": 167,
+    "masks": 141
+  },
+  {
+    "category": "screw",
+    "train": 320,
+    "test": 160,
+    "masks": 119
+  },
+  {
+    "category": "tile",
+    "train": 230,
+    "test": 117,
+    "masks": 84
+  },
+  {
+    "category": "toothbrush",
+    "train": 60,
+    "test": 42,
+    "masks": 30
+  },
+  {
+    "category": "transistor",
+    "train": 213,
+    "test": 100,
+    "masks": 40
+  },
+  {
+    "category": "wood",
+    "train": 247,
+    "test": 79,
+    "masks": 60
+  },
+  {
+    "category": "zipper",
+    "train": 240,
+    "test": 151,
+    "masks": 119
+  }
+]

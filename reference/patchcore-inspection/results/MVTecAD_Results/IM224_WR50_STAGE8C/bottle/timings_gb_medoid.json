@@ -1,0 +1,168 @@
+{
+  "audit_final_ball_counts": [
+    1072,
+    1072,
+    1072,
+    1072,
+    1072,
+    1072
+  ],
+  "audit_k_gb_matches_cache": true,
+  "audit_k_gb_spread_percent": 0.0,
+  "category": "bottle",
+  "config": {
+    "category": "bottle",
+    "device": "cuda:0",
+    "faiss_workers": 8,
+    "ff_projection_dimension": 1024,
+    "ff_selection_space": "exact_raw",
+    "format_version": 1,
+    "gb_threshold": 1.3,
+    "min_ball_size": 64,
+    "partition_source": "stage5b_frozen_global_gb_partition (banks) / fresh seed-0 rebuild (timing, stress)",
+    "seed": 0,
+    "stage": "8C",
+    "stress_category": "hazelnut",
+    "stress_scales": [
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "timing_repeats": 5,
+    "timing_warmup": 1
+  },
+  "config_hash": "4c9fe97663a2d0a45e6e91871401849109a80d39bcf553e47978237c0094e3e1",
+  "k_gb": 1072,
+  "method": "gb_medoid",
+  "peak_gpu_allocated_bytes_max": 691486720,
+  "peak_rss_bytes_max": 2068914176,
+  "raw_patch_count": 163856,
+  "repeats": [
+    {
+      "audit": {
+        "bank_rows": 1072,
+        "final_ball_count": 1072,
+        "medoid_matches_internal_fraction": 1.0
+      },
+      "peak_gpu_allocated_bytes": 691486720,
+      "peak_rss_bytes": 2068721664,
+      "stages": {
+        "assembly_seconds": 0.002703699999997866,
+        "partition_seconds": 8.2967142,
+        "representative_seconds": 0.41111459999999767
+      },
+      "total_seconds": 8.710532499999996
+    },
+    {
+      "audit": {
+        "bank_rows": 1072,
+        "final_ball_count": 1072,
+        "medoid_matches_internal_fraction": 1.0
+      },
+      "peak_gpu_allocated_bytes": 691486720,
+      "peak_rss_bytes": 2068840448,
+      "stages": {
+        "assembly_seconds": 0.0023198999999998193,
+        "partition_seconds": 8.3298344,
+        "representative_seconds": 0.4470062000000006
+      },
+      "total_seconds": 8.7791605
+    },
+    {
+      "audit": {
+        "bank_rows": 1072,
+        "final_ball_count": 1072,
+        "medoid_matches_internal_fraction": 1.0
+      },
+      "peak_gpu_allocated_bytes": 691486720,
+      "peak_rss_bytes": 2068914176,
+      "stages": {
+        "assembly_seconds": 0.0024032000000033804,
+        "partition_seconds": 8.4675348,
+        "representative_seconds": 0.5636212
+      },
+      "total_seconds": 9.033559200000003
+    },
+    {
+      "audit": {
+        "bank_rows": 1072,
+        "final_ball_count": 1072,
+        "medoid_matches_internal_fraction": 1.0
+      },
+      "peak_gpu_allocated_bytes": 691486720,
+      "peak_rss_bytes": 2068914176,
+      "stages": {
+        "assembly_seconds": 0.002296399999998755,
+        "partition_seconds": 8.458224400000006,
+        "representative_seconds": 0.4306697000000028
+      },
+      "total_seconds": 8.891190500000008
+    },
+    {
+      "audit": {
+        "bank_rows": 1072,
+        "final_ball_count": 1072,
+        "medoid_matches_internal_fraction": 1.0
+      },
+      "peak_gpu_allocated_bytes": 691486720,
+      "peak_rss_bytes": 2058809344,
+      "stages": {
+        "assembly_seconds": 0.0022731999999976438,
+        "partition_seconds": 8.289121900000005,
+        "representative_seconds": 0.4408519999999996
+      },
+      "total_seconds": 8.732247100000002
+    }
+  ],
+  "stage_summaries": {
+    "assembly_seconds": {
+      "max": 0.002703699999997866,
+      "mean": 0.0023992799999994928,
+      "median": 0.0023198999999998193,
+      "min": 0.0022731999999976438,
+      "n_repeats": 5,
+      "std": 0.0001584099416069625
+    },
+    "partition_seconds": {
+      "max": 8.4675348,
+      "mean": 8.368285940000003,
+      "median": 8.3298344,
+      "min": 8.289121900000005,
+      "n_repeats": 5,
+      "std": 0.07849489527681677
+    },
+    "representative_seconds": {
+      "max": 0.5636212,
+      "mean": 0.4586527400000001,
+      "median": 0.4408519999999996,
+      "min": 0.41111459999999767,
+      "n_repeats": 5,
+      "std": 0.05387728856501982
+    }
+  },
+  "status": "complete",
+  "summary": {
+    "max": 9.033559200000003,
+    "mean": 8.829337960000002,
+    "median": 8.7791605,
+    "min": 8.710532499999996,
+    "n_repeats": 5,
+    "std": 0.11965884963929298
+  },
+  "warmup": {
+    "audit": {
+      "bank_rows": 1072,
+      "final_ball_count": 1072,
+      "medoid_matches_internal_fraction": 1.0
+    },
+    "peak_gpu_allocated_bytes": 691486720,
+    "peak_rss_bytes": 2055385088,
+    "stages": {
+      "assembly_seconds": 0.002962000000000131,
+      "partition_seconds": 11.507484199999999,
+      "representative_seconds": 0.41109490000000015
+    },
+    "total_seconds": 11.921541099999999
+  }
+}
